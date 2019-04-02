@@ -1,0 +1,108 @@
+,Unnamed: 0,id_senador,nombre,email,citado,asistencia,falta_con_aviso,faltas_sin_aviso,con_licencia,pasaje_presidencia
+0,0,5146,"Agazzi, Ernesto",eagazzi@parlamento.gub.uy,108,98,0,0,10,0
+1,1,2743,"Alcorta, Ricardo",,23,23,0,0,0,0
+2,2,8883,"Almagro Lemes, Luis Leonardo",secretaria.ministro@mrree.gub.uy,13,4,0,0,9,0
+3,3,9891,"Alonso, Verónica",valonso@parlamento.gub.uy,224,132,21,0,71,0
+4,4,11535,"Álvarez López, María Dolores",nolivera@parlamento.gub.uy,6,5,1,0,0,0
+5,5,1044,"Amorín, José",jamorin@parlamento.gub.uy,224,187,2,1,34,0
+6,6,9899,"Amy, José A.",jamy@parlamento.gub.uy,8,8,0,0,0,0
+7,7,11533,"Antía Behrens, María Mercedes",,4,4,0,0,0,0
+8,8,3237,"Argimón, Beatriz",,33,32,1,0,0,0
+9,9,9913,"Aristimuño, Saúl",saristimunio@parlamento.gub.uy,34,33,1,0,0,0
+10,10,2936,"Arregui, Roque",rarregui@parlamento.gub.uy,2,2,0,0,0,0
+11,11,10282,"Asiaín, Carmen",,51,49,2,0,0,0
+12,12,479,"Astori, Danilo",dastori@parlamento.gub.uy,1,1,0,0,0,0
+13,13,11524,"Aviaga Martínez, María Carol",caviaga@parlamento.gub.uy,224,161,13,0,50,0
+14,14,9900,"Ayala, Patricia",payala@parlamento.gub.uy,224,210,0,0,14,0
+15,15,759,"Baráibar, Carlos",cbaraibar@parlamento.gub.uy,30,30,0,0,0,0
+16,16,414,"Beramendi, Carmen",constanzamoreira@parlamento.gub.uy,6,6,0,0,0,0
+17,17,8267,"Berterreche, Andrés",aberterreche@parlamento.gub.uy,89,89,0,0,0,0
+18,18,10003,"Besozzi, Guillermo",gbesozzi@parlamento.gub.uy,203,163,16,1,23,0
+19,19,5131,"Bianchi, Daniel",dbianchi@parlamento.gub.uy,183,146,12,0,25,0
+20,20,5244,"Bonomi, Eduardo",ebonomi@parlamento.gub.uy,1,1,0,0,0,0
+21,21,922,"Bordaberry Herrán, Juan Pedro",pbordaberry@parlamento.gub.uy,224,192,0,1,31,0
+22,22,7354,"Botana, Sergio",sbotana@parlamento.gub.uy,22,16,1,0,5,0
+23,23,6900,"Camy Antognazza, Carlos Daniel",ccamy@parlamento.gub.uy,203,181,3,0,19,0
+24,24,277,"Carámbula Volpi, Marcos Gustavo",mcarambula@parlamento.gub.uy,168,128,3,0,37,0
+25,25,7604,"Carballo Da Costa, Felipe",fcarballo@parlamento.gub.uy,23,23,0,0,0,0
+26,26,598,"Cardoso, José Carlos",jcardoso@parlamento.gub.uy,203,110,7,0,86,0
+27,27,11531,"Cardozo Rufo, Virginia",,2,2,0,0,0,0
+28,28,10209,"Carrera Leal, Charles",charles.carrera@parlamento.gub.uy,82,82,0,0,0,0
+29,29,8584,"Castaingdebat, Armando",acastaingdebat@parlamento.gub.uy,28,28,0,0,0,0
+30,30,3157,"Castillo, Juan",jcastillo@parlamento.gub.uy,62,58,0,0,4,0
+31,31,509,"Cersósimo, Gustavo",gcersosimo@parlamento.gub.uy,3,3,0,0,0,0
+32,32,9969,"Coutinho Rodríguez, Germán",gcoutinho@parlamento.gub.uy,224,154,9,1,60,0
+33,33,5304,"Da Silva, Sebastián",sdasilva@parlamento.gub.uy,23,20,3,0,0,0
+34,34,11383,"De León, Leonardo",ldeleon@parlamento.gub.uy,224,179,1,0,44,0
+35,35,3948,"Delgado, Alvaro",adelgado@parlamento.gub.uy,224,177,4,0,43,0
+36,36,10161,"Draper Praderio, Alejandro",,13,13,0,0,0,0
+37,37,9964,"Eguiluz, Cecilia",ceguiluz@parlamento.gub.uy,39,32,7,0,0,0
+38,38,7737,"Enciso Christiansen, Carlos",cenciso@parlamento.gub.uy,22,18,0,0,4,0
+39,39,9927,"Facello, Guillermo",gfacello@parlamento.gub.uy,1,1,0,0,0,0
+40,40,10721,"Falero, José Luis",,2,2,0,0,0,0
+41,41,10000,"Fernández Farias, Eduardo",mxavier@parlamento.gub.uy,9,9,0,0,0,0
+42,42,9997,"Ferreira, Zulimar",erodriguez@parlamento.gub.uy,29,29,0,0,0,0
+43,43,11525,"Galán Pérez, Lilián Raquel",lgalan@parlamento.gub.uy,1,1,0,0,0,0
+44,44,7891,"Gallicchio Queirolo, Antonio",,54,53,1,0,0,0
+45,45,260,"Gandini, Jorge",jgandini@parlamento.gub.uy,20,19,1,0,0,0
+46,46,9689,"García, Graciela",,18,18,0,0,0,0
+47,47,2965,"García, Javier",jgarcia@parlamento.gub.uy,224,196,1,0,27,0
+48,48,10001,"Garin De Nardo, Daniel",daniel.garin@parlamento.gub.uy,130,124,1,0,5,0
+49,49,11529,"Gomori Rettich, Eva Cristina",,19,19,0,0,0,0
+50,50,197,"Heber, Luis Alberto",laheber@parlamento.gub.uy,224,183,10,0,31,0
+51,51,3107,"Iglesias Rodríguez, Alberto Walter",aiglesias@parlamento.gub.uy,7,6,0,1,0,0
+52,52,10142,"Iglesias, Alberto Martín",,6,6,0,0,0,0
+53,53,2873,"Iturralde Viñas, Pablo",piturralde@parlamento.gub.uy,27,23,4,0,0,0
+54,54,5167,"Lacalle Pou, Luis Alberto",llacalle@parlamento.gub.uy,224,143,8,0,73,0
+55,55,7740,"Lafluf, Omar",olafluf@parlamento.gub.uy,19,19,0,0,0,0
+56,56,2887,"Laguarda, Manuel",,1,1,0,0,0,0
+57,57,6839,"Lamorte, Aldo",rcharamelo@parlamento.gub.uy,3,2,0,1,0,0
+58,58,4500,"Larrañaga, Jorge",jlarranaga@parlamento.gub.uy,224,172,6,0,46,0
+59,59,9715,"Laventure, Martín",nrodriguez@parlamento.gub.uy,1,1,0,0,0,0
+60,60,10008,"Lazo, Sandra",,35,35,0,0,0,0
+61,61,9982,"López Villalba, Daniel",aperdomo@parlamento.gub.uy,49,46,3,0,0,0
+62,62,6661,"Lorier, Eduardo",mcarambula@parlamento.gub.uy,31,31,0,0,0,0
+63,63,11526,"Lústemberg Haro, María Cristina",clustemberg@parlamento.gub.uy,1,1,0,0,0,0
+64,64,408,"Martínez Huelmo, Rubén",rmartinez@parlamento.gub.uy,217,207,0,0,10,0
+65,65,7889,"Martínez Villamil, Daniel Carlos",dmartinez@parlamento.gub.uy,22,4,0,0,18,0
+66,66,9897,"Matiaude, Graciela",gmatiaude@parlamento.gub.uy,29,25,2,2,0,0
+67,67,8463,"Meléndez, Lauro",,30,30,0,0,0,0
+68,68,423,"Michelini, Rafael",secrm@parlamento.gub.uy,224,185,1,0,38,0
+69,69,327,"Mieres, Pablo",pmieres@parlamento.gub.uy,224,206,1,1,16,0
+70,70,2945,"Montaner, Martha",mmontaner@parlamento.gub.uy,61,32,0,1,28,0
+71,71,290,"Moreira, Carlos",,22,19,1,0,2,0
+72,72,9974,"Moreira, Constanza",constanzamoreira@parlamento.gub.uy,224,172,0,0,52,0
+73,73,7751,"Mujica, Gonzalo",,2,2,0,0,0,0
+74,74,2911,"Mujica, José",jmujica@parlamento.gub.uy,194,128,5,1,60,0
+75,75,11537,"Olano Rodríguez, Celina Walkiria",,9,6,3,0,0,0
+76,76,3750,"Olesker, Daniel",,7,7,0,0,0,0
+77,77,11523,"Otheguy Vega, Marcos Javier",motheguy@parlamento.gub.uy,224,212,0,0,12,0
+78,78,9038,"Pardiñas, Yeru",ypardinas@parlamento.gub.uy,81,81,0,0,0,0
+79,79,7769,"Passada, Ivonne",ipassada@parlamento.gub.uy,222,196,0,0,26,0
+80,80,8458,"Paternain Rodríguez, Rafael",constanzamoreira@parlamento.gub.uy,42,41,1,0,0,0
+81,81,5262,"Payssé, Daniela",dpaysse@parlamento.gub.uy,222,206,0,0,16,0
+82,82,5165,"Peña Fernández, Daniel",dpena@parlamento.gub.uy,22,22,0,0,0,0
+83,83,7765,"Peña Hernández, Adriana",apenia@parlamento.gub.uy,1,1,0,0,0,0
+84,84,11536,"Pesce Olivera, Viviana",gcoutinho@parlamento.gub.uy,47,46,1,0,0,0
+85,85,11530,"Piñeiro Rodríguez, Viviana Adalgisa",,1,1,0,0,0,0
+86,86,467,"Piñeyrúa Olmos, Ana Lía",apineyrua@parlamento.gub.uy,26,24,2,0,0,0
+87,87,2903,"Pintado, Enrique",epintado@parlamento.gub.uy,221,202,0,0,19,0
+88,88,5310,"Pintos Ruiz, Julio Miguel",,8,8,0,0,0,0
+89,89,2912,"Posada, Iván",iposada@parlamento.gub.uy,4,4,0,0,0,0
+90,90,11532,"Preve Cocco, Federico Mariano",,4,4,0,0,0,0
+91,91,8344,"Ramos, Conrado",pmieres@parlamento.gub.uy,12,12,0,0,0,0
+92,92,8929,"Reyes Escudero, María Cristina",,7,7,0,0,0,0
+93,93,11030,"Ribero, María Sara",epintado@parlamento.gub.uy,2,2,0,0,0,0
+94,94,7766,"Saravia, Jorge",jsaravia@parlamento.gub.uy,150,149,0,1,0,0
+95,95,5127,"Sendic, Raúl",,141,116,0,0,14,11
+96,96,5137,"Silveira, Julio C.",jsilveira@parlamento.gub.uy,29,28,1,0,0,0
+97,97,9167,"Simois, Mabel",,3,3,0,0,0,0
+98,98,11528,"Suárez Bertora, Michelle",,3,3,0,0,0,0
+99,99,5246,"Topolansky, Lucía",ltopolansky@parlamento.gub.uy,224,183,0,1,35,5
+100,100,898,"Tourné, Daisy",dtourne@parlamento.gub.uy,202,157,0,0,45,0
+101,101,11755,"Vassallo, Miguel",,2,2,0,0,0,0
+102,102,12394,"Vellozas, Helena",,5,5,0,0,0,0
+103,103,196,"Viera Duarte, Tabaré",tviera@parlamento.gub.uy,13,10,2,1,0,0
+104,104,3238,"Xavier, Mónica",mxavier@parlamento.gub.uy,224,190,0,0,34,0
+105,105,5539,"Yavarone, Roberto",,2,2,0,0,0,0
+106,106,11539,"Zaffaroni Castilla, María Cecilia",,2,2,0,0,0,0
