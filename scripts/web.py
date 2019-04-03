@@ -1,12 +1,17 @@
 import multiprocessing as mp
+import re
 import sys
 
+import pandas
 from bs4 import BeautifulSoup
 from pandas import DataFrame
 
 from scripts.utils import normalize_html_name, extract_id, extract_html_date, normalize_name_to_file, import_pool, \
     calculate_project_state, extract_html_str, extract_html_int, get_html, calculate_project_general__state, find, \
-    find_class
+    find_class, find_all_class, find_all
+
+tipo_proyecto_re = re.compile('([A-Za-z ]+).*')
+lema_re = re.compile('.*Lema\s+([A-Z a-z]+).*')
 
 legislaturas = {
     'Legislatura XLVIII': {'from': '15-02-2015', 'to': '14-02-2020'},
@@ -28,6 +33,18 @@ def __import_perfil(legislatura, senador):
     if find_class(h, 'div', 'field-name-field-persona-mail'):
         email = extract_html_str(find_class(h, 'div', 'field-name-field-persona-mail').find('a'))
     senador['email'] = email
+
+    if find_class(h, 'div', 'field-name-field-persona-desc'):
+        desc = extract_html_str(find_class(find_class(h, 'div', 'field-name-field-persona-desc'), 'div', 'field-item'))
+        if desc and len(desc.strip()) > 0:
+            if lema_re.match(desc):
+                senador['lema'] = lema_re.match(desc).group(1).strip()
+
+    suplanto = list()
+    for div in find_all_class(h, 'div', 'views-field-Suplanto'):
+        for link in find_all(div, 'a'):
+            suplanto.append(extract_id(link.get('href')))
+    senador['suplanto'] = suplanto
 
     # Legislaturas en las que actuó
     leg_list_html = find_class(h, 'div', 'view-legislaturas-actuo')
@@ -139,6 +156,10 @@ def __import_evolucion_proyectos(proyecto):
 
         proyecto['titulo'] = find_class(h, 'div', 'views-field-Ast-Titulo').contents[2].strip()
         proyecto['tipo'] = extract_html_str(find_class(h, 'div', 'tipo-acto'))
+        if proyecto['tipo']:
+            tipo = tipo_proyecto_re.match(proyecto['tipo'])
+            if tipo:
+                proyecto['tipo'] = tipo.group(1)
         proyecto['estado'] = 'EN_TRAMITE'
 
         evolucion_proyectos = list()
@@ -241,7 +262,7 @@ def import_senadores_desde_asistencias(legislatura):
 
 def salvar_senadores(senadores):
     print('Guardanto datos de senadores.')
-    senadores_columns = ['id_senador', 'nombre', 'email']
+    senadores_columns = ['id_senador', 'nombre', 'lema', 'email']
 
     senadores_data = list()
     senadores_filtrado = list()
@@ -250,11 +271,39 @@ def salvar_senadores(senadores):
             senador_data = list()
             senador_data.append(senador['id_senador'])
             senador_data.append(senador['nombre'])
+            if 'lema' in senador:
+                senador_data.append(senador['lema'])
             senador_data.append(senador['email'])
             senadores_data.append(senador_data)
             senadores_filtrado.append(senador)
     DataFrame(data=senadores_data, columns=senadores_columns).to_csv('../data/senadores.csv')
     return senadores_filtrado
+
+
+def __buscar_lema(senador, hash, circular_check):
+    if 'lema' in senador and senador['lema'] and len(senador['lema']) > 0:
+        return senador['lema']
+    else:
+        for id_senador in senador['suplanto']:
+            if id_senador not in circular_check and id_senador in hash and hash[id_senador]:
+                circular_check.append(id_senador)
+                lema = __buscar_lema(hash[id_senador], hash, circular_check)
+                if lema is not None:
+                    return lema
+    return None
+
+
+def completar_lema(senadores):
+    s_hash = dict()
+    for senador in senadores:
+        s_hash[senador['id_senador']] = senador
+
+    senadores_completo = list()
+    for senador in senadores:
+        senador['lema'] = __buscar_lema(senador, s_hash, list())
+        s_hash[senador['id_senador']] = senador
+        senadores_completo.append(senador)
+    return senadores_completo
 
 
 def salvar_proyectos(proyectos):
@@ -285,6 +334,8 @@ if __name__ == '__main__':
 
     senadores = import_senadores_desde_asistencias(legislatura)
     senadores = import_pool(pool, senadores, __import_perfil, args=(legislatura,))
+
+    senadores = completar_lema(senadores)
     senadores = salvar_senadores(senadores)
 
     import_pool(pool, senadores, __import_senadores_asistencias_camara, args=(legislatura,))

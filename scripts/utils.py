@@ -24,6 +24,18 @@ def find(html, tag, debug=False):
     return None
 
 
+def find_all(html, tag, debug=False):
+    f = html.find_all(tag)
+    if f:
+        return f
+    else:
+        if debug:
+            print('------------------------------ Sub HTML -----------------------------------------')
+            print(html)
+            print('---------------------------------------------------------------------------------')
+    return list()
+
+
 def find_class(html, tag, class_, debug=False):
     f = html.find(tag, class_)
     if f:
@@ -36,11 +48,23 @@ def find_class(html, tag, class_, debug=False):
     return None
 
 
+def find_all_class(html, tag, class_, debug=False):
+    f = html.find_all(tag, class_)
+    if f:
+        return f
+    else:
+        if debug:
+            print('------------------------------ Sub HTML -----------------------------------------')
+            print(html)
+            print('---------------------------------------------------------------------------------')
+    return list()
+
+
 def get_html(url):
     retry = RETRY
     while True:
         try:
-            response = get(url)
+            response = get(url, verify=False)
             if response.status_code == 200:
                 return response
             else:

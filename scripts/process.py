@@ -43,7 +43,7 @@ def consolidar_trabajo():
         else:
             trabajo_df = df
 
-    trabajo_df['tipo'] = 'PEDIDO_INFORME'
+    trabajo_df['tipo'] = 'PEDIDO DE INFORME'
     trabajo_df['estado'] = 'REALIZADO'
 
     proyectos_presentados_df = DataFrame()
