@@ -1,17 +1,26 @@
 import multiprocessing as mp
-import re
+import re, os
 import sys
 
-import pandas
+import requests
 from bs4 import BeautifulSoup
+
 from pandas import DataFrame
 
 from scripts.utils import normalize_html_name, extract_id, extract_html_date, normalize_name_to_file, import_pool, \
-    calculate_project_state, extract_html_str, extract_html_int, get_html, calculate_project_general__state, find, \
+    extract_html_str, extract_html_int, get_html, find, \
     find_class, find_all_class, find_all
 
-tipo_proyecto_re = re.compile('([A-Za-z ]+).*')
-lema_re = re.compile('.*Lema\s+([A-Z a-z]+).*')
+tipo_proyecto_re            = re.compile('([A-Za-z ]+).*')
+lema_re                     = re.compile('.*Lema\s+([A-Z a-z]+).*')
+entrada_a_camara_re         = re.compile('.*Entrada a Cámara.*')
+origen_re                   = re.compile('(.*)\s*-\s*(.*)')
+pasa_a_comision_re          = re.compile('.*pasa a comisión.*')
+tratamiento_comision_re     = re.compile('.*Tratamiento en comisión.*')
+comision_aprueba_re         = re.compile('.*Comisión aprueba.*')
+aprueba_re                  = re.compile('.*aprueba.*|.*sanciona.*')
+pe_promulga_re              = re.compile('.*Poder Ejecutivo promulga.*')
+
 
 legislaturas = {
     'Legislatura XLVIII': {'from': '15-02-2015', 'to': '14-02-2020'},
@@ -28,7 +37,7 @@ def __import_perfil(legislatura, senador):
     print('\tImportando perfil de %s' % senador['nombre'])
 
     file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s' % senador['id_senador'])
-    h = BeautifulSoup(file.text, 'html.parser')
+    h = BeautifulSoup(file.text, 'lxml')
     email = ''
     if find_class(h, 'div', 'field-name-field-persona-mail'):
         email = extract_html_str(find_class(h, 'div', 'field-name-field-persona-mail').find('a'))
@@ -65,7 +74,7 @@ def __import_senadores_asistencias_camara(legislatura, senador):
     date_to = legislaturas[legislatura]['to']
 
     file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistenciaplenario/senadores?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], date_from, date_to))
-    h = BeautifulSoup(file.text, 'html.parser')
+    h = BeautifulSoup(file.text, 'lxml')
     tabla_asistencias = find_class(h, 'table', 'tablaAsunto')
     del h
     data = list()
@@ -81,7 +90,7 @@ def __import_senadores_asistencias_camara(legislatura, senador):
                         else:
                             row.append(extract_html_str(html_col))
                 data.append(row)
-        DataFrame(data=data, columns=asistencia_columns).to_csv('../data/asistencia_camara_%s.csv' % normalize_name_to_file(senador['nombre']))
+        DataFrame(data=data, columns=asistencia_columns).to_csv('../data/%s/asistencia_camara_%s.csv' % (legislatura, normalize_name_to_file(senador['nombre'])))
     else:
         print('\tNo hay tabla de asistencias para %s(%s)' % (senador['nombre'], senador['id_senador']))
     return {'nombre': senador['nombre'], 'status': 'OK'}
@@ -95,7 +104,7 @@ def __import_proyectos_presentados(legislatura, senador):
     date_to = legislaturas[legislatura]['to']
 
     file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/iniciativas-legislador?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], date_from, date_to))
-    h = BeautifulSoup(file.text, 'html.parser')
+    h = BeautifulSoup(file.text, 'lxml')
     tabla = find(h, 'tbody')
     del h
     del file
@@ -111,7 +120,7 @@ def __import_proyectos_presentados(legislatura, senador):
 
             proyectos.append({'id_ficha': extract_id(html_row.find('a').get('href')), 'fecha_entrada': extract_html_date(find_class(html_row, 'td', 'views-field-Ast-FechaDeEntradaAlCuerpo'))})
 
-        DataFrame(data=proyectos_presentados_data, columns=proyectos_presentados_columns).to_csv('../data/proyectos_presentados_%s.csv' % normalize_name_to_file(senador['nombre']))
+        DataFrame(data=proyectos_presentados_data, columns=proyectos_presentados_columns).to_csv('../data/%s/proyectos_presentados_%s.csv' % (legislatura, normalize_name_to_file(senador['nombre'])))
     return proyectos
 
 
@@ -123,7 +132,7 @@ def __import_pedidos_de_informe(legislatura, senador):
     date_to = legislaturas[legislatura]['to']
 
     file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/pedidosInf-legislador?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], date_from, date_to))
-    h = BeautifulSoup(file.text, 'html.parser')
+    h = BeautifulSoup(file.text, 'lxml')
     tabla = find(h, 'tbody')
     del h
     del file
@@ -141,18 +150,29 @@ def __import_pedidos_de_informe(legislatura, senador):
 
                 peidods_de_informe_data.append(pedido_de_informe)
 
-        DataFrame(data=peidods_de_informe_data, columns=pedidos_de_informe_columns).to_csv('../data/pedidos_de_informe_%s.csv' % normalize_name_to_file(senador['nombre']))
+        DataFrame(data=peidods_de_informe_data, columns=pedidos_de_informe_columns).to_csv('../data/%s/pedidos_de_informe_%s.csv' % (legislatura, normalize_name_to_file(senador['nombre'])))
     return {'id_senador': senador['id_senador'], 'status': 'OK'}
 
 
-def __import_evolucion_proyectos(proyecto):
+def __extract_from_link(html, text):
+    links = find_all(html, 'a')
+    if links:
+        for link in links:
+            if link and link.get('href') and text in link.get('href'):
+                id = extract_id(link.get('href'))
+                name = extract_html_str(link)
+                return id, name
+    return None, None
+
+
+def __import_evolucion_proyectos(legislatura, proyecto):
     try:
-        proyecto_evoluciones_columns = ['id_ficha', 'fecha', 'cuerpo', 'tramite', 'estado']
+        proyecto_evoluciones_columns = ['id_ficha', 'fecha', 'cuerpo', 'estado', 'tipo_ref', 'ref_id']
 
         print('\tImportando evolución de proyecto %s' % proyecto['id_ficha'])
 
-        file = get_html('https://parlamento.gub.uy/documentosyleyes/ficha-asunto/%s' % proyecto['id_ficha'])
-        h = BeautifulSoup(file.text, 'html.parser')
+        file = get_html('https://parlamento.gub.uy/documentosyleyes/ficha-asunto/%s/tramite' % proyecto['id_ficha'])
+        h = BeautifulSoup(file.text, 'lxml')
 
         proyecto['titulo'] = find_class(h, 'div', 'views-field-Ast-Titulo').contents[2].strip()
         proyecto['tipo'] = extract_html_str(find_class(h, 'div', 'tipo-acto'))
@@ -160,23 +180,64 @@ def __import_evolucion_proyectos(proyecto):
             tipo = tipo_proyecto_re.match(proyecto['tipo'])
             if tipo:
                 proyecto['tipo'] = tipo.group(1)
-        proyecto['estado'] = 'EN_TRAMITE'
+
+        origen = find_class(h, 'div', 'views-field-Orgn-Nombre').contents[2].strip()
+        if origen and origen_re.match(origen):
+            proyecto['origen'] = origen_re.match(origen).group(1).strip()
+            proyecto['presentado_por'] = origen_re.match(origen).group(2).strip()
 
         evolucion_proyectos = list()
-        tabla_sansiones = find_class(h, 'div', 'views-field-Sanciones')
-        if tabla_sansiones:
-            for san_html in find(tabla_sansiones, 'tbody').find_all('tr'):
-
+        tabla_entradas = find_class(h, 'table', 'tablaAsunto')
+        if tabla_entradas:
+            u = find(tabla_entradas, 'tbody')
+            l = u.find_all('tr')
+            for san_html in l:
                 proyecto_evolucion = list()
-                proyecto_evolucion.append(proyecto['id_ficha'])
-                proyecto_evolucion.append(extract_html_date(san_html.contents[0]))
-                proyecto_evolucion.append(extract_html_str(san_html.contents[1]))
-                proyecto_evolucion.append(extract_html_str(san_html.contents[3]))
-                proyecto_evolucion.append(calculate_project_state('CSS', extract_html_str(san_html.contents[3])))
-                proyecto['estado'] = calculate_project_general__state(extract_html_str(san_html.contents[3]))
 
-                evolucion_proyectos.append(proyecto_evolucion)
-            DataFrame(data=evolucion_proyectos, columns=proyecto_evoluciones_columns).to_csv('../data/evolucion_proyecto_%s.csv' % proyecto['id_ficha'])
+                fecha = extract_html_date(san_html.contents[0])
+                cuerpo = extract_html_str(san_html.contents[1])
+                desc = extract_html_str(find(san_html.contents[3], 'b'))
+                tipo_ref = ''
+                ref_id = None
+                registrar = False
+                estado = 'EN_TRAMITE'
+                if entrada_a_camara_re.match(desc):
+                    estado = 'ENTRADA'
+                    registrar = True
+                elif pasa_a_comision_re.match(desc):
+                    estado = 'ENTRADA'
+                    tipo_ref = 'COMISION'
+                    ref_id, _ = __extract_from_link(san_html, 'comisiones')
+                    registrar = True
+                elif tratamiento_comision_re.match(desc):
+                    estado = 'TRATAMIENTO'
+                    tipo_ref = 'COMISION'
+                    ref_id, _ = __extract_from_link(san_html, 'comisiones')
+                    registrar = True
+                elif comision_aprueba_re.match(desc):
+                    estado = 'APRUEBA'
+                    tipo_ref = 'COMISION'
+                    ref_id, _ = __extract_from_link(san_html, 'comisiones')
+                    registrar = True
+                elif aprueba_re.match(desc):
+                    estado = 'APRUEBA'
+                    registrar = True
+                elif pe_promulga_re.match(desc):
+                    cuerpo = 'P.E.'
+                    estado = 'APRUEBA'
+                    tipo_ref = 'LEY'
+                    ref_id, _ = __extract_from_link(san_html, 'leyes')
+                    registrar = True
+                if registrar:
+                    proyecto_evolucion.append(proyecto['id_ficha'])
+                    proyecto_evolucion.append(fecha)
+                    proyecto_evolucion.append(cuerpo)
+                    proyecto_evolucion.append(estado)
+                    proyecto_evolucion.append(tipo_ref)
+                    proyecto_evolucion.append(ref_id)
+                    evolucion_proyectos.append(proyecto_evolucion)
+
+        DataFrame(data=evolucion_proyectos, columns=proyecto_evoluciones_columns).to_csv('../data/%s/evolucion_proyecto_%s.csv' % (legislatura, proyecto['id_ficha']))
     except AttributeError as e:
         print('Error: %s - %s' % (proyecto['id_ficha'], e))
         raise e
@@ -195,7 +256,7 @@ def __import_asistencia_comisiones(legislatura, senador):
         date_to = legislaturas[legislatura]['to']
 
         file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistencia-a-comisiones?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], date_from, date_to))
-        h = BeautifulSoup(file.text, 'html.parser')
+        h = BeautifulSoup(file.text, 'lxml')
         tabla = find(find_class(h, 'div', 'attachment'), 'tbody')
         comisiones = list()
         if tabla:
@@ -209,7 +270,7 @@ def __import_asistencia_comisiones(legislatura, senador):
                 comisiones.append(comision)
 
                 asist_file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistencia-a-comisiones/%s?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], id_comision, date_from, date_to))
-                h = BeautifulSoup(asist_file.text, 'html.parser')
+                h = BeautifulSoup(asist_file.text, 'lxml')
                 asist_tablas = h.find_all('table')
                 if asist_tablas and len(asist_tablas) > 0:
                     tabla_asistencias_html = list(filter(lambda t : find(t, 'th') and find(t, 'th').text == 'Fecha De Reunión', asist_tablas))
@@ -226,13 +287,13 @@ def __import_asistencia_comisiones(legislatura, senador):
                         asistencia_comision.append(extract_html_int(row_asist.contents[5]))
                         asistencia_comision.append(extract_html_int(row_asist.contents[6]))
                         asistencia_a_comisiones.append(asistencia_comision)
-                    DataFrame(data=asistencia_a_comisiones, columns=asistencia_comisiones_columns).to_csv('../data/asistencia_a_comisiones_%s_%s.csv' % (id_comision, senador['id_senador']))
+                    DataFrame(data=asistencia_a_comisiones, columns=asistencia_comisiones_columns).to_csv('../data/%s/asistencia_a_comisiones_%s_%s.csv' % (legislatura, id_comision, senador['id_senador']))
                 else:
                     print('\t\tTabla de asistencia a comisiones no existe para comision %s, %s(%s)' % (id_comision, senador['nombre'], senador['id_senador']))
                     print('Url: https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistencia-a-comisiones/%s?Fecha[min][date]=%s&Fecha[max][date]=%s' % (senador['id_senador'], id_comision, date_from, date_to))
                     print(asist_file.text)
                     print()
-            DataFrame(data=comisiones, columns=comisiones_columns).to_csv('../data/comisiones.csv')
+            DataFrame(data=comisiones, columns=comisiones_columns).to_csv('../data/%s/comisiones.csv' % legislatura)
         else:
             print('\t\tTabla no existe para %s(%s)' % (senador['nombre'], senador['id_senador']))
     except AttributeError as e:
@@ -249,7 +310,7 @@ def import_senadores_desde_asistencias(legislatura):
     date_to = legislaturas[legislatura]['to']
 
     file = get_html('https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/asistencia-a-sesiones?Fecha[min][date]=%s&Fecha[max][date]=%s' % (date_from, date_to))
-    h = BeautifulSoup(file.text, 'html.parser')
+    h = BeautifulSoup(file.text, 'lxml')
     senadores = list()
     for td_html in h.find_all('td', class_='views-field-Psn-NombresDeFirma'):
         link_html = find(td_html, 'a')
@@ -260,7 +321,7 @@ def import_senadores_desde_asistencias(legislatura):
     return senadores
 
 
-def salvar_senadores(senadores):
+def salvar_senadores(legislatura, senadores):
     print('Guardanto datos de senadores.')
     senadores_columns = ['id_senador', 'nombre', 'lema', 'email']
 
@@ -276,7 +337,7 @@ def salvar_senadores(senadores):
             senador_data.append(senador['email'])
             senadores_data.append(senador_data)
             senadores_filtrado.append(senador)
-    DataFrame(data=senadores_data, columns=senadores_columns).to_csv('../data/senadores.csv')
+    DataFrame(data=senadores_data, columns=senadores_columns).to_csv('../data/%s/senadores.csv' % legislatura)
     return senadores_filtrado
 
 
@@ -293,7 +354,7 @@ def __buscar_lema(senador, hash, circular_check):
     return None
 
 
-def completar_lema(senadores):
+def completar_lema(legislatura, senadores):
     s_hash = dict()
     for senador in senadores:
         s_hash[senador['id_senador']] = senador
@@ -306,9 +367,9 @@ def completar_lema(senadores):
     return senadores_completo
 
 
-def salvar_proyectos(proyectos):
+def salvar_proyectos(legislatura, proyectos):
     print('Guardanto datos de proyectos.')
-    proyectos_columns = ['id_ficha', 'fecha_entrada', 'tipo', 'titulo', 'estado']
+    proyectos_columns = ['id_ficha', 'fecha_entrada', 'tipo', 'titulo', 'origen', 'presentado_por']
 
     proyectos_data = list()
     for proyecto in proyectos:
@@ -317,12 +378,21 @@ def salvar_proyectos(proyectos):
         proyecto_data.append(proyecto['fecha_entrada'])
         proyecto_data.append(proyecto['tipo'])
         proyecto_data.append(proyecto['titulo'])
-        proyecto_data.append(proyecto['estado'])
+        proyecto_data.append(proyecto['origen'])
+        proyecto_data.append(proyecto['presentado_por'])
         proyectos_data.append(proyecto_data)
-    DataFrame(data=proyectos_data, columns=proyectos_columns).to_csv('../data/proyectos.csv')
+    DataFrame(data=proyectos_data, columns=proyectos_columns).to_csv('../data/%s/proyectos.csv' % legislatura)
+
+
+def create_directory(legislatura):
+    try:
+        os.mkdir('../data/%s' % legislatura)
+    except OSError:
+        pass
 
 
 if __name__ == '__main__':
+    requests.packages.urllib3.disable_warnings()
     num_proc = 4
     if len(sys.argv) > 1:
         try:
@@ -332,19 +402,21 @@ if __name__ == '__main__':
     pool = mp.Pool(processes=num_proc)
     legislatura = 'Legislatura XLVIII'
 
+    create_directory(legislatura)
+
     senadores = import_senadores_desde_asistencias(legislatura)
     senadores = import_pool(pool, senadores, __import_perfil, args=(legislatura,))
 
-    senadores = completar_lema(senadores)
-    senadores = salvar_senadores(senadores)
+    senadores = completar_lema(legislatura, senadores)
+    senadores = salvar_senadores(legislatura, senadores)
 
     import_pool(pool, senadores, __import_senadores_asistencias_camara, args=(legislatura,))
     import_pool(pool, senadores, __import_pedidos_de_informe, args=(legislatura,))
     import_pool(pool, senadores, __import_asistencia_comisiones, args=(legislatura,))
 
     proyectos = import_pool(pool, senadores, __import_proyectos_presentados, args=(legislatura,))
-    proyectos = import_pool(pool, proyectos, __import_evolucion_proyectos)
-    salvar_proyectos(proyectos)
+    proyectos = import_pool(pool, proyectos, __import_evolucion_proyectos, args=(legislatura,))
+    salvar_proyectos(legislatura, proyectos)
 
     pool.close()
     pool.join()

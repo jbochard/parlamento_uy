@@ -6,7 +6,7 @@ import collections
 from requests import get
 
 re_coma = re.compile('\s*,\s*')
-re_id_legislador = re.compile('.*/(\d+)')
+re_id_legislador = re.compile('.*/(\d+)\??.*')
 re_estado_aprueba = re.compile('.*(sanciona|concedida|aprueba).*', re.RegexFlag.IGNORECASE)
 re_estado_promulga = re.compile('.*promulga.*', re.RegexFlag.IGNORECASE)
 RETRY = 10
