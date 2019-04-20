@@ -1,0 +1,3 @@
+
+class WebConnectionError(Exception):
+    pass
