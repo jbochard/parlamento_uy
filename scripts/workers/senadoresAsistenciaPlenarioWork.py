@@ -7,13 +7,13 @@ from scripts.workers.workerScrap import WorkerScrap
 
 class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
 
-    def __init__(self, legislatura, date_from, date_to, id_senador):
+    def __init__(self, legislatura, date_from, date_to, id_legislador):
         super().__init__(legislatura, date_from, date_to)
-        self.id_senador = id_senador
+        self.id_legislador = id_legislador
 
     def execute(self):
-        print('\tImportando detalle de asistencia a plenario (%s)' % (self.id_senador))
-        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistenciaplenario/senadores?Fecha[min][date]=%s&Fecha[max][date]=%s' % (self.id_senador, self.date_from, self.date_to))
+        print('\tImportando detalle de asistencia a plenario (%s)' % (self.id_legislador))
+        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistenciaplenario/senadores?Fecha[min][date]=%s&Fecha[max][date]=%s' % (self.id_legislador, self.date_from, self.date_to))
         h = BeautifulSoup(file, 'lxml')
         asist_tabla = find(find_class(h, 'div', 'views-field-DetalleAsistencia'), 'tbody')
         if asist_tabla:
@@ -25,6 +25,6 @@ class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
                 faltas_sin_aviso = extract_html_int(row_asist.contents[4])
                 licencia = extract_html_int(row_asist.contents[5])
                 pasaje_presidencia = extract_html_int(row_asist.contents[6])
-                DBScraping().insert('asistencia_plenario', '%s_%s' % (self.id_senador, fecha), {'id_senador': self.id_senador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'pasaje_presidencia': pasaje_presidencia})
+                DBScraping().insert('asistencia_plenario', '%s_%s' % (self.id_legislador, fecha), {'id_legislador': self.id_legislador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'pasaje_presidencia': pasaje_presidencia})
         else:
-            print('\t\tTabla de asistencia a plenario no existe para %s' % self.id_senador)
+            print('\t\tTabla de asistencia a plenario no existe para %s' % self.id_legislador)

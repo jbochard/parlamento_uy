@@ -1,8 +1,12 @@
-import multiprocessing
+import hashlib
 import threading
 
 from pandas import DataFrame
 
+
+def a(b):
+    print(b)
+    return b.get
 
 class Singleton(object):
     _instance = None
@@ -23,6 +27,19 @@ class DBScraping(Singleton):
                 self.db_scraping[table] = dict()
             self.db_scraping[table][key] = reg
             return None
+
+    def insert_autogen(self, table, reg):
+        with self.lock:
+            if table not in self.db_scraping:
+                self.db_scraping[table] = dict()
+            self.db_scraping[table][self.__build_id(reg)] = reg
+            return None
+
+    def __build_id(self, reg):
+        text = ''.join([str(i[1]) for i in sorted(reg.items(), key=lambda x: x[0])])
+        digester = hashlib.md5()
+        digester.update(text.encode('utf-8'))
+        return digester.hexdigest()
 
     def exists(self, table, key):
         with self.lock:

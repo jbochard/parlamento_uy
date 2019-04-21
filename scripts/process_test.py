@@ -10,16 +10,16 @@ date_from = '15-02-2015'
 date_to = '14-02-2020'
 
 
-def test_senadores_AsistenciaComisiones(id_senador, id_comision):
-    SenadoresAsistenciaComisionesWorker(legislatura, date_from, date_to, id_senador, id_comision).execute()
+def test_senadores_AsistenciaComisiones(id_legislador, id_comision):
+    SenadoresAsistenciaComisionesWorker(legislatura, date_from, date_to, id_legislador, id_comision).execute()
 
 
-def test_senadores_AsistenciaPlenario(id_senador):
-    SenadoresAsistenciaPlenarioWorker(legislatura, date_from, date_to, id_senador).execute()
+def test_senadores_AsistenciaPlenario(id_legislador):
+    SenadoresAsistenciaPlenarioWorker(legislatura, date_from, date_to, id_legislador).execute()
 
 
-def test_senadores_ActuacionParlamentaria(id_senador, pag):
-    tmp = SenadoresActuacionParlamentariaWorker(legislatura, date_from, date_to, id_senador, pag)
+def test_senadores_ActuacionParlamentaria(id_legislador, pag):
+    tmp = SenadoresActuacionParlamentariaWorker(legislatura, date_from, date_to, id_legislador, pag)
     tmp.tasks = Queue()
     tmp.execute()
     print(tmp.tasks)

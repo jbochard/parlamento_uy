@@ -1,4 +1,3 @@
-import hashlib
 import re
 
 from bs4 import BeautifulSoup
@@ -16,14 +15,14 @@ class SenadoresActuacionParlamentariaWorker(WorkerScrap):
     expone_re = re.compile('.*((Presenta la exposicion)|(Presenta la exposición)|(Presenta la nota)).*')
     pedido_informe_re = re.compile('Solicita pedido de informes.*')
 
-    def __init__(self, legislatura, date_from, date_to, id_senador, pagina):
+    def __init__(self, legislatura, date_from, date_to, id_legislador, pagina):
         super().__init__(legislatura, date_from, date_to)
-        self.id_senador = id_senador
+        self.id_legislador = id_legislador
         self.pagina = pagina
 
     def execute(self):
-        print('\tImportando detalle actuacion parlamentaria (%s), página: %s' % (self.id_senador, self.pagina))
-        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/actuacion-legislador?Fecha[min][date]=%s&Fecha[max][date]=%s&Tipo=All&page=0,0,%s' % (self.id_senador, self.date_from, self.date_to, self.pagina))
+        print('\tImportando detalle actuacion parlamentaria (%s), página: %s' % (self.id_legislador, self.pagina))
+        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/actuacion-legislador?Fecha[min][date]=%s&Fecha[max][date]=%s&Tipo=All&page=0,0,%s' % (self.id_legislador, self.date_from, self.date_to, self.pagina))
         h = BeautifulSoup(file, 'lxml')
         tabla = find(find_class(h, 'table', 'views-table'), 'tbody')
         if tabla:
@@ -31,15 +30,10 @@ class SenadoresActuacionParlamentariaWorker(WorkerScrap):
                 fecha = extract_html_date(row_asist.contents[1])
                 detalle = extract_html_str(row_asist.contents[3])
                 tipo = self.build_type(detalle)
-                DBScraping().insert('actuacion_parlamentaria', '%s_%s_%s' % (self.id_senador, fecha, self.build_id(detalle)), {'id_senador': self.id_senador, 'tipo': tipo, 'fecha': fecha, 'detalle': detalle})
-            self.tasks.put(SenadoresActuacionParlamentariaWorker(self.legislatura, self.date_from, self.date_to, self.id_senador, (self.pagina + 1)))
+                DBScraping().insert_autogen('actuacion_parlamentaria', {'id_legislador': self.id_legislador, 'tipo': tipo, 'fecha': fecha, 'detalle': detalle})
+            self.tasks.put(SenadoresActuacionParlamentariaWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador, (self.pagina + 1)))
         else:
-            print('\t\tTabla de actuación parlamentaria (página %s) no existe para %s' % (self.pagina, self.id_senador))
-
-    def build_id(self, detalle):
-        digester = hashlib.md5()
-        digester.update(detalle.encode('utf-8'))
-        return digester.hexdigest()
+            print('\t\tTabla de actuación parlamentaria (página %s) no existe para %s' % (self.pagina, self.id_legislador))
 
     def build_type(self, detalle):
         if self.informa_re.match(detalle):

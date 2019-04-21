@@ -167,5 +167,5 @@ def import_pool_to_dict(pool, list, func, args=()):
 def legisladores_dict(senadores):
     d = dict()
     for senador in senadores:
-        d[senador['nombre']] = senador['id_senador']
+        d[senador['nombre']] = senador['id_legislador']
     return d

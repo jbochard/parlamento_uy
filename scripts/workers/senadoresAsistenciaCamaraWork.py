@@ -21,6 +21,6 @@ class SenadoresAsistenciaCamaraWorker(WorkerScrap):
             if link_html:
                 id = extract_id(link_html)
                 nombre = normalize_html_name(link_html)
-                DBScraping().insert('senadores', id, {'id_senador': id, 'nombre': nombre})
+                DBScraping().insert('senadores', id, {'id_legislador': id, 'nombre': nombre})
                 self.tasks.put(SenadorWorker(self.legislatura, self.date_from, self.date_to, id))
 

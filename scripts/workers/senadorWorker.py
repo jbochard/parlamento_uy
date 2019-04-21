@@ -16,16 +16,16 @@ lema_re = re.compile('.*Lema\s+([A-Z a-z]+).*')
 
 class SenadorWorker(WorkerScrap):
 
-    def __init__(self, legislatura, date_from, date_to, id_senador):
+    def __init__(self, legislatura, date_from, date_to, id_legislador):
         super().__init__(legislatura, date_from, date_to)
-        self.id_senador = id_senador
+        self.id_legislador = id_legislador
 
     def execute(self):
-        print('\tImportando perfil de %s' % self.id_senador)
+        print('\tImportando perfil de %s' % self.id_legislador)
 
-        senador = DBScraping().find_by_id('senadores', self.id_senador)
+        senador = DBScraping().find_by_id('senadores', self.id_legislador)
 
-        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s' % self.id_senador)
+        file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s' % self.id_legislador)
         h = BeautifulSoup(file, 'lxml')
 
         # Valida que actúe en la legislatura seleccionada
@@ -36,8 +36,8 @@ class SenadorWorker(WorkerScrap):
                 if self.legislatura in extract_html_str(leg_html):
                     actuo_en_legislatura = True
         if not actuo_en_legislatura:
-            print('Senador %s(%s) no actuó en la legislatura seleccionada.' % (senador['nombre'], senador['id_senador']))
-            DBScraping().delete_by_id('senadores', self.id_senador)
+            print('Senador %s(%s) no actuó en la legislatura seleccionada.' % (senador['nombre'], senador['id_legislador']))
+            DBScraping().delete_by_id('senadores', self.id_legislador)
             return
 
         # Lee email
@@ -54,11 +54,11 @@ class SenadorWorker(WorkerScrap):
                 if lema_re.match(desc):
                     senador['lema'] = lema_re.match(desc).group(1).strip()
 
-        DBScraping().update_by_id('senadores', self.id_senador, senador)
+        DBScraping().update_by_id('senadores', self.id_legislador, senador)
 
-        self.tasks.put(SenadoresAsistenciaPlenarioWorker(self.legislatura, self.date_from, self.date_to, self.id_senador))
-        self.tasks.put(SenadoresProyectosPresentadosWorker(self.legislatura, self.date_from, self.date_to, self.id_senador))
-        self.tasks.put(SenadoresPedidosInformeWorker(self.legislatura, self.date_from, self.date_to, self.id_senador))
-        self.tasks.put(SenadoresComisionesWorker(self.legislatura, self.date_from, self.date_to, self.id_senador))
-        self.tasks.put(SenadoresActuacionParlamentariaWorker(self.legislatura, self.date_from, self.date_to, self.id_senador, 0))
+        self.tasks.put(SenadoresAsistenciaPlenarioWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))
+        self.tasks.put(SenadoresProyectosPresentadosWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))
+        self.tasks.put(SenadoresPedidosInformeWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))
+        self.tasks.put(SenadoresComisionesWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))
+        self.tasks.put(SenadoresActuacionParlamentariaWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador, 0))
 

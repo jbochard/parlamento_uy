@@ -19,13 +19,13 @@ def consolidar_asistencias(legislatura):
     asistencia_camaras_df = DataFrame()
     for file in glob.glob("../data/%s/asistencia_camara_*.csv" % legislatura):
         df = pd.read_csv(file)
-        gb = df[['id_senador', 'citado', 'asistencia', 'falta_con_aviso', 'faltas_sin_aviso', 'con_licencia', 'pasaje_presidencia']].groupby(['id_senador']).sum()
+        gb = df[['id_legislador', 'citado', 'asistencia', 'falta_con_aviso', 'faltas_sin_aviso', 'con_licencia', 'pasaje_presidencia']].groupby(['id_legislador']).sum()
         if asistencia_camaras_df.shape[0] > 0:
             asistencia_camaras_df = asistencia_camaras_df.append(gb)
         else:
             asistencia_camaras_df = gb
-    asistencia_camaras_df.columns = ['id_senador' if str(col) == 'id_senador' else (str(col) + '_camara') for col in asistencia_camaras_df.columns]
-    asistencia_legisladores_df = asistencia_legisladores_df.merge(asistencia_camaras_df, how='left', on='id_senador')
+    asistencia_camaras_df.columns = ['id_legislador' if str(col) == 'id_legislador' else (str(col) + '_camara') for col in asistencia_camaras_df.columns]
+    asistencia_legisladores_df = asistencia_legisladores_df.merge(asistencia_camaras_df, how='left', on='id_legislador')
 
 
     asistencia_comisiones_df = DataFrame()
@@ -35,10 +35,10 @@ def consolidar_asistencias(legislatura):
             asistencia_comisiones_df = asistencia_comisiones_df.append(df)
         else:
             asistencia_comisiones_df = df
-    asistencia_comisiones_df = asistencia_comisiones_df[['id_senador', 'citacion', 'falta_con_aviso', 'falta_sin_aviso', 'licencia', 'otras_comisiones']].groupby(
-        ['id_senador']).sum()
-    asistencia_comisiones_df.columns = ['id_senador' if str(col) == 'id_senador' else (str(col) + '_comision') for col in asistencia_comisiones_df.columns]
-    asistencia_legisladores_df = asistencia_legisladores_df.merge(asistencia_comisiones_df, how='left', on='id_senador')
+    asistencia_comisiones_df = asistencia_comisiones_df[['id_legislador', 'citacion', 'falta_con_aviso', 'falta_sin_aviso', 'licencia', 'otras_comisiones']].groupby(
+        ['id_legislador']).sum()
+    asistencia_comisiones_df.columns = ['id_legislador' if str(col) == 'id_legislador' else (str(col) + '_comision') for col in asistencia_comisiones_df.columns]
+    asistencia_legisladores_df = asistencia_legisladores_df.merge(asistencia_comisiones_df, how='left', on='id_legislador')
 
     asistencia_legisladores_df.loc[:, 'asistencia_comision'] = asistencia_legisladores_df.apply(
         lambda x: x['citacion_comision'] - x['falta_con_aviso_comision'] - x['falta_sin_aviso_comision'] - x[
@@ -79,7 +79,7 @@ def consolidar_presentacion_proyectos(legislatura):
     total_proyectos_df = total_proyectos_df.merge(proyectos_df, how='left', on='id_ficha')
 
     senadores_df = pd.read_csv('../data/%s/senadores.csv' % legislatura)
-    total_proyectos_df = total_proyectos_df.merge(senadores_df[['id_senador', 'nombre']], how='left', on='id_senador')
+    total_proyectos_df = total_proyectos_df.merge(senadores_df[['id_legislador', 'nombre']], how='left', on='id_legislador')
 
     total_proyectos_df.drop(columns=[str(col) for col in total_proyectos_df.columns if str(col).startswith('Unnamed')], inplace=True)
     total_proyectos_df.to_csv('../data/%s/proyectos_presentados.csv' % legislatura)
