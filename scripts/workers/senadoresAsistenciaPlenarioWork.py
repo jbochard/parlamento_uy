@@ -12,7 +12,7 @@ class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
         self.id_legislador = id_legislador
 
     def execute(self):
-        print('\tImportando detalle de asistencia a plenario (%s)' % (self.id_legislador))
+        print('\tImportando detalle de asistencia a plenario (%s) senadores.' % (self.id_legislador))
         file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s/asistenciaplenario/senadores?Fecha[min][date]=%s&Fecha[max][date]=%s' % (self.id_legislador, self.date_from, self.date_to))
         h = BeautifulSoup(file, 'lxml')
         asist_tabla = find(find_class(h, 'div', 'views-field-DetalleAsistencia'), 'tbody')
@@ -28,3 +28,4 @@ class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
                 DBScraping().insert('asistencia_plenario', '%s_%s' % (self.id_legislador, fecha), {'id_legislador': self.id_legislador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'pasaje_presidencia': pasaje_presidencia})
         else:
             print('\t\tTabla de asistencia a plenario no existe para %s' % self.id_legislador)
+

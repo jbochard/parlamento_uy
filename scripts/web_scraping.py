@@ -4,6 +4,7 @@ from threading import Thread
 from time import sleep
 
 from scripts.db_scraping import DBScraping
+from scripts.workers.representantesAsistenciaCamaraWork import RepresentantesAsistenciaCamaraWorker
 from scripts.workers.senadoresAsistenciaCamaraWork import SenadoresAsistenciaCamaraWorker
 
 tipo_proyecto_re            = re.compile('([A-Za-z ]+).*')
@@ -58,6 +59,7 @@ if __name__ == '__main__':
         w.start()
 
     tasks.put(SenadoresAsistenciaCamaraWorker(legislatura, date_from, date_to))
+    tasks.put(RepresentantesAsistenciaCamaraWorker(legislatura, date_from, date_to))
     for w in consumers:
         w.join()
 

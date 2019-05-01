@@ -1,6 +1,5 @@
 import os
 import re
-import time
 import datetime
 import hashlib
 import requests
@@ -140,9 +139,26 @@ def extract_html_int(txt):
     return 0
 
 
+def parse_list(text, regex):
+    match = re.match(regex, text)
+    if match:
+        return match.group(1).strip()
+    return None
+
+
+def try_parsing_date(text):
+    if text:
+        for fmt in ('%d-%m-%Y', '%d/%m/%Y %H:%M'):
+            try:
+                return datetime.datetime.strptime(text, fmt)
+            except ValueError:
+                pass
+    return None
+
+
 def extract_html_date(date):
     if date:
-        return datetime.datetime.strptime(date.text.strip(), '%d-%m-%Y')
+        return try_parsing_date(date.text.strip())
     return ''
 
 

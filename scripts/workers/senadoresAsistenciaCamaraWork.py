@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 from scripts.db_scraping import DBScraping
 from scripts.utils import get_html, find, extract_id, normalize_html_name
-from scripts.workers.senadorWorker import SenadorWorker
+from scripts.workers.legisladorWorker import LegisladorWorker
 from scripts.workers.workerScrap import WorkerScrap
 
 
@@ -21,6 +21,7 @@ class SenadoresAsistenciaCamaraWorker(WorkerScrap):
             if link_html:
                 id = extract_id(link_html)
                 nombre = normalize_html_name(link_html)
-                DBScraping().insert('senadores', id, {'id_legislador': id, 'nombre': nombre})
-                self.tasks.put(SenadorWorker(self.legislatura, self.date_from, self.date_to, id))
+                if not DBScraping().exists('legisladores', id):
+                    DBScraping().insert('legisladores', id, {'id_legislador': id, 'nombre': nombre})
+                    self.tasks.put(LegisladorWorker(self.legislatura, self.date_from, self.date_to, id))
 

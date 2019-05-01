@@ -155,4 +155,17 @@ DECLARACION, LEY, MINUTA DE COMUNICACION, PEDIDO DE INFORMES, PROYECTO DE DECLAR
 ##### Extracción: 
 https://parlamento.gub.uy/documentosyleyes/ficha-asunto/123564
 
+#### convocatoria  
+
+Recoge la información de la convocatoria de un legislador a las distintas cámaras.<br>
+
+##### Columnas
+
+* id_legislador: Id del legislador en cuestión.
+* fecha_ini: Fecha en la que se realizó la actuación.
+* tipo: Catálogo de ciertas actuaciones de interés como ser, intervenciones, discursos, etc
+* detalle: Texto que describe la actuación realizada por el legislador.
+
+##### Extracción: 
+https://parlamento.gub.uy/camarasycomisiones/legisladores/5246/actuacion-legislador
 
