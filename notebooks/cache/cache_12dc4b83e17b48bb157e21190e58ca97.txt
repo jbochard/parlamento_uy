@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7"  lang="es" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="es" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="es" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="es" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Actuación | Parlamento</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="cleartype" content="on">-->
+
+  <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_o5m5YfhNvCAmTYElqKpCQG6h1HjE4crK0Lriiytig8I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_V10SxCVpv5m1K6z0sdNo81RfWWkEflmLl6nJYOpCnp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_gMUpr8bicUijVl2vnk4MGr4t_8FAgbVxHvVHQmaMd_k.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_iXTYVllN6JqPfkf-UqWvpbACY8OKG2hl9K39kVscX50.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"B2VchpKdEMF5wPJMzxYhMVLwceCMJl6-HGCTKtRL0YY","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":"0"}}},"datePopup":{"edit-fecha-min-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-40:+0","fromTo":false,"defaultDate":"0y"}},"edit-fecha-max-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-40:+1","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/camarasycomisiones\/legisladores\/9896\/actuacion-legislador":true},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+      <!--[if lt IE 9]>
+    <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="html not-front not-logged-in no-sidebars page-camarasycomisiones page-camarasycomisiones-legisladores page-camarasycomisiones-legisladores- page-camarasycomisiones-legisladores-9896 page-camarasycomisiones-legisladores-actuacion-legislador section-camarasycomisiones page-views" >
+
+    	<!-- region top header -->
+	      <div id="topheader"><div class="section">
+          <div class="region region-topheader">
+    <div id="block-menu-menu-top-nav" class="block block-menu first last odd -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/user/login" title="Acceso para administrador y editor">Ingresar</a></li>
+<li class="leaf"><a href="/acceso-para-legisladores" title="Acceso para legisladores">Acceso para Legisladores</a></li>
+<li class="leaf"><a href="/mapadelsitio" title="Mapa del Sitio">Mapa del Sitio</a></li>
+<li class="leaf"><a href="/contactenos" title="Formulario de contacto">Contáctenos</a></li>
+<li class="leaf"><a href="/transparencia" title="Transparencia">Transparencia</a></li>
+<li class="last leaf"><a href="/" title="Home de Parlamento del Uruguay">Inicio</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+          <!-- regi�n buscador -->
+	      <div id="searchform"><div class="section">
+          <div class="region region-searchform">
+    <div id="block-block-47" class="block block-block first last odd block-block-47">
+
+    
+  <div class="content">
+    <form action="/buscar" method="get">
+<p><input class="form-submit buscador" id="edit-submit-busqueda1" name="" type="submit" value="Buscar en el Parlamento" /></p>
+</form>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+      </div></div> <!-- /.section, /#sidebar-first -->
+            
+      </div>
+      
+      
+    
+      
+      
+      
+      </div> <!-- /.section, /#sidebar-first -->
+      
+    
+
+
+
+  <header id="header" role="banner">
+    <div class="header-wrapper">
+          <a href="https://parlamento.gub.uy" title="Parlamento del Uruguay" rel="home" id="logo"><img src="https://parlamento.gub.uy/sites/default/files/LogoPLTrans.png" alt="Logo del Parlamento del Uruguay" /></a>
+    
+     	<!-- region main menu -->
+	    <div class="content-menu">
+		<div class="mainmenu-wrap">
+	      <div id="mainmenu"><div class="section">
+	          <div class="region region-mainmenu">
+    <div id="block-superfish-1" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-blue top-default"><li id="menu-582-1" class="active-trail first sf-depth-2 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-1" class="first sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-1" class="last sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-1" class="middle sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-1" class="middle sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-1" class="last sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+	      </div>
+		</div> </div><!-- /.section, /#sidebar-first -->
+		</div>
+    
+    
+	
+	<!-- region top-celular -->
+      <div class="header__region region region-header">
+    <div id="block-superfish-9" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-9" class="menu sf-menu sf-main-menu sf-vertical sf-style-default sf-total-items-4 sf-parent-items-1 sf-single-items-3 top-celular"><li id="menu-582-9" class="active-trail first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-9" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-9" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-9" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-9" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-9" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-9" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-9" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-9" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+</div>
+ </header>
+
+
+<div id="page">
+				  <div id="breadcrumb">
+		<h2 class="element-invisible">Se encuentra usted aquí</h2><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="inline odd first" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/" rel="v:url" property="v:title">Inicio</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones" rel="v:url" property="v:title">Cámaras y Comisiones</a></span> <span class="delimiter">|</span> <span class="inline odd" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones/legisladores/9896" rel="v:url" property="v:title">Niffouri Blanco</a></span> <span class="delimiter">|</span> <span class="inline even last" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones/legisladores/9896/actuacion-legislador" rel="v:url" property="v:title" class="active">Actuación</a></span></div>		</div>
+		
+  <div id="main">
+
+		
+  	<!-- menu lateral internas -->
+  	
+
+    <div id="content" class="column" role="main">
+
+		<div class="content-inner">
+		  		  		  			<h1 class="title" id="page-title">Actuación</h1>
+		  		  		  		  		    <div class="region region-help">
+    <div id="block-system-help" class="block block-system first last odd block-system-help" role="complementary">
+
+    
+  <div class="content">
+    <span class='print-syslink'><span class="print_html"><a href="https://parlamento.gub.uy/print/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C2" title="Display a printer-friendly version of this page." class="print-page" target="_blank" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://parlamento.gub.uy/sites/all/modules/print/icons/print_icon.png" width="16px" height="16px" alt="Imprimir" title="Imprimir" /></a></span></span>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+		  		  
+<div id="block-system-main" class="block block-system first last odd block-system-main">
+
+    
+  <div class="content">
+    <div class="view view-actuaci-n-legislador view-id-actuaci_n_legislador view-display-id-page sombra view-dom-id-abf1f7c630547f41c1ab4c22c2ae9e28">
+      
+    
+      <div class="view-filters">
+      <form action="/camarasycomisiones/legisladores/9896/actuacion-legislador" method="get" id="views-exposed-form-actuaci-n-legislador-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+  	<div class="views-campos">
+          <div id="edit-fecha-wrapper" class="views-exposed-widget views-widget-filter-Fecha">
+                  <label for="edit-fecha">
+            Fecha          </label>
+                     <div class="views-widget">
+          <div  class="container-popup-date desde container-inline-date"><div class="form-item form-type-date-popup form-item-Fecha-min">
+  <label class="element-invisible" for="edit-fecha-min">desde </label>
+ <div id="edit-fecha-min"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-min-date">
+  <label for="edit-fecha-min-datepicker-popup-0">Fecha </label>
+ <input type="text" id="edit-fecha-min-datepicker-popup-0" name="Fecha[min][date]" value="15-02-2015" size="30" maxlength="30" class="form-text" />
+<div class="description"> Ej. 23-04-2019</div>
+</div>
+</div>
+</div>
+</div><div  class="container-popup-date hasta container-inline-date"><div class="form-item form-type-date-popup form-item-Fecha-max">
+  <label for="edit-fecha-max">hasta </label>
+ <div id="edit-fecha-max"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-max-date">
+  <label for="edit-fecha-max-datepicker-popup-0">Fecha </label>
+ <input type="text" id="edit-fecha-max-datepicker-popup-0" name="Fecha[max][date]" value="14-02-2020" size="30" maxlength="30" class="form-text" />
+<div class="description"> Ej. 23-04-2019</div>
+</div>
+</div>
+</div>
+</div>      </div>
+              </div>
+          <div id="edit-tipo-wrapper" class="views-exposed-widget views-widget-filter-Tipo">
+                  <label for="edit-tipo">
+            Tipo          </label>
+                     <div class="views-widget">
+          <div class="form-item form-type-select form-item-Tipo">
+ <select id="edit-tipo" name="Tipo" class="form-select required"><option value="All" selected="selected">-Indistinto-</option><option value="INICIANTES">Incluye iniciativas de proyectos en gral, llamados a sala, pedidos de informes, etc</option><option value="INFORMANTES">Incluye informes en comisiones, firmas, etc</option><option value="INTERVENCIONES">Incluye intervenciones en Sala, exposiciones verbales, etc</option><option value="VARIOS">Incluye designaciones como integrante de comisiones, presentación de mociones de urgencia, etc</option></select>
+</div>
+      </div>
+              </div>
+                	
+	  </div>
+	<div class="views-buttons">
+			<div class="leyes-submit-button">
+			  <input type="submit" id="edit-submit-actuaci-n-legislador" name="" value="Filtrar" class="form-submit" />			</div>
+			  </div>
+   </div>
+</div>
+</div></form>    </div>
+  
+
+
+        <div class="view-header">
+      <div class="view view-legislador-nom view-id-legislador_nom view-display-id-page view-dom-id-2ca2879733fb9900d2e80b996cd52d9b">
+      
+    
+  
+
+
+          <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-persona-nombre">        <div class="field-content"><h2><a href="/camarasycomisiones/legisladores/9896">Niffouri Blanco, Amín </a></h2></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+        <div class="view-content">
+      <table  class="views-table cols-2">
+         <thead>
+      <tr>
+                  <th  class="views-field views-field-Fecha" scope="col">
+            Fecha          </th>
+                  <th  class="views-field views-field-Texto" scope="col">
+            Texto          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr  class="odd views-row-first">
+                  <td  class="views-field views-field-Fecha nowrap">
+            16-03-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la exposición verbal. EXPOSICION VERBAL:  <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,128838">Asunto: 128838</a>; JARDIN INFANTES 202 LAS PIEDRAS (CANELONES). DIFICULTADES. SOLUCION. NECESIDAD. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/3/16/6/        13/EXP"> tomo 0 pág. 13  d.s. 4018 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            16-03-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta el proyecto de resolución. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,128771">CRR/853/2016</a>; CACERES, Berta. DEFENSORA DERECHOS COMUNIDADES INDIGENAS HONDUREÑAS. ASESINATO. REPUDIO. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/3/16/6/        40/EXP">  tomo 0 pág. 40  d.s. 4018 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            05-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MINISTERIO TURISMO. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,128881">CRR/865/2016</a>; MINISTERIO TURISMO. CONVENIOS INSTITUCIONES DEPORTIVAS. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/4/5/7/         9/EXP">  tomo 0 pág. 9  d.s. 4019 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            12-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MEF*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129077">CRR/910/2016</a>; OFICINA DIRECCION NACIONAL CASINOS. TRASLADO. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/4/12/9/         6/EXP">  tomo 0 pág. 6  d.s. 4021 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposicion verbal. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129226">Asunto: 129226</a>; ACTIVIDAD HIPICA. CONCESIONARIOS. CONTROL. NECESIDAD. Efectúa la misma:   tomo 0 pág. 10  d.s. 0           </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la exposición verbal. EXPOSICION VERBAL:  <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129232">Asunto: 129232</a>; DIRECCION NACIONAL DE CASINOS. TRASLADO. DENUNCIA. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/4/13/10/        10/EXP"> tomo 0 pág. 10  d.s. 4022 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposicion verbal. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129232">Asunto: 129232</a>; DIRECCION NACIONAL DE CASINOS. TRASLADO. DENUNCIA. Efectúa la misma: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/4/13/10/        10/EXP">  tomo 0 pág. 10  d.s. 4022 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita.  <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129224">Asunto: 129224</a>; DIRECCION NACIONAL DE CASINOS. TRASLADO OFICINA. DENUNCIA. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/4/13/10/        11/EXP"> tomo 0 pág. 11  d.s. 4022 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-04-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la exposición verbal. EXPOSICION VERBAL:  <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129226">Asunto: 129226</a>; ACTIVIDAD HIPICA. CONCESIONARIOS. CONTROL. NECESIDAD.  tomo 0 pág. 10  d.s. 0           </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            03-05-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta el proyecto de ley. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129429">CRR/977/2016</a>; GUTIERREZ RUIZ, Héctor. ESCUELA 330 (MONTEVIDEO). DENOMINACION. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/5/3/12/        14/EXP">  tomo 0 pág. 14  d.s. 4024 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            11-05-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la exposición verbal. EXPOSICION VERBAL:  <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129778">Asunto: 129778</a>; CONTRIBUCION INMOBILIARIA PREDIOS NO MAYORES 200 HECTAREAS (LEY 19335). EXONERACION PAGO. COMPLICACIONES. PREOCUPACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/5/11/15/         9/EXP"> tomo 0 pág. 9  d.s. 4027 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            11-05-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposicion verbal. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129778">Asunto: 129778</a>; CONTRIBUCION INMOBILIARIA PREDIOS NO MAYORES 200 HECTAREAS (LEY 19335). EXONERACION PAGO. COMPLICACIONES. PREOCUPACION. Efectúa la misma: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/5/11/15/         9/EXP">  tomo 0 pág. 9  d.s. 4027 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            11-05-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY: Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,125036">CRR/271/2015</a>; GAS NATURAL. MARCO REGULATORIO. APROBACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/5/11/15/        60/EXP"> tomo 0 pág. 60  d.s. 4027 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            17-05-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY: Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,128811">CRR/989/2016</a>; EMPRESAS LACTEAS EXPORTADORAS. FINANCIAMIENTO. ACCESO. FLEXIBILIZACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/5/17/17/        48/EXP"> tomo 0 pág. 48  d.s. 4029 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            07-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta el proyecto de resolución. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130179">CRR/1086/2016</a>; COMISION LEGISLAR, INFORMAR Y ASESORAR GESTION PATRIMONIO PUBLICO (ESPECIAL). CREACION.          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            07-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY                          (Articulos desglosados): Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,127919">CRR/715/2015</a>; FRUTAS, FLORES Y HORTALIZAS. IVA. APLICACION. MODIFICACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/7/22/        58/EXP"> tomo 0 pág. 58  d.s. 4034 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            08-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MIEM*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130124">CRR/1092/2016</a>; ACTO PIT-CNT 1º DE MAYO. CAMPAÑA MENSAJES TEXTO ANTEL. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/8/23/         6/EXP">  tomo 0 pág. 6  d.s. 4035 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            14-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130457">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/14/25/         9/EXP"> tomo 0 pág. 9  d.s. 4037 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            14-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130459">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/14/25/        10/EXP"> tomo 0 pág. 10  d.s. 4037 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            14-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130468">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/14/25/        10/EXP"> tomo 0 pág. 10  d.s. 4037 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            15-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY: Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,110643">CRR/1287/2011</a>; VIVAS BORBONET, Marta Elena. JARDIN INFANTES 203 LA PAZ (CANELONES). DENOMINACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/15/26/        34/EXP"> tomo 0 pág. 34  d.s. 4038 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            16-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la nota. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130288">Asunto: 130288</a>; NIFFOURI, AMÍN. CONTRIBUCIÓN INMOBILIARIA. EXONERACIÓN.          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            20-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130454">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/20/27/        20/EXP"> tomo 0 pág. 20  d.s. 4039 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            20-06-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130455">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/6/20/27/        20/EXP"> tomo 0 pág. 20  d.s. 4039 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            05-07-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MIEM*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130619">CRR/1133/2016</a>; ANTEL. PUBLICIDAD CANAL INTERNACIONAL DEPORTES. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/7/5/29/         7/EXP">  tomo 0 pág. 7  d.s. 4041 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-07-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MSP*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130747">CRR/1193/2016</a>; PATENTES PERROS Y CASTRACIONES. PERIODO 2005 - 2016. CANTIDAD. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/7/13/33/         5/EXP">  tomo 0 pág. 5  d.s. 4045 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            01-08-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY                          (Rendición de Cuentas): Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130303">CRR/1126/2016</a>; RENDICION CUENTAS 2015. APROBACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/8/1/36/       137/EXP"> tomo 0 pág. 137  d.s. 4048 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            03-08-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131676">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/8/3/38/         6/EXP"> tomo 0 pág. 6  d.s. 4050 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            03-08-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión particular. PROYECTO DE LEY                          (Rendición de Cuentas): Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130303">CRR/1126/2016</a>; RENDICION CUENTAS 2015. APROBACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/8/3/38/        62/EXP"> tomo 0 pág. 62  d.s. 4050  </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            03-08-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión particular. PROYECTO DE LEY                          (Rendición de Cuentas): Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,130303">CRR/1126/2016</a>; RENDICION CUENTAS 2015. APROBACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/8/3/38/        65/EXP"> tomo 0 pág. 65  d.s. 4050  </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            16-08-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Interviene en la discusión general. PROYECTO DE LEY: Carpeta. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,129211">CRR/965/2016</a>; FONDO SOCIAL METALURGICO. CREACION. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/8/16/42/        76/EXP"> tomo 0 pág. 76  d.s. 4054 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            06-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131697">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/9/6/44/        28/EXP"> tomo 0 pág. 28  d.s. 4056 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            06-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131699">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/9/6/44/        29/EXP"> tomo 0 pág. 29  d.s. 4056 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            06-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131714">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/9/6/44/        29/EXP"> tomo 0 pág. 29  d.s. 4056 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            07-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MSP*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131548">CRR/1361/2016</a>; AMBULANCIAS. CONTRATACIONES. CENTRO AUXILIAR LAS PIEDRAS (CANELONES). INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/9/7/45/         7/EXP">  tomo 0 pág. 7  d.s. 4057 </a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            07-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131749">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/9/6/44/        10/EXP"> tomo 0 pág. 10  d.s. 4056 </a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la nota. <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131636">Asunto: 131636</a>; RETIRO DE BENEFICIOS A BUENOS PAGADORES DE MEVIR. NOTA DE LOS SEÑORES REPRESENTANTES AMIN NIFFOURI Y RUBEN BACIGALUPE.          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-Fecha nowrap">
+            13-09-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Miembro interpelante en el llamado a sala de l Sr. María Julia Muñoz (MINISTRA - MEC*) Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131642">CRR/1386/2016</a>; EDUCACION PUBLICA. SITUACION. EXPLICACIONES MINISTRA EDUCACION Y CULTURA María Julia MUÑOZ.          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-Fecha nowrap">
+            04-10-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Solicita pedido de informes a MVOTMA*. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,131906">CRR/1446/2016</a>; MEVIR. PROPIETARIOS DEUDAS, MORAS. REFINANCIACION. INFORMES. Se da cuenta al cuerpo: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/10/4/49/         7/EXP">  tomo 0 pág. 7  d.s. 4061 </a>          </td>
+              </tr>
+          <tr  class="even views-row-last">
+                  <td  class="views-field views-field-Fecha nowrap">
+            04-10-2016          </td>
+                  <td  class="views-field views-field-Texto">
+            Presenta la exposición escrita. Carpeta: <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?FICHAASUNTO,132053">CRR/22/2015</a>; EXPOSICIONES ESCRITAS <a href="https://legislativo.parlamento.gub.uy/aresuelveref.aspx?SESIONES,D/2016/10/4/49/        12/EXP"> tomo 0 pág. 12  d.s. 4061 </a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Páginas</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Ir a la primera página" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C0">« primera</a></li>
+<li class="pager-previous"><a title="Ir a la página anterior" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C1">‹ anterior</a></li>
+<li class="pager-item"><a title="Ir a la página 1" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C0">1</a></li>
+<li class="pager-item"><a title="Ir a la página 2" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C1">2</a></li>
+<li class="pager-current">3</li>
+<li class="pager-item"><a title="Ir a la página 4" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C3">4</a></li>
+<li class="pager-item"><a title="Ir a la página 5" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C4">5</a></li>
+<li class="pager-item"><a title="Ir a la página 6" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C5">6</a></li>
+<li class="pager-next"><a title="Ir a la página siguiente" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C3">siguiente ›</a></li>
+<li class="pager-last last"><a title="Ir a la última página" href="/camarasycomisiones/legisladores/9896/actuacion-legislador?Fecha%5Bmin%5D%5Bdate%5D=15-02-2015&amp;Fecha%5Bmax%5D%5Bdate%5D=14-02-2020&amp;Tipo=All&amp;page=0%2C0%2C5">última »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+  
+</div>
+<!-- region__no_wrapper -->
+		  
+		<!-- Home slide -->
+		
+		<!-- parlamentarios -->
+		
+		<!-- Otros bloques -->
+		
+		
+			<!--  bloques tres section -->
+
+	<div id="bloquestres" class="clearfix">
+		<div class="block-bloquestres first">
+					</div>
+		<div class="block-bloquestres ">
+					</div>
+			<div class="block-bloquestres last">
+					</div>
+	</div><!-- /.section, /#bloquestres -->
+		
+	<!-- bloquesdos section -->
+
+	<div id="bloquesdos" class="clearfix">
+		<div class="block-bloquesdos first">
+					</div>
+		<div class="block-bloquesdos last">
+					</div>
+	</div>
+<!-- /.section, /#bloquesdos -->
+
+
+		
+		
+		
+		<!-- Sitios links -->
+		
+		</div>
+
+    </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+      
+    </div><!-- /#navigation -->
+
+				<!-- menu lateral internas -->
+		
+
+  </div><!-- /#main -->
+
+</div>
+<!-- /#page -->
+
+<!-- Prefooter section -->
+<div class="fdobco">
+<div id="prefooter-region"> 
+
+    <!--
+	<div class="prefooter-panel">
+		<p>Informacion para: <a href="#">Legisladores</a></p>
+	</div>
+    -->
+
+	<div class="prefooter-line"></div>
+
+	<div id="prefooter" class="clearfix">
+
+		<div class="block-prefooter first">
+							  <div class="region region-prefooter-1">
+    <div id="block-block-22" class="block block-block first last odd c-maras-y-comisiones">
+
+    <h2 class="block__title block-title">Cámaras y Comisiones</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/camarasycomisiones/senadores/">Cámara de Senadores</a></li>
+<li><a href="/camarasycomisiones/representantes">Cámara de Representantes</a></li>
+<li><a href="/camarasycomisiones/asambleageneral">Asamblea General</a></li>
+<li><a href="/camarasycomisiones/comisionpermanente">Comisión Permanente</a></li>
+<li><a href="/camarasycomisiones/comisionadministrativa">Comisión Administrativa</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-2">
+    <div id="block-block-23" class="block block-block first last odd documentos-y-leyes">
+
+    <h2 class="block__title block-title">Documentos y Leyes</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/documentosyleyes/busqueda">Búsqueda de Documentos y Leyes</a></li>
+<li><a href="/documentosyleyes/constitucion">Constitución de la República</a></li>
+<li><a href="/documentosyleyes/leyes">Leyes</a></li>
+<li><a href="/documentosyleyes/codigos">Códigos</a></li>
+<li><a href="/documentosyleyes/documentos">Documentos</a></li>
+<li><a href="/documentosyleyes/discursos">Discursos</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-3">
+    <div id="block-block-24" class="block block-block first last odd sobre-el-parlamento">
+
+    <h2 class="block__title block-title">Sobre el Parlamento</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/sobreelparlamento/legisladores">Conozca a sus Legisladores</a></li>
+<li><a href="/sobreelparlamento/procesolegislativo">Proceso Legislativo</a></li>
+<li><a href="/sobreelparlamento/historia">Historia del Parlamento</a></li>
+<li><a href="/sobreelparlamento/palacio">Palacio Legislativo</a></li>
+<!-- <li><a href="/sobreelparlamento/archivo-fotografico">Archivo Fotográfico</a></li> -->
+<li ><a href="https://fotografias.parlamento.gub.uy" target="_blank">Parlamento en imágenes</a></li>
+<li><a href="https://biblioteca.parlamento.gub.uy"  target="_blank">Biblioteca</a></li>
+<!--<li><a href="/sobreelparlamento/restaurante">Restaurante</a></li>-->
+
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter last">
+							  <div class="region region-prefooter-4">
+    <div id="block-block-25" class="block block-block first last odd noticias-y-eventos">
+
+    <h2 class="block__title block-title">Noticias y Eventos</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/noticiasyeventos/noticias">Noticias</a></li>
+<li><a href="/noticiasyeventos/eventos">Eventos</a></li>
+<li><a href="/noticiasyeventos/atencion_periodista">Acreditaciones de Prensa</a></li>
+<li><a href="/noticiasyeventos/actividad">Actividad del Parlamento</a></li>
+<li><a href="/noticiasyeventos/construyendo-democracia">Construyendo Democracia</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+	</div>
+</div>
+</div>
+<!-- /.section, /prefooter -->
+
+<div id="footer-region">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-6" class="block block-block first odd -none-">
+
+    
+  <div class="content">
+    Copyright © 2016 Parlamento de la República Oriental del Uruguay  </div>
+  
+</div>
+<div id="block-menu-menu-pie-menu" class="block block-menu last even -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/condiciones" title="">Condiciones de uso</a></li>
+<li class="last leaf"><a href="/contactenos" title="">Contáctenos</a></li>
+</ul>  </div>
+  
+</div>
+  </footer><!-- region__footer -->
+</div>
+
+  <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.hg.com.uy/" : "http://piwik.hg.com.uy/");_paq.push(["setSiteId", "11"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip|html"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".parlamento.gub.uy"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+</body>
+</html>

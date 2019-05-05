@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7"  lang="es" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="es" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="es" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="es" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Asistencia a Comisión | Parlamento</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="cleartype" content="on">-->
+
+  <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_o5m5YfhNvCAmTYElqKpCQG6h1HjE4crK0Lriiytig8I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_CKCRH-zbOt1twz5jp0CKcJ9iIQs0IBLbsgbWZwmceMc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_gMUpr8bicUijVl2vnk4MGr4t_8FAgbVxHvVHQmaMd_k.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_W4sbsve1ssjc7ESwDfc7zh3dPklS0dMBZrH5E6vgpi8.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"TUEjVwsyUDA4abP9GOhE4UJYuaOHoGOuAhPiukvMvO8","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"misc\/tableheader.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":"0"}}},"datePopup":{"edit-fecha-min-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-30:+0","fromTo":false,"defaultDate":"0y"}},"edit-fecha-max-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-40:+1","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/camarasycomisiones\/legisladores\/4522\/asistencia-a-comisiones\/1100":true},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+      <!--[if lt IE 9]>
+    <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="html not-front not-logged-in no-sidebars page-camarasycomisiones page-camarasycomisiones-legisladores page-camarasycomisiones-legisladores- page-camarasycomisiones-legisladores-4522 page-camarasycomisiones-legisladores-asistencia-a-comisiones page-camarasycomisiones-legisladores-asistencia-a-comisiones- page-camarasycomisiones-legisladores-asistencia-a-comisiones-1100 section-camarasycomisiones page-views" >
+
+    	<!-- region top header -->
+	      <div id="topheader"><div class="section">
+          <div class="region region-topheader">
+    <div id="block-menu-menu-top-nav" class="block block-menu first last odd -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/user/login" title="Acceso para administrador y editor">Ingresar</a></li>
+<li class="leaf"><a href="/acceso-para-legisladores" title="Acceso para legisladores">Acceso para Legisladores</a></li>
+<li class="leaf"><a href="/mapadelsitio" title="Mapa del Sitio">Mapa del Sitio</a></li>
+<li class="leaf"><a href="/contactenos" title="Formulario de contacto">Contáctenos</a></li>
+<li class="leaf"><a href="/transparencia" title="Transparencia">Transparencia</a></li>
+<li class="last leaf"><a href="/" title="Home de Parlamento del Uruguay">Inicio</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+          <!-- regi�n buscador -->
+	      <div id="searchform"><div class="section">
+          <div class="region region-searchform">
+    <div id="block-block-47" class="block block-block first last odd block-block-47">
+
+    
+  <div class="content">
+    <form action="/buscar" method="get">
+<p><input class="form-submit buscador" id="edit-submit-busqueda1" name="" type="submit" value="Buscar en el Parlamento" /></p>
+</form>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+      </div></div> <!-- /.section, /#sidebar-first -->
+            
+      </div>
+      
+      
+    
+      
+      
+      
+      </div> <!-- /.section, /#sidebar-first -->
+      
+    
+
+
+
+  <header id="header" role="banner">
+    <div class="header-wrapper">
+          <a href="https://parlamento.gub.uy" title="Parlamento del Uruguay" rel="home" id="logo"><img src="https://parlamento.gub.uy/sites/default/files/LogoPLTrans.png" alt="Logo del Parlamento del Uruguay" /></a>
+    
+     	<!-- region main menu -->
+	    <div class="content-menu">
+		<div class="mainmenu-wrap">
+	      <div id="mainmenu"><div class="section">
+	          <div class="region region-mainmenu">
+    <div id="block-superfish-1" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-blue top-default"><li id="menu-582-1" class="active-trail first sf-depth-2 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-1" class="first sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-1" class="last sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-1" class="middle sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-1" class="middle sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-1" class="last sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+	      </div>
+		</div> </div><!-- /.section, /#sidebar-first -->
+		</div>
+    
+    
+	
+	<!-- region top-celular -->
+      <div class="header__region region region-header">
+    <div id="block-superfish-9" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-9" class="menu sf-menu sf-main-menu sf-vertical sf-style-default sf-total-items-4 sf-parent-items-1 sf-single-items-3 top-celular"><li id="menu-582-9" class="active-trail first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-9" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-9" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-9" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-9" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-9" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-9" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-9" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-9" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+</div>
+ </header>
+
+
+<div id="page">
+				  <div id="breadcrumb">
+		<h2 class="element-invisible">Se encuentra usted aquí</h2><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="inline odd first" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/" rel="v:url" property="v:title">Inicio</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones" rel="v:url" property="v:title">Cámaras y Comisiones</a></span> <span class="delimiter">|</span> <span class="inline odd" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones/legisladores/4522" rel="v:url" property="v:title">Contexto desconocido</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones/legisladores/4522/asistencia-a-comisiones" rel="v:url" property="v:title">Asistencia a Comisiones</a></span> <span class="delimiter">|</span> <span class="inline odd last" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/camarasycomisiones/legisladores/4522/asistencia-a-comisiones/1100" rel="v:url" property="v:title" class="active">Detalle</a></span></div>		</div>
+		
+  <div id="main">
+
+		
+  	<!-- menu lateral internas -->
+  	
+
+    <div id="content" class="column" role="main">
+
+		<div class="content-inner">
+		  		  		  			<h1 class="title" id="page-title">Asistencia a Comisión</h1>
+		  		  		  		  		  		  		  
+<div id="block-system-main" class="block block-system first last odd block-system-main">
+
+    
+  <div class="content">
+    <div class="view view-asistencia-comision-detalle view-id-asistencia_comision_detalle view-display-id-page view-dom-id-e635cbf61468e298880d5718a41aceba">
+      
+    
+      <div class="view-filters">
+      <form action="/camarasycomisiones/legisladores/4522/asistencia-a-comisiones/1100" method="get" id="views-exposed-form-asistencia-comision-detalle-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+  	<div class="views-campos">
+          <div id="edit-fecha-wrapper" class="views-exposed-widget views-widget-filter-Fecha">
+                  <label for="edit-fecha">
+            Fecha          </label>
+                     <div class="views-widget">
+          <div  class="container-popup-date desde container-inline-date"><div class="form-item form-type-date-popup form-item-Fecha-min">
+  <label class="element-invisible" for="edit-fecha-min">desde </label>
+ <div id="edit-fecha-min"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-min-date">
+  <label for="edit-fecha-min-datepicker-popup-0">Fecha </label>
+ <input type="text" id="edit-fecha-min-datepicker-popup-0" name="Fecha[min][date]" value="15-02-2015" size="30" maxlength="30" class="form-text" />
+<div class="description"> Ej. 23-04-2019</div>
+</div>
+</div>
+</div>
+</div><div  class="container-popup-date hasta container-inline-date"><div class="form-item form-type-date-popup form-item-Fecha-max">
+  <label for="edit-fecha-max">hasta </label>
+ <div id="edit-fecha-max"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-max-date">
+  <label for="edit-fecha-max-datepicker-popup-0">Fecha </label>
+ <input type="text" id="edit-fecha-max-datepicker-popup-0" name="Fecha[max][date]" value="14-02-2020" size="30" maxlength="30" class="form-text" />
+<div class="description"> Ej. 23-04-2019</div>
+</div>
+</div>
+</div>
+</div>      </div>
+              </div>
+                	
+	  </div>
+	<div class="views-buttons">
+			<div class="leyes-submit-button">
+			  <input type="submit" id="edit-submit-asistencia-comision-detalle" name="" value="Filtrar" class="form-submit" />			</div>
+			  </div>
+   </div>
+</div>
+</div></form>    </div>
+  
+
+
+          <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-Comsiones">        <span class="field-content"><table class="sticky-enabled">
+ <thead><tr><th>Comisión</th><th>Citaciones</th><th>Asistencias</th><th>Asistencias(%)</th><th>Faltas c/ Aviso</th><th>Faltas s/ Aviso</th><th>Faltas c/Aviso (%)</th><th>Faltas s/Aviso (%)</th><th>Licencia</th><th>Cnt Otras Cms</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href=/camarasycomisiones/representantes/comisiones/1100 >INTEGRADA PRESUPUESTOS-HACIENDA (R-2014) (C/273/2015) </a></td><td>4</td><td>4</td><td>100 %</td><td>0</td><td>0</td><td>0 %</td><td>0 %</td><td>0</td><td>0</td> </tr>
+</tbody>
+</table>
+ <table class="sticky-enabled">
+ <thead><tr><th>Fecha De Reunión</th><th>Citación</th><th>Asistencias</th><th>Faltas c/ Aviso</th><th>Faltas s/ Aviso</th><th>Licencia</th><th>Cnt Otras Cms</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">08-07-2015</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td> </tr>
+ <tr class="even"><td class="mifecha">14-07-2015</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td> </tr>
+ <tr class="odd"><td class="mifecha">15-07-2015</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td> </tr>
+ <tr class="even"><td class="mifecha">16-07-2015</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td> </tr>
+</tbody>
+</table>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div>
+<!-- region__no_wrapper -->
+		  
+		<!-- Home slide -->
+		
+		<!-- parlamentarios -->
+		
+		<!-- Otros bloques -->
+		
+		
+			<!--  bloques tres section -->
+
+	<div id="bloquestres" class="clearfix">
+		<div class="block-bloquestres first">
+					</div>
+		<div class="block-bloquestres ">
+					</div>
+			<div class="block-bloquestres last">
+					</div>
+	</div><!-- /.section, /#bloquestres -->
+		
+	<!-- bloquesdos section -->
+
+	<div id="bloquesdos" class="clearfix">
+		<div class="block-bloquesdos first">
+					</div>
+		<div class="block-bloquesdos last">
+					</div>
+	</div>
+<!-- /.section, /#bloquesdos -->
+
+
+		
+		
+		
+		<!-- Sitios links -->
+		
+		</div>
+
+    </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+      
+    </div><!-- /#navigation -->
+
+				<!-- menu lateral internas -->
+		
+
+  </div><!-- /#main -->
+
+</div>
+<!-- /#page -->
+
+<!-- Prefooter section -->
+<div class="fdobco">
+<div id="prefooter-region"> 
+
+    <!--
+	<div class="prefooter-panel">
+		<p>Informacion para: <a href="#">Legisladores</a></p>
+	</div>
+    -->
+
+	<div class="prefooter-line"></div>
+
+	<div id="prefooter" class="clearfix">
+
+		<div class="block-prefooter first">
+							  <div class="region region-prefooter-1">
+    <div id="block-block-22" class="block block-block first last odd c-maras-y-comisiones">
+
+    <h2 class="block__title block-title">Cámaras y Comisiones</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/camarasycomisiones/senadores/">Cámara de Senadores</a></li>
+<li><a href="/camarasycomisiones/representantes">Cámara de Representantes</a></li>
+<li><a href="/camarasycomisiones/asambleageneral">Asamblea General</a></li>
+<li><a href="/camarasycomisiones/comisionpermanente">Comisión Permanente</a></li>
+<li><a href="/camarasycomisiones/comisionadministrativa">Comisión Administrativa</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-2">
+    <div id="block-block-23" class="block block-block first last odd documentos-y-leyes">
+
+    <h2 class="block__title block-title">Documentos y Leyes</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/documentosyleyes/busqueda">Búsqueda de Documentos y Leyes</a></li>
+<li><a href="/documentosyleyes/constitucion">Constitución de la República</a></li>
+<li><a href="/documentosyleyes/leyes">Leyes</a></li>
+<li><a href="/documentosyleyes/codigos">Códigos</a></li>
+<li><a href="/documentosyleyes/documentos">Documentos</a></li>
+<li><a href="/documentosyleyes/discursos">Discursos</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-3">
+    <div id="block-block-24" class="block block-block first last odd sobre-el-parlamento">
+
+    <h2 class="block__title block-title">Sobre el Parlamento</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/sobreelparlamento/legisladores">Conozca a sus Legisladores</a></li>
+<li><a href="/sobreelparlamento/procesolegislativo">Proceso Legislativo</a></li>
+<li><a href="/sobreelparlamento/historia">Historia del Parlamento</a></li>
+<li><a href="/sobreelparlamento/palacio">Palacio Legislativo</a></li>
+<!-- <li><a href="/sobreelparlamento/archivo-fotografico">Archivo Fotográfico</a></li> -->
+<li ><a href="https://fotografias.parlamento.gub.uy" target="_blank">Parlamento en imágenes</a></li>
+<li><a href="https://biblioteca.parlamento.gub.uy"  target="_blank">Biblioteca</a></li>
+<!--<li><a href="/sobreelparlamento/restaurante">Restaurante</a></li>-->
+
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter last">
+							  <div class="region region-prefooter-4">
+    <div id="block-block-25" class="block block-block first last odd noticias-y-eventos">
+
+    <h2 class="block__title block-title">Noticias y Eventos</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/noticiasyeventos/noticias">Noticias</a></li>
+<li><a href="/noticiasyeventos/eventos">Eventos</a></li>
+<li><a href="/noticiasyeventos/atencion_periodista">Acreditaciones de Prensa</a></li>
+<li><a href="/noticiasyeventos/actividad">Actividad del Parlamento</a></li>
+<li><a href="/noticiasyeventos/construyendo-democracia">Construyendo Democracia</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+	</div>
+</div>
+</div>
+<!-- /.section, /prefooter -->
+
+<div id="footer-region">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-6" class="block block-block first odd -none-">
+
+    
+  <div class="content">
+    Copyright © 2016 Parlamento de la República Oriental del Uruguay  </div>
+  
+</div>
+<div id="block-menu-menu-pie-menu" class="block block-menu last even -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/condiciones" title="">Condiciones de uso</a></li>
+<li class="last leaf"><a href="/contactenos" title="">Contáctenos</a></li>
+</ul>  </div>
+  
+</div>
+  </footer><!-- region__footer -->
+</div>
+
+  <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.hg.com.uy/" : "http://piwik.hg.com.uy/");_paq.push(["setSiteId", "11"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip|html"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".parlamento.gub.uy"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+</body>
+</html>

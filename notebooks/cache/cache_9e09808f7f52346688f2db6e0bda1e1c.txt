@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7"  lang="es" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="es" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="es" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="es" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Ficha Asunto | Parlamento</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="cleartype" content="on">-->
+
+  <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_xlDe_nGwDSOU8HKooNsDv_LhCtfnRf8IhGtUAbpLEKg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_Toq90P8fBbDYYEnp-mEmJam56-UZoiDeqF73QHS_DAU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"9nQJJanOAEowk_mcy6Y-ORGsnFvnv5XyqYZ6ebY19wc","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"misc\/tableheader.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"4","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width","breakpoint":1336},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+      <!--[if lt IE 9]>
+    <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-documentosyleyes page-documentosyleyes-ficha-asunto page-documentosyleyes-ficha-asunto- page-documentosyleyes-ficha-asunto-135668 page-documentosyleyes-ficha-asunto-ficha-completa section-documentosyleyes page-views" >
+
+    	<!-- region top header -->
+	      <div id="topheader"><div class="section">
+          <div class="region region-topheader">
+    <div id="block-menu-menu-top-nav" class="block block-menu first last odd -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/user/login" title="Acceso para administrador y editor">Ingresar</a></li>
+<li class="leaf"><a href="/acceso-para-legisladores" title="Acceso para legisladores">Acceso para Legisladores</a></li>
+<li class="leaf"><a href="/mapadelsitio" title="Mapa del Sitio">Mapa del Sitio</a></li>
+<li class="leaf"><a href="/contactenos" title="Formulario de contacto">Contáctenos</a></li>
+<li class="leaf"><a href="/transparencia" title="Transparencia">Transparencia</a></li>
+<li class="last leaf"><a href="/" title="Home de Parlamento del Uruguay">Inicio</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+          <!-- regi�n buscador -->
+	      <div id="searchform"><div class="section">
+          <div class="region region-searchform">
+    <div id="block-block-47" class="block block-block first last odd block-block-47">
+
+    
+  <div class="content">
+    <form action="/buscar" method="get">
+<p><input class="form-submit buscador" id="edit-submit-busqueda1" name="" type="submit" value="Buscar en el Parlamento" /></p>
+</form>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+      </div></div> <!-- /.section, /#sidebar-first -->
+            
+      </div>
+      
+      
+    
+      
+      
+      
+      </div> <!-- /.section, /#sidebar-first -->
+      
+    
+
+
+
+  <header id="header" role="banner">
+    <div class="header-wrapper">
+          <a href="https://parlamento.gub.uy" title="Parlamento del Uruguay" rel="home" id="logo"><img src="https://parlamento.gub.uy/sites/default/files/LogoPLTrans.png" alt="Logo del Parlamento del Uruguay" /></a>
+    
+     	<!-- region main menu -->
+	    <div class="content-menu">
+		<div class="mainmenu-wrap">
+	      <div id="mainmenu"><div class="section">
+	          <div class="region region-mainmenu">
+    <div id="block-superfish-1" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-blue top-default"><li id="menu-582-1" class="first sf-depth-2 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-1" class="first sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-1" class="last sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-1" class="active-trail middle sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-1" class="middle sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-1" class="last sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+	      </div>
+		</div> </div><!-- /.section, /#sidebar-first -->
+		</div>
+    
+    
+	
+	<!-- region top-celular -->
+      <div class="header__region region region-header">
+    <div id="block-superfish-9" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-9" class="menu sf-menu sf-main-menu sf-vertical sf-style-default sf-total-items-4 sf-parent-items-1 sf-single-items-3 top-celular"><li id="menu-582-9" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-9" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-9" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-9" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-9" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-9" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-9" class="active-trail middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-9" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-9" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+</div>
+ </header>
+
+
+<div id="page">
+				  <div id="breadcrumb">
+		<h2 class="element-invisible">Se encuentra usted aquí</h2><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="inline odd first" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/" rel="v:url" property="v:title">Inicio</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes" rel="v:url" property="v:title">Documentos y Leyes</a></span> <span class="delimiter">|</span> <span class="inline odd" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto" rel="v:url" property="v:title"></a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/135668" rel="v:url" property="v:title">Asunto Ficha</a></span> <span class="delimiter">|</span> <span class="inline odd last" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/135668/ficha_completa" rel="v:url" property="v:title" class="active">Ficha Asunto</a></span></div>		</div>
+		
+  <div id="main">
+
+		
+  	<!-- menu lateral internas -->
+  	      <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-superfish-4" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-4" class="menu sf-menu sf-main-menu sf-vertical sf-style-white sf-total-items-6 sf-parent-items-2 sf-single-items-4"><li id="menu-1724-4" class="sf-item-1 sf-depth-4 sf-no-children"><a href="/documentosyleyes/busqueda" title="" class="sf-depth-4">Búsqueda de Documentos y Leyes</a></li><li id="menu-1728-4" class="sf-item-2 sf-depth-4 sf-no-children"><a href="/documentosyleyes/constitucion" title="" class="sf-depth-4">Constitución de la República</a></li><li id="menu-1734-4" class="sf-item-3 sf-depth-4 sf-no-children"><a href="/documentosyleyes/leyes" title="" class="sf-depth-4">Leyes</a></li><li id="menu-1733-4" class="sf-item-4 sf-depth-4 sf-no-children"><a href="/documentosyleyes/codigos" title="" class="sf-depth-4">Códigos</a></li><li id="menu-1890-4" class="sf-item-5 sf-depth-4 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/documentosyleyes/documentos" title="" class="sf-depth-4 menuparent">Documentos</a><ul><li id="menu-1892-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/diarios-de-sesion" title="" class="sf-depth-5">Diarios de sesiones</a></li><li id="menu-1891-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/repartidos" title="" class="sf-depth-5">Repartidos</a></li><li id="menu-1894-4" class="sf-item-3 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/documentos-comisiones" title="" class="sf-depth-5">Documentos de comisiones (Distribuidos)</a></li><li id="menu-1893-4" class="sf-item-4 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/versiones-taquigraficas" title="" class="sf-depth-5">Versiones taquigráficas</a></li><li id="menu-1895-4" class="sf-item-5 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/textos-aprobados" title="" class="sf-depth-5">Textos aprobados</a></li><li id="menu-1735-4" class="sf-item-6 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos-internacionales" title="" class="sf-depth-5">Documentos internacionales</a></li><li id="menu-1732-4" class="sf-item-7 sf-depth-5 sf-no-children"><a href="/documentosyleyes/otros" title="" class="sf-depth-5">Otros documentos</a></li></ul></li><li id="menu-1729-4" class="sf-item-6 sf-depth-4 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/documentosyleyes/discursos" title="" class="sf-depth-4 menuparent">Discursos</a><ul><li id="menu-1730-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos/presidentes-rou" class="sf-depth-5">Discursos Presidentes de la República y Presidentes del Consejo Nacional de Gobierno</a></li><li id="menu-1731-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos-presidentes/representantes" title="" class="sf-depth-5">Discursos Presidentes Cámara de Representantes</a></li></ul></li></ul>  </div>
+  
+</div>
+  </section><!-- region__sidebar -->
+      </aside><!-- /.sidebars -->
+    
+
+    <div id="content" class="column" role="main">
+
+		<div class="content-inner">
+		  		  		  			<h1 class="title" id="page-title">Ficha Asunto</h1>
+		  		  		  		  <h2 class="element-invisible">Solapas principales</h2><ul class="tabs primary"><li><a href="/documentosyleyes/ficha-asunto/135668">Resumen</a></li>
+<li><a href="/documentosyleyes/ficha-asunto/135668/tramite">Trámite Parlamentario</a></li>
+<li class="active"><a href="/documentosyleyes/ficha-asunto/135668/ficha_completa" class="active">Ficha Completa<span class="element-invisible">(solapa activa)</span></a></li>
+</ul>		    <div class="region region-help">
+    <div id="block-system-help" class="block block-system first last odd block-system-help" role="complementary">
+
+    
+  <div class="content">
+    <span class='print-syslink'><span class="print_html"><a href="https://parlamento.gub.uy/print/documentosyleyes/ficha-asunto/135668/ficha_completa" title="Display a printer-friendly version of this page." class="print-page" target="_blank" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://parlamento.gub.uy/sites/all/modules/print/icons/print_icon.png" width="16px" height="16px" alt="Imprimir" title="Imprimir" /></a></span></span>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+		  		  
+<div id="block-system-main" class="block block-system first last odd block-system-main">
+
+    
+  <div class="content">
+    <div class="view view-ficha-asunto view-id-ficha_asunto view-display-id-page_1 sombra view-dom-id-fc497b31e289fa745899bb8615244d2b">
+      
+    
+  
+
+
+          <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-Ast-Codigo">    <strong class="views-label views-label-Ast-Codigo">Asunto: </strong>    135668  </div>  
+  <div>        <div class="tipo-acto">PROYECTO DE LEY   
+</div>  </div>  
+  <div class="views-field views-field-Orgn-Nombre">    <strong class="views-label views-label-Orgn-Nombre">Origen: </strong>    Cámara Senadores  - 
+Ayala, Patricia; Berterreche, Andrés; Carámbula Volpi, Marcos Gustavo; De León, Leonardo; Gallicchio Queirolo, Antonio; Lazo, Sandra; Martínez Huelmo, Rubén; Moreira, Constanza; Otheguy Vega, Marcos Javier; Passada, Ivonne; Payssé, Daniela; Pintado, Enrique; Topolansky, Lucía; Tourné, Daisy; Xavier, Mónica   </div>  
+  <div class="views-field views-field-Ast-Analisis">    <strong class="views-label views-label-Ast-Analisis">Análisis: </strong>    Artículo 1º.- Las autoridades nacionales de los partidos políticos podrán establecer una contribución especial para su financiamiento, a cargo de las personas que ocupen cargos electivos, políticos y de particular confianza que estén afiliados al partido,  </div>  
+  <div class="views-field views-field-Ast-Titulo">    <strong class="views-label views-label-Ast-Titulo">Título: </strong>    <span class="field-content">LEY PARTIDOS POLÍTICOS. MODIFICACIÓN.</span>  </div>  
+  <div class="views-field views-field-Entradas">    <span class="views-label views-label-Entradas">Entradas: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Entrada</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">12-07-2017</td><td>CSS</td><td>865/2017</td><td>LEY PARTIDOS POLÍTICOS. MODIFICACIÓN.</td> </tr>
+ <tr class="even"><td class="mifecha">08-11-2017</td><td>CRR</td><td>2582/2017</td><td>PARTIDOS POLITICOS. FINANCIACION Y PUBLICIDAD ELECTORAL. REGIMEN. MODIFICACION.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sanciones">    <span class="views-label views-label-Sanciones">Sanciones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">07-11-2017</td><td>CSS</td><td>865/2017</td><td>C.SS. sanciona.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Cms">    <span class="views-label views-label-Cms">Comisiones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Comision</th><th>Cuerpo</th><th>Carpeta/Año</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a></td><td>CRR</td><td>2582/2017</td> </tr>
+ <tr class="even"><td><a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a></td><td>CRR</td><td>2582/2017</td> </tr>
+ <tr class="odd"><td><a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a></td><td>CSS</td><td>865/2017</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sesiones">    <span class="views-label views-label-Sesiones">Sesiones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Sesión</th><th>Diario Sesión</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">12-07-2017</td><td>CSS</td><td>Ordinaria. Sesión:25</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5791/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.25</a></td> </tr>
+ <tr class="even"><td class="mifecha">17-10-2017</td><td>CSS</td><td>Ordinaria. Sesión:36</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5828/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.36</a></td> </tr>
+ <tr class="odd"><td class="mifecha">01-11-2017</td><td>CSS</td><td>Ordinaria. Sesión:49</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5854/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4132</a></td> </tr>
+ <tr class="even"><td class="mifecha">01-11-2017</td><td>CSS</td><td>Ordinaria. Sesión:38</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.38</a></td> </tr>
+ <tr class="odd"><td class="mifecha">07-11-2017</td><td>CSS</td><td>Ordinaria. Sesión:39</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.39</a></td> </tr>
+ <tr class="even"><td class="mifecha">07-11-2017</td><td>CSS</td><td>Ordinaria. Sesión:50</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5835/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4133</a></td> </tr>
+ <tr class="odd"><td class="mifecha">08-11-2017</td><td>CRR</td><td>Ordinaria. Sesión:51</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5834/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4134</a></td> </tr>
+ <tr class="even"><td class="mifecha">20-12-2018</td><td>CRR</td><td>Extraordinaria. Sesión:1</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4213</a></td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Distribuidos">    <span class="views-label views-label-Distribuidos">Distribuidos: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Cuerpo</th><th>Carpeta/Año</th><th>Distribuido</th><th>Texto</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>1385/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1385/0/PDF?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>Proyecto de ley con exposición de motivos de las señoras Senadoras Patricia Ayala, Constanza Moreira, Ivonne Passada, Daniela Payssé, Sandra Lazo, Lucía Topolansky, Daisy Tourné y Mónica Xavier y los señores Senadores Andrés Berterreche, Marcos Carámbula,</td> </tr>
+ <tr class="even"><td>CSS</td><td>865/2017</td><td>1392/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1392/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1392/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 19 de julio de 2017.</td> </tr>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>1404/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1404/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1404/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 26 de julio de 2017.</td> </tr>
+ <tr class="even"><td>CSS</td><td>865/2017</td><td>1481/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1481/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1481/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 6 de setiembre de 2017.</td> </tr>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>1501/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1501/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1501/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 27 de setiembre de 2017.-</td> </tr>
+ <tr class="even"><td>CSS</td><td>865/2017</td><td>1505/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1505/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1505/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 3 de octubre de 2017.</td> </tr>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>1554/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1554/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1554/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 19 de octubre de 2017. Concurren: Señor Senador José Amorín y Señor Diputado Iván Posada.-</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Repartidos">    <span class="views-label views-label-Repartidos">Repartidos: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Cuerpo</th><th>Carpeta/Año</th><th>Repartido</th><th>Texto</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>520/0&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/520/0/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</td> </tr>
+ <tr class="even"><td>CSS</td><td>865/2017</td><td>520/1&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/520/1/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</td> </tr>
+ <tr class="odd"><td>CSS</td><td>865/2017</td><td>532/0&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/532/0/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</td> </tr>
+ <tr class="even"><td>CSS</td><td>865/2017</td><td>532/1&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/532/1/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</td> </tr>
+ <tr class="odd"><td>CRR</td><td>2582/2017</td><td>843/0&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/843/0/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. Modificaciones a la Ley Nº 18.485, de 11 de mayo de 2009, normas complementarias y concordantes.</td> </tr>
+ <tr class="even"><td>CRR</td><td>2582/2017</td><td>843/1&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/843/1/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PARTIDOS POLÍTICOS. Modificaciones a la Ley Nº 18.485, de 11 de mayo de 2009, normas complementarias y concordantes. Informes.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Tmt">    <span class="views-label views-label-Tmt">Trámite Parlamentario: </span>    <span class="field-content tramite"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">12-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Entrada a Cámara de Senadores.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">12-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Se da cuenta al Cuerpo y pasa a comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5791/EXT/441?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:566 Página:441 Diario:25</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">14-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1385/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1385/0</a> Proyecto de ley con exposición de motivos de las señoras Senadoras Patricia Ayala, Constanza Moreira, Ivonne Passada, Daniela Payssé, Sandra Lazo, Lucía Topolansky, Daisy Tourné y Mónica Xavier y los señores Senadores Andrés Berterreche, Marcos Carámbula,</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">19-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Se da cuenta en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 12. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1392/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1392</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">19-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 12. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1392/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1392</a> Se votan. Artículos 2º, 3º, 4º con modificaciones, 9º y literales A), B), D), E) y F) con modificaciones del artículo 11: 5 en 5. Afirmativa. UNANIMIDAD.
+Se vota. Artículo 7º. 0 en 5. Negativa.
+Se desglosan. Artículos 1º, 5º, 6º 8º, 10 y literales  C) y G) del artículo 11.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">19-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1392/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1392/0</a> Versión taquigráfica de la sesión del día 19 de julio de 2017.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">26-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 13. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1404/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1404</a> En consideración:
+Artículo 1º.- Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD.
+Artículo 3º.- Se reconsidera. Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD.
+Artículo 4º Se reconsidera. Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD.
+Artículo 5º.- Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD.
+Artículo 6º.- Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD, desglosando el literal E)
+Artículo 9º.- Se reconsidera. Se vota con modificaciones. 9 en 9. Afirmativa. UNANIMIDAD.
+Artículo 10.- Se vota con modificaciones. 8 en 8. Afirmativa. UNANIMIDAD.
+Artículo 14 -Se vota 8 en 8. Afirmativa. UNANIMIDAD.
+Artículo 15.- Se vota 8 en 8. Afirmativa. UNANIMIDAD.
+Artículo 16.- Se vota con modificaciones. 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 18.- Se vota con modificaciones. 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 19.- Se vota 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 20.- Se vota con modificaciones. 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 21.- Se vota con modificaciones. 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 23.- Se vota 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 24.- Se vota con modificaciones. 7 en 7. Afirmativa. UNANIMIDAD.
+Artículo 25, 26, 30 y 32 Se votan 7 en 7.Afirmativa.UNANIMIDAD.
+Artículos 12, 13,17, 22, 27, 28, 29,31 y 33 se desglosan.
+
+  </td> </tr>
+ <tr class="even"><td class="mifecha">27-07-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1404/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1404/0</a> Versión taquigráfica de la sesión del día 26 de julio de 2017.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">06-09-2017</td><td>CSS</td><td>865/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 14. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1481/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1481</a> Se reconsideran:  
+
+Artículo 6º.- Se vota 0 en 8. Negativa
+
+Artículo 16 numeral 4)  se vota con modificaciones 8 en 8. Afirmativa. UNANIMIDAD.  </td> </tr>
+ <tr class="even"><td class="mifecha">06-09-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1481/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1481/0</a> Versión taquigráfica de la sesión del día 6 de setiembre de 2017.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-09-2017</td><td>CSS</td><td>865/2017</td><td><b>Comisión posterga su tratamiento.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 15. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1501/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1501</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">27-09-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1501/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1501/0</a> Versión taquigráfica de la sesión del día 27 de setiembre de 2017.-</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">03-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Comisión aprueba texto sustitutivo.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a>  : Pintado, Enrique Manuel Nro. de Acta: 16. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1505/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1505</a> Informantes: -Informe verbal.. Informante: Pintado, Enrique En consideración:
+Artículo 3º.- Se reconsidera y se vota con modificaciones: 9 en 9. Afirmativa. UNANIMIDAD
+
+Artículo 8º.- Se vota: 5 en 9. Afirmativa.
+
+Artículo 11.- literal c) se vota: 5 en 9. Afirmativa. Literal b) se vota: 6 en 9. Afirmativa
+
+Artículos 12 y 13.- Se votan: 0 en 9. Negativa.
+
+Artículo 17.- Se desglosa por inciso, se vota con modificaciones excepto los incisos cuarto, quinto y sexto: 8 en 8. Afirmativa. UNANIMIDAD
+Incisos cuarto, quinto y sexto se votan: 5 en 8. Afirmativa.
+
+Artículo 22.- Se vota con modificaciones: 8 en 9. Afirmativa.
+
+Artículos 27, 28, 29, 31 y 33 se votan con modificaciones: 9 en 9.Afirmativa.UNANIMIDAD.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">03-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1505/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1505/0</a> Versión taquigráfica de la sesión del día 3 de octubre de 2017.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">11-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first">Rep.520/0 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/520/0/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</li>
+<li class="last">Rep.520/1 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/520/1/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">12-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se eleva a Secretaría</b>   </td> </tr>
+ <tr class="odd"><td class="mifecha">17-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se da cuenta en sala informe de comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5828/EXT/250?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:572 Página:250 Diario:36</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">17-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Por resolución del Cuerpo vuelve a Comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5828/EXT/257?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:572 Página:257 Diario:36</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Se vota afirmativamente (22 en 22, UNANIMIDAD).-  </td> </tr>
+ <tr class="odd"><td class="mifecha">17-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Fundamento de voto.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5828/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:572 Página:0 Diario:36</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="even"><td class="mifecha">19-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Reconsideración en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> Nro. de Acta: 17. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1554/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1554</a> Se vota la reconsideración: 5 en 5. Afirmativa. UNANIMIDAD
+La Comisión adopta como criterio mantener la votación original, desglosando los artículos que se votarán por separado al introducírsele modificaciones. Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 1º.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 3º.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 4º.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 8º.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 13.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 17.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+Artículo 25.- Se vota: 6 en 6. Afirmativa. UNANIMIDAD.
+  </td> </tr>
+ <tr class="odd"><td class="mifecha">19-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1554/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1554/0</a> Versión taquigráfica de la sesión del día 19 de octubre de 2017. Concurren: Señor Senador José Amorín y Señor Diputado Iván Posada.-</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">19-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se eleva a Secretaría</b>   </td> </tr>
+ <tr class="odd"><td class="mifecha">25-10-2017</td><td>CSS</td><td>865/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first">Rep.532/0 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/532/0/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</li>
+<li class="last">Rep.532/1 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/senadores/48/532/1/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. MODIFICACIONES A LA LEY Nº 18.485, DE 11 DE MAYO DE 2009, NORMAS COMPLEMENTARIAS Y CONCORDANTES.</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">01-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Se da cuenta en sala informe de comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/5?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:573 Página:5 Diario:38</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/senadores/comisiones/1120>ESPECIAL: PARTIDOS POLÍTICOS. FINANCIACIÓN Y PUBLICIDAD ELECTORAL.</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">01-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Discusión general.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/168?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:573 Página:168 Diario:38</a>  &nbsp; &nbsp; &nbsp; &nbsp; Se vota afirmativamente (26 en 26, UNANIMIDAD).- </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/189?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:189 Pag. fin:193</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/201?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:201 Pag. fin:201</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/218?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:218 Pag. fin:218</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/219?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:219 Pag. fin:220</a></li>
+<li><a href=/camarasycomisiones/legisladores/10209>Carrera Leal, Charles</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/216?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:216 Pag. fin:218</a></li>
+<li><a href=/camarasycomisiones/legisladores/10209>Carrera Leal, Charles</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/219?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:219 Pag. fin:219</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/193?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:193 Pag. fin:193</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/220?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:220 Pag. fin:222</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/224?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:224 Pag. fin:224</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:184</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/223?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:223 Pag. fin:224</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/212?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:212 Pag. fin:214</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/193?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:193 Pag. fin:201</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/201?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:201 Pag. fin:202</a></li>
+<li><a href=/camarasycomisiones/legisladores/11523>Otheguy Vega, Marcos Javier</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/215?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:215 Pag. fin:216</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/168?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:168 Pag. fin:175</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/187?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:187 Pag. fin:187</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/214?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:214 Pag. fin:215</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/222?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:222 Pag. fin:223</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/224?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:224 Pag. fin:224</a></li>
+<li><a href=/camarasycomisiones/legisladores/3238>Xavier, Mónica</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/184?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:184 Pag. fin:187</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/3238>Xavier, Mónica</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/187?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:187 Pag. fin:188</a></li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">01-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Fundamento de voto de discusión general.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5854/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:0 Diario:4132</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/1044>Amorín, José</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5854/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:225 Pag. fin:225</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/277>Carámbula Volpi, Marcos Gustavo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5854/EXT/224?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:224 Pag. fin:225</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">01-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Discusión particular.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:573 Página:225 Diario:38</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/11383>De León, Leonardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:225 Pag. fin:225</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:225 Pag. fin:225</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:225 Pag. fin:225</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5830/EXT/225?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:225 Pag. fin:225</a></li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">07-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Discusión particular.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/269?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:573 Página:269 Diario:39</a>  &nbsp; &nbsp; &nbsp; &nbsp; Artículo 6º.- Se vota afirmativamente, (17 en 31).-
+Artículo 7º sustitutivo.- Se vota afirmativamente, (27 en 31).-
+Artículo 9º.-  Se vota afirmativamente, (29 en 29, UNANIMIDAD).-
+Artículo 18.-
+Artículo 9º literales C) y G).- Se vota afirmativamente, (17 en 29).-
+Artículo 13, sustitutivo.- Se vota afirmativamente, (16 en 27).-
+Artículo 18.- Se vota afirmativamente, (26 en 27).- </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/1044>Amorín, José</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/295?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:295 Pag. fin:295</a></li>
+<li><a href=/camarasycomisiones/legisladores/10282>Asiaín, Carmen</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/301?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:301 Pag. fin:301</a></li>
+<li><a href=/camarasycomisiones/legisladores/10282>Asiaín, Carmen</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/303?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:303 Pag. fin:303</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/275?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:275 Pag. fin:277</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/277?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:277 Pag. fin:278</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/278?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:278 Pag. fin:279</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/281?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:281 Pag. fin:282</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/290?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:290 Pag. fin:291</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/292?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:292 Pag. fin:293</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/299?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:299 Pag. fin:300</a></li>
+<li><a href=/camarasycomisiones/legisladores/922>Bordaberry Herrán, Juan Pedro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/302?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:302 Pag. fin:303</a></li>
+<li><a href=/camarasycomisiones/legisladores/10209>Carrera Leal, Charles</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/298?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:298 Pag. fin:299</a></li>
+<li><a href=/camarasycomisiones/legisladores/10209>Carrera Leal, Charles</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/301?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:301 Pag. fin:301</a></li>
+<li><a href=/camarasycomisiones/legisladores/260>Gandini, Jorge</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/283?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:283 Pag. fin:285</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/269?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:269 Pag. fin:270</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/271?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:271 Pag. fin:271</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/272?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:272 Pag. fin:272</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/295?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:295 Pag. fin:296</a></li>
+<li><a href=/camarasycomisiones/legisladores/197>Heber, Luis Alberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/297?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:297 Pag. fin:298</a></li>
+<li><a href=/camarasycomisiones/legisladores/423>Michelini, Rafael</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/277?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:277 Pag. fin:277</a></li>
+<li><a href=/camarasycomisiones/legisladores/423>Michelini, Rafael</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/283?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:283 Pag. fin:283</a></li>
+<li><a href=/camarasycomisiones/legisladores/423>Michelini, Rafael</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/291?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:291 Pag. fin:292</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/273?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:273 Pag. fin:275</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/275?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:275 Pag. fin:275</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/282?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:282 Pag. fin:283</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/304?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:304 Pag. fin:304</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/272?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:272 Pag. fin:273</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/279?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:279 Pag. fin:281</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/282?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:282 Pag. fin:282</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/300?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:300 Pag. fin:301</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/302?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:302 Pag. fin:302</a></li>
+<li><a href=/camarasycomisiones/legisladores/2911>Mujica, José</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/303?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:303 Pag. fin:304</a></li>
+<li><a href=/camarasycomisiones/legisladores/11523>Otheguy Vega, Marcos Javier</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/270?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:270 Pag. fin:271</a></li>
+<li><a href=/camarasycomisiones/legisladores/11523>Otheguy Vega, Marcos Javier</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/279?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:279 Pag. fin:279</a></li>
+<li><a href=/camarasycomisiones/legisladores/5262>Payssé, Daniela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/278?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:278 Pag. fin:278</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/269?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:269 Pag. fin:269</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/271?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:271 Pag. fin:272</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/275?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:275 Pag. fin:275</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/277?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:277 Pag. fin:277</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/281?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:281 Pag. fin:281</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/289?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:289 Pag. fin:289</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/290?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:290 Pag. fin:290</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/293?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:293 Pag. fin:295</a></li>
+<li><a href=/camarasycomisiones/legisladores/2903>Pintado, Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/301?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:301 Pag. fin:302</a></li>
+<li><a href=/camarasycomisiones/legisladores/3238>Xavier, Mónica</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/294?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:294 Pag. fin:294</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/3238>Xavier, Mónica</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/296?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:296 Pag. fin:297</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">07-11-2017</td><td>CSS</td><td>865/2017</td><td><b>Fundamento de voto de discusión particular.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5835/EXT/289?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:289 Diario:4133</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/10282>Asiaín, Carmen</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5835/EXT/289?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:289 Pag. fin:289</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5835/EXT/304?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:304 Pag. fin:304</a></li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">07-11-2017</td><td>CSS</td><td>865/2017</td><td><b>C.SS. sanciona.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5831/EXT/305?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:573 Página:305 Diario:39</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="odd"><td class="mifecha">08-11-2017</td><td>CRR</td><td>2582/2017</td><td><b>Entrada a Cámara de Representantes.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">08-11-2017</td><td>CRR</td><td>2582/2017</td><td><b>Se da cuenta al Cuerpo y pasa a comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5834/EXT/5?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:5 Diario:4134</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">08-11-2017</td><td>CRR</td><td>2582/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first last">Rep.843/0 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/843/0/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. Modificaciones a la Ley Nº 18.485, de 11 de mayo de 2009, normas complementarias y concordantes.</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">08-11-2017</td><td>CRR</td><td>2582/2017</td><td><b>Div.Comisiones envía a la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">14-11-2017</td><td>CRR</td><td>2582/2017</td><td><b>Se da cuenta en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a> Nro. de Acta: 84. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1335/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1335</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">28-02-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a> Nro. de Acta: 87. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1416/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1416</a> La Presidenta plantea proponer al Cuerpo la rectificación del trámite dado a la iniciativa, destinándolo a la Comisión Especial con fines legislativos de transparencia, lucha contra el lavado de activos y crimen organizado.  </td> </tr>
+ <tr class="odd"><td class="mifecha">04-04-2018</td><td>CRR</td><td>2582/2017</td><td><b>Div.Comisiones recibe de la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">04-04-2018</td><td>CRR</td><td>2582/2017</td><td><b>Div.Comisiones envía a la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">13-06-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 2. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1625/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1625</a> Se recibie a la señora politóloga Victoria Gadea y al señor doctor Juan Pablo Pío Guarnieri.
+Los invitados se refieren a su intervención, en la Cámara de Senadores, del día 21 de setiembre de 2016, en oportunidad del tratamiento del proyecto de ley en dicha Cámara. Seguidamente realizan una reseña del tema a nivel internacional, establecen la etapa en la que está en el Parlamento, realizan referencias expresas al texto y puntualizan algunos aspectos con una intervención de corte pragmática, según manifiestan.
+Destacan que en Uruguay las campañas son cada vez más costosas y que el subsidio público es insuficiente, por lo que hay tres aspectos en los que se hace necesario trabajar, a saber: ingresos, egresos y operaciones de transparencia sobre lo que entra y lo que sale.
+Asimismo realizan un análisis del articulado. En el mismo acotan aspectos como, por ejemplo, que no se considera la figura de "pase en comisión"; que el incentivo a las mujeres es muy favorecedor pero en el Capítulo específico no se aprueba; que las redes sociales son un espacio de comunicación con el ciudadano y resultan muy favorables para las campañas y los partidos políticos, por lo que siendo un ámbito de empoderamiento es necesario cuidarlo. En consecuencia los datos deben ser fidedignos, según manifiestan. Destacan la importancia de que el contenido que aparezca sea sometido a un comité de periodistas y académicos, independientes de la política, con lo cual se asegure que los datos sean verdaderos y transparentes y, a partir de ellos, recibir una partida extra.
+También se refieren a las donaciones indirectas, como por ejemplo cuando un medio televisivo perdona una deuda, las que están prohibidas; los criterios de distribución de la publicidad gratuita; el estatuto de los empleados de los Partidos Políticos, entre otros.
+A continuación se realiza un intercambio de comentarios e interrogantes con los señores Legisladores presentes.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="even"><td class="mifecha">20-06-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 3. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1660/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1660</a> se recibe al profesor Daniel Buquet, representante del Instituto de Ciencias Políticas de la UdelaR.
+El invitado aclara que, en prinicipio, el enfoque que realizará sobre el proyecto de ley no es normativo en términos de cómo debe ser el financiamiento de los  Partidos Políticos, sino más de tipo empírico.
+Seguidamente manifiesta que hay dos finalidades que están en el centro de la preocupación, a saber: que sea estrictamente democrática, es decir que tiene que ver con la equidad de la competencia, de manera que los que tienen más fondos no tengan un poder asimétrico con respecto a los que tienen menos; y la transparencia, es decir que el público conozca de donde proviene el dinero que se destina a los Partidos Políticos.
+También se refiere a que se busca evitar conductas y/o consecuencias indeseables.
+Otro aspecto que destaca es la duda que le genera la prohibición a las empresas o personas jurídicas de donar dinero, ya que, según manifiesta, puede generar conductas ilegales. Asimismo se refiere a la prohibición de las donaciones anónimas, la que le parece excesiva y que la pondrá en el ejemplo de normas que tal vez no generen efectos positivos. Seguidamente cita un aspecto clave de la historia de la democracia, que fue la aparición de los partidos de masas (de trabajadores, de obreros, de sectores populares), que encontraron la posibilidad de que sus afiliados aportaran pequeñas cantidades a los Partidos Políticos.
+A continuación plantea algunas interrogantes, como por ejemplo dónde quedan algunos volúmenes de dinero como "venta de bonos" o "rifas", que aunque sean montos pequeños, serían ilegales.
+Por último manifiesta que sí coincide en términos generales con sus colegas, en cuanto a que toda esta regulación cobra sentido cuando esta normativa pueda ser aplicada, de lo contrario no funciona.
+Luego de finalizado el intermedio la Comisión recibe al politólogo Óscar Bottinelli. El invitado se refiere a su participación, por el mismo tema, en la Cámara de Senadores, el 27 de julio de 2016.
+Asimismo manifiesta su preocupación en esta materia por los riesgos en cuanto a posibles actos de corrupción del sistema político. Destaca la necesidad de que lo que se legisle se cumpla y se controle, por lo que a modo de una primera advertencia manifiesta que más vale legislar menos y controlar lo que se legisla y como segundo punto, que las campañas electorales intensas pueden ser decisivas; pero no es lo mismo hablar de democracia consolidada en los Partidos Políticos, que hablar de sistemas cambiantes.
+A continuación manifiesta que en Uruguay el sistema electoral es extremadamente complejo y que la ley de Partidos Políticos no lo tiene en cuenta; no reglamenta ni para controlar ni para proteger a los actores electorales.
+También se refiere al ahorro  de dinero dado por la digitalización de la inscripción de la Credencial Cívica, el uso de hojas de votación de cartón, así como a las fuentes de financiamientos, la comunicación y publicidad de los medios audiovisuales, entre otros aspectos.
+Finalmente manifiesta que la ley no protege con claridad la militancia por voluntariado y que en consecuencia hay que cuidar aspectos técnicos y pulir algunas cosas, ya que el cambio tecnológico entre el año 1999 y el presente es grande.
+Posteriormente se realiza un intercambio de comentarios y de  interrogantes por parte de los miembros de la Comisión con el invitado.
+Retirado el señor Bottinelli, los señores Legisladores acuerdan la agenda de las siguientes dos reuniones.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-06-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 4. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1650/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1650</a> Se recibe al representante del Departamento de Ciencias Sociales de la UCUDAL, doctor Rafael Piñeiro.
+El invitado cita tres objetivos, iguales en términos de importancia, que debería tener la regulación, a saber: brindar transparencia, generar igualdad en la decisión del electorado y que no se distorsionen las preferencias del electorado.
+A continuación se refiere al articulado, en especial a los artículos 5°, 7°, 12, 13, 14 y 17 con aspectos que destaca, como por ejemplo: dudas sobre los límites de la recaudación; que no se establecen los mínimos para controlar los gastos lo que  permitiría cierta seguridad y facilidad de control, si alguno de los rubros más importantes estuvieran dentro del sistema bancario; la necesidad de avanzar en el control de ingresos y gastos, no sólo a los candidatos presidenciables, ya que de otra forma se otorga debilidad a la norma; la falta de claridad sobre si se puede donar 300.000 UI a un agente o a todo un partido. Sobre el último punto manifiesta la necesidad de generar más precisión, dado que no hay un sólo agente que recauda y que ejecuta.
+En referencia a los límites de donación y sobre todo a los candidatos, hace referencia a que buena parte de las campañas, y sobre todo del interior de la República, se autofinancian, por lo que si el límite es demasiado restrictivo incide en la capacidad de competencia electoral, como también se puede incentivar a llevar una contabilidad paralela.
+También plantea como una solución intermedia, la necesidad de declarar la procedencia del dinero.
+En relación al artículo 12 manifiesta,  que la restricción del tiempo es demasiado severa, dado que es el momento de darle la oportunidad a los candidatos, que aún no están establecidos, de aparecer. De lo contrario se favorece a los candidatos que ya están instalados, lo que termina siendo un problema severo para la democracia. Con respecto al artículo 13 manifiesta que en Uruguay hay que preservar los niveles de competitividad interna dentro de un partido, por lo que la distribución de un subsidio entre las autoridades partidarias, sin ningún tipo de criterio, le  otorga un gran poder a las autoridades partidarias.
+Finalmente, y en referencia al artículo 17, plantea que se podría incorporar que se hagan públicos los estados contables de los Partidos Políticos en sus respectivas páginas Web y, a modo de cierre, cita que  sería un esfuerzo válido para que la ley tenga sentido, que los documentos para realizar cualquier tipo de auditoría o monitoreo de las cuentas de campaña permanezcan  un período de tiempo acorde con quienes tengan a cargo la campaña, de forma que el Tribunal de Cuentas las pueda solicitar, si así lo estima pertinente.
+A continuación responde las interrogantes que los señores Representantes le realizan.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="even"><td class="mifecha">25-07-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 5. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1714/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1714</a> Inicialmente el señor Vicepresidente de la Comisión, Diputado Gustavo Penadés informa a los miembros presentes que el plazo para expedirse vence el próximo primero de agosto del presente año, por lo que sugiere solicitar, el próximo primero de agosto, una moción de prórroga por noventa días más.
+A continuación se recibe al señor Director del Instituto de Derecho Constitucional de la UdelaR, doctor Ruben Correa Freitas.
+El invitado realiza una serie de apreciaciones generales y específicas sobre el articulado, a saber: artículos 1°, 2°, 3°, 4°, 5°, 10 y 12, así como sobre las sanciones previstas en el proyecto.
+Posteriormente responde las interrogantes que los señores Representantes le realizan.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="odd"><td class="mifecha">05-09-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 6. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1814/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1814</a> Se recibe a una delegación de la Corte Electoral integrada por los señores Presidente y Vicepresidente, doctores José Arocena y Wilfredo Penco respectivamente, acompañados por la señora Ministro Cristina Arena y por los señores Ministros doctores José Ignacio Korzeniak, José Garchitorena, Jorge Gabito Mira, licenciado Arturo Silvera, ingeniero Juan Maspoli y Pablo Klappenbach.
+Inicialmente hace uso de la palabra el doctor Arocena, quien lee un documento que luego entrega a la Secretaría de la Asesora para su distribución.
+Seguidamente algunos integrantes de la delegación realizan algunas reflexiones respecto del proyecto de ley.
+Finalmente, los invitados responden las interrogantes que los Legisladores presentes les realizan.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="even"><td class="mifecha">12-09-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 7. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1829/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1829</a> Se recibe a una delegación de Ministros del Tribunal de Cuentas integrada por su señora Presidente, contadora Susana Díaz, acompañada por las señoras contadoras Diana Marcos y María Luisa Etchemendi y por los señores León Lev, doctor Francisco Gallinal y magister ingeniero Miguel Aumento.
+Los invitados se refieren específicamente a los artículos 16, 17 y 18, así como realizan aportes respecto a alguna terminología utilizada en el proyecto que puede dar lugar a confusión de interpretación.
+A continuación intercambian conceptos con los señores Legisladores presentes.
+Finalmente la contadora Díaz entrega una copia de las normas que a la fecha están vigentes con la aplicación de los artículos 132, 159 y 177 del TOCAF.
+Luego que la delegación se retira, el señor Presidente de la Comisión informa a los miembros presentes que se concluyó el calendario de visitas coordinadas y que no habiendo más convocatorias pendientes se debe pasar a la etapa de consideración del proyecto. 
+En ese sentido, la Comisión acuerda establecer un tiempo de estudio, en cada una de las bancadas, de las diferentes consideraciones recibidas hasta el momento por parte de los invitados convocados, así como realizar una siguiente reunión el jueves tres de octubre del presente año para iniciar el tratamiento del proyecto.
+De lo actuado se toma versión taqquigráfica.  </td> </tr>
+ <tr class="odd"><td class="mifecha">03-10-2018</td><td>CRR</td><td>2582/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 8. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1861/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1861</a> Los miembros de la Comisión acuerdan recibir planteos de modificación al proyecto de ley aprobado por la Cámara de Senadores, los cuales serán planteados en la próxima reunión del día miércoles 10 de los corrientes.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="even"><td class="mifecha">07-11-2018</td><td>CRR</td><td>2582/2017</td><td><b>Comisión aprueba proyecto.</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 9. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1958/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1958</a> Abierto el acto inicialmente hace uso de la palabra el señor Representante Carlos Varela Nestier, quien propone a la Comisión llevar adelante la votación del proyecto, tanto en general como en particular, tal como vino de la Cámara de Senadores, sin establecer los plazos para la presentación de los informes.
+A continuación varios señores Representantes, entre ellos Pablo Abdala, Conrado Rodríguez, Iván Posada, Guillermo Faccelo y Gustavo Penadés, presentan sus respectivas argumentaciones sobre lo planteado por el señor Representante Varela Nestier, en representación de sus partidos políticos.
+Seguidamente el señor Representante Daniel Caggiani manifiesta que el Frente Amplio tiene la voluntad política de seguir recibiendo propuestas que puedan mejorar el proyecto, el que avanza en materia de seguridad, transparencia y controles por lo que se brinda a la ciudadanía un mensaje de transparencia y exigencia con la clase política.
+Posteriormente el señor Vicepresidente de la Comisión informa una cuestión reglamentaria vinculada al plazo de actuación de la Comisión, el que vence el próximo nueve de noviembre, por lo que plantea proponer al Plenario una prórroga del funcionamiento de la Comisión por el término de treinta días, hasta el diez de diciembre del presente año, a los efectos de presentar los informes correspondientes que surjan de la votación que se realiza a continuación.
+En consecuencia, la Comisión resuelve:
+1°) Proponer al Plenario la prórroga hasta el 10 de diciembre de 2018 para la presentación de los informes, doce en doce, afirmativo unanimidad.
+2°) Pasaje a la discusión particular, siete en doce afirmativa.
+3°) A propuesta del señor Representante Varela Nestier, la supresión de la lectura de todos los artículos y su votación en bloque, doce en doce, afirmativa unanimidad.
+4°) La votación en bloque de los artículos 1° a 29 inclusive, siete en doce afirmativa.
+Finalmente el señor Vicepresidente de la Comisión informa la aprobación del proyecto de ley y de la futura convocatoria de la Asesora con el objeto de designar a los miembros informantes correspondientes.
+De lo actuado se toma versión taquigráfica.  </td> </tr>
+ <tr class="odd"><td class="mifecha">12-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a> Nro. de Acta: 10. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1996/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1996</a> Los miembros de la misma designan a los Miembros Informantes, tal lo acordado  en la reunión del día 7 de noviembre de 2018.
+El señor Representante Darcy de los Santos propone al señor Diputado Caggiani como miembro informante del informe en mayoría.
+El señor Representante Iván Posada informa que firmará el informe en mayoría discorde y envía a la Comisión los fundamentos,  a efectos de que los mismos figuren debajo del informe en mayoría.
+El señor Representante Pablo Abdala, propone como miembro informante, en minoría,  al señor Representante Gustavo Penadés.
+El señor Diputado Facello comunica que presentará un informe en minoría, al igual que el señor Representante Conrado Rodríguez.
+Se votan las propuestas de designación de los miembros informantes. 10 en 10. Afirmativa UNANIMIDAD.
+Asimismo, el señor Presidente de la Asesora, Alejandro Sánchez, informa que en reunión de coordinación de los Partidos Políticos se acordó que el proyecto de ley se trate en el Plenario de la Cámara el día 20 de diciembre.
+De lo actuado se toma versión taquigráfica.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">14-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Div.Comisiones recibe de la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1158>ESPECIAL A EFECTOS DE ESTUDIAR EL PROYECTO DE LEY: PARTIDOS POLÍTICOS</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">14-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first last">Rep.843/1 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/843/1/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PARTIDOS POLÍTICOS. Modificaciones a la Ley Nº 18.485, de 11 de mayo de 2009, normas complementarias y concordantes. Informes.</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">14-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Div.Comisiones eleva.</b>   </td> </tr>
+ <tr class="odd"><td class="mifecha">20-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Se da cuenta en sala informe de comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/5?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:5 Diario:4213</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/75>CONSTITUCIÓN, CÓDIGOS, LEGISLACIÓN GENERAL Y ADMINISTRACIÓN</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">20-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Fundamento de voto.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/34?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:34 Diario:4213</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/3062>Abdala, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/36?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:36 Pag. fin:37</a></li>
+<li><a href=/camarasycomisiones/legisladores/11810>Arrieta, Elisabeth</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/38?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:38 Pag. fin:38</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/39?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:39 Pag. fin:39</a></li>
+<li><a href=/camarasycomisiones/legisladores/7764>Charamelo, Richard</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/39?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:39 Pag. fin:39</a></li>
+<li><a href=/camarasycomisiones/legisladores/11587>Chiazzaro, Roberto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/40?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:40 Pag. fin:40</a></li>
+<li><a href=/camarasycomisiones/legisladores/11744>Cossia, Gastón</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/36?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:36 Pag. fin:36</a></li>
+<li><a href=/camarasycomisiones/legisladores/6734>Fratti, Luis Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/39?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:39 Pag. fin:39</a></li>
+<li><a href=/camarasycomisiones/legisladores/8185>Groba Arriondo, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/37?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:37 Pag. fin:37</a></li>
+<li><a href=/camarasycomisiones/legisladores/8185>Groba Arriondo, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/41?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:41 Pag. fin:41</a></li>
+<li><a href=/camarasycomisiones/legisladores/149>Pasquet Iribarne, Ope</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/38?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:38 Pag. fin:38</a></li>
+<li><a href=/camarasycomisiones/legisladores/5165>Peña Fernández, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/39?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:39 Pag. fin:40</a></li>
+<li><a href=/camarasycomisiones/legisladores/2901>Penadés, Gustavo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/36?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:36 Pag. fin:36</a></li>
+<li><a href=/camarasycomisiones/legisladores/7755>Pozzi, Jorge</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/38?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:38 Pag. fin:38</a></li>
+<li><a href=/camarasycomisiones/legisladores/11597>Rodríguez, Conrado</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/37?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:37 Pag. fin:38</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/9907>Sánchez, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/34?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:34 Pag. fin:36</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">20-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Moción de orden.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/41?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:41 Diario:4213</a>  &nbsp; &nbsp; &nbsp; &nbsp; Votación: Negativo ( 48 en 96)  : Abdala Schwarz, Pablo Daniel El señor diputado Abdala presenta moción de orden para que se rectifique la votación de la declaración de gravedad y urgencia.  </td> </tr>
+ <tr class="even"><td class="mifecha">20-12-2018</td><td>CRR</td><td>2582/2017</td><td><b>Fundamento de voto.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/42?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:42 Diario:4213</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/3062>Abdala, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/42?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:42 Pag. fin:42</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/49?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:49 Pag. fin:50</a></li>
+<li><a href=/camarasycomisiones/legisladores/9916>Caggiani, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/47?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:47 Pag. fin:48</a></li>
+<li><a href=/camarasycomisiones/legisladores/7604>Carballo Da Costa, Felipe</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/50?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:50 Pag. fin:51</a></li>
+<li><a href=/camarasycomisiones/legisladores/6143>Casaretto, Federico</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/49?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:49 Pag. fin:49</a></li>
+<li><a href=/camarasycomisiones/legisladores/3407>De León, Walter</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/51?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:51 Pag. fin:51</a></li>
+<li><a href=/camarasycomisiones/legisladores/659>De los Santos, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/44?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:44 Pag. fin:45</a></li>
+<li><a href=/camarasycomisiones/legisladores/11634>Díaz, Bettiana</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/50?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:50 Pag. fin:50</a></li>
+<li><a href=/camarasycomisiones/legisladores/11638>Libschitz, Margarita</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:45 Pag. fin:45</a></li>
+<li><a href=/camarasycomisiones/legisladores/2901>Penadés, Gustavo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/44?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:44 Pag. fin:44</a></li>
+<li><a href=/camarasycomisiones/legisladores/2912>Posada, Iván</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/42?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:42 Pag. fin:43</a></li>
+<li><a href=/camarasycomisiones/legisladores/11597>Rodríguez, Conrado</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/46?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:46 Pag. fin:47</a></li>
+<li><a href=/camarasycomisiones/legisladores/5252>Rubio, Eduardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:45 Pag. fin:46</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/7982>Zavala, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6008/EXT/43?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:43 Pag. fin:43</a></li>
+</ul></div>  </td> </tr>
+</tbody>
+</table>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div>
+<!-- region__no_wrapper -->
+		  
+		<!-- Home slide -->
+		
+		<!-- parlamentarios -->
+		
+		<!-- Otros bloques -->
+		
+		
+			<!--  bloques tres section -->
+
+	<div id="bloquestres" class="clearfix">
+		<div class="block-bloquestres first">
+					</div>
+		<div class="block-bloquestres ">
+					</div>
+			<div class="block-bloquestres last">
+					</div>
+	</div><!-- /.section, /#bloquestres -->
+		
+	<!-- bloquesdos section -->
+
+	<div id="bloquesdos" class="clearfix">
+		<div class="block-bloquesdos first">
+					</div>
+		<div class="block-bloquesdos last">
+					</div>
+	</div>
+<!-- /.section, /#bloquesdos -->
+
+
+		
+		
+		
+		<!-- Sitios links -->
+		
+		</div>
+
+    </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+      
+    </div><!-- /#navigation -->
+
+				<!-- menu lateral internas -->
+		
+
+  </div><!-- /#main -->
+
+</div>
+<!-- /#page -->
+
+<!-- Prefooter section -->
+<div class="fdobco">
+<div id="prefooter-region"> 
+
+    <!--
+	<div class="prefooter-panel">
+		<p>Informacion para: <a href="#">Legisladores</a></p>
+	</div>
+    -->
+
+	<div class="prefooter-line"></div>
+
+	<div id="prefooter" class="clearfix">
+
+		<div class="block-prefooter first">
+							  <div class="region region-prefooter-1">
+    <div id="block-block-22" class="block block-block first last odd c-maras-y-comisiones">
+
+    <h2 class="block__title block-title">Cámaras y Comisiones</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/camarasycomisiones/senadores/">Cámara de Senadores</a></li>
+<li><a href="/camarasycomisiones/representantes">Cámara de Representantes</a></li>
+<li><a href="/camarasycomisiones/asambleageneral">Asamblea General</a></li>
+<li><a href="/camarasycomisiones/comisionpermanente">Comisión Permanente</a></li>
+<li><a href="/camarasycomisiones/comisionadministrativa">Comisión Administrativa</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-2">
+    <div id="block-block-23" class="block block-block first last odd documentos-y-leyes">
+
+    <h2 class="block__title block-title">Documentos y Leyes</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/documentosyleyes/busqueda">Búsqueda de Documentos y Leyes</a></li>
+<li><a href="/documentosyleyes/constitucion">Constitución de la República</a></li>
+<li><a href="/documentosyleyes/leyes">Leyes</a></li>
+<li><a href="/documentosyleyes/codigos">Códigos</a></li>
+<li><a href="/documentosyleyes/documentos">Documentos</a></li>
+<li><a href="/documentosyleyes/discursos">Discursos</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-3">
+    <div id="block-block-24" class="block block-block first last odd sobre-el-parlamento">
+
+    <h2 class="block__title block-title">Sobre el Parlamento</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/sobreelparlamento/legisladores">Conozca a sus Legisladores</a></li>
+<li><a href="/sobreelparlamento/procesolegislativo">Proceso Legislativo</a></li>
+<li><a href="/sobreelparlamento/historia">Historia del Parlamento</a></li>
+<li><a href="/sobreelparlamento/palacio">Palacio Legislativo</a></li>
+<!-- <li><a href="/sobreelparlamento/archivo-fotografico">Archivo Fotográfico</a></li> -->
+<li ><a href="https://fotografias.parlamento.gub.uy" target="_blank">Parlamento en imágenes</a></li>
+<li><a href="https://biblioteca.parlamento.gub.uy"  target="_blank">Biblioteca</a></li>
+<!--<li><a href="/sobreelparlamento/restaurante">Restaurante</a></li>-->
+
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter last">
+							  <div class="region region-prefooter-4">
+    <div id="block-block-25" class="block block-block first last odd noticias-y-eventos">
+
+    <h2 class="block__title block-title">Noticias y Eventos</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/noticiasyeventos/noticias">Noticias</a></li>
+<li><a href="/noticiasyeventos/eventos">Eventos</a></li>
+<li><a href="/noticiasyeventos/atencion_periodista">Acreditaciones de Prensa</a></li>
+<li><a href="/noticiasyeventos/actividad">Actividad del Parlamento</a></li>
+<li><a href="/noticiasyeventos/construyendo-democracia">Construyendo Democracia</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+	</div>
+</div>
+</div>
+<!-- /.section, /prefooter -->
+
+<div id="footer-region">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-6" class="block block-block first odd -none-">
+
+    
+  <div class="content">
+    Copyright © 2016 Parlamento de la República Oriental del Uruguay  </div>
+  
+</div>
+<div id="block-menu-menu-pie-menu" class="block block-menu last even -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/condiciones" title="">Condiciones de uso</a></li>
+<li class="last leaf"><a href="/contactenos" title="">Contáctenos</a></li>
+</ul>  </div>
+  
+</div>
+  </footer><!-- region__footer -->
+</div>
+
+  <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.hg.com.uy/" : "http://piwik.hg.com.uy/");_paq.push(["setSiteId", "11"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip|html"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".parlamento.gub.uy"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+</body>
+</html>

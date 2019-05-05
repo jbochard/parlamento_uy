@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7"  lang="es" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="es" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="es" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="es" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Ficha Asunto | Parlamento</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="cleartype" content="on">-->
+
+  <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_xlDe_nGwDSOU8HKooNsDv_LhCtfnRf8IhGtUAbpLEKg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_Toq90P8fBbDYYEnp-mEmJam56-UZoiDeqF73QHS_DAU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"S_Fo7uuQJkuMuAEDQR2nuPCovpJ6-1BoOUzwWEDBqpk","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"misc\/tableheader.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"4","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width","breakpoint":1336},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+      <!--[if lt IE 9]>
+    <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-documentosyleyes page-documentosyleyes-ficha-asunto page-documentosyleyes-ficha-asunto- page-documentosyleyes-ficha-asunto-133923 page-documentosyleyes-ficha-asunto-ficha-completa section-documentosyleyes page-views" >
+
+    	<!-- region top header -->
+	      <div id="topheader"><div class="section">
+          <div class="region region-topheader">
+    <div id="block-menu-menu-top-nav" class="block block-menu first last odd -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/user/login" title="Acceso para administrador y editor">Ingresar</a></li>
+<li class="leaf"><a href="/acceso-para-legisladores" title="Acceso para legisladores">Acceso para Legisladores</a></li>
+<li class="leaf"><a href="/mapadelsitio" title="Mapa del Sitio">Mapa del Sitio</a></li>
+<li class="leaf"><a href="/contactenos" title="Formulario de contacto">Contáctenos</a></li>
+<li class="leaf"><a href="/transparencia" title="Transparencia">Transparencia</a></li>
+<li class="last leaf"><a href="/" title="Home de Parlamento del Uruguay">Inicio</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+          <!-- regi�n buscador -->
+	      <div id="searchform"><div class="section">
+          <div class="region region-searchform">
+    <div id="block-block-47" class="block block-block first last odd block-block-47">
+
+    
+  <div class="content">
+    <form action="/buscar" method="get">
+<p><input class="form-submit buscador" id="edit-submit-busqueda1" name="" type="submit" value="Buscar en el Parlamento" /></p>
+</form>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+      </div></div> <!-- /.section, /#sidebar-first -->
+            
+      </div>
+      
+      
+    
+      
+      
+      
+      </div> <!-- /.section, /#sidebar-first -->
+      
+    
+
+
+
+  <header id="header" role="banner">
+    <div class="header-wrapper">
+          <a href="https://parlamento.gub.uy" title="Parlamento del Uruguay" rel="home" id="logo"><img src="https://parlamento.gub.uy/sites/default/files/LogoPLTrans.png" alt="Logo del Parlamento del Uruguay" /></a>
+    
+     	<!-- region main menu -->
+	    <div class="content-menu">
+		<div class="mainmenu-wrap">
+	      <div id="mainmenu"><div class="section">
+	          <div class="region region-mainmenu">
+    <div id="block-superfish-1" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-blue top-default"><li id="menu-582-1" class="first sf-depth-2 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-1" class="first sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-1" class="last sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-1" class="active-trail middle sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-1" class="middle sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-1" class="last sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+	      </div>
+		</div> </div><!-- /.section, /#sidebar-first -->
+		</div>
+    
+    
+	
+	<!-- region top-celular -->
+      <div class="header__region region region-header">
+    <div id="block-superfish-9" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-9" class="menu sf-menu sf-main-menu sf-vertical sf-style-default sf-total-items-4 sf-parent-items-1 sf-single-items-3 top-celular"><li id="menu-582-9" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-9" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-9" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-9" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-9" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-9" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-9" class="active-trail middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-9" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-9" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+</div>
+ </header>
+
+
+<div id="page">
+				  <div id="breadcrumb">
+		<h2 class="element-invisible">Se encuentra usted aquí</h2><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="inline odd first" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/" rel="v:url" property="v:title">Inicio</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes" rel="v:url" property="v:title">Documentos y Leyes</a></span> <span class="delimiter">|</span> <span class="inline odd" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto" rel="v:url" property="v:title"></a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/133923" rel="v:url" property="v:title">Asunto Ficha</a></span> <span class="delimiter">|</span> <span class="inline odd last" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/133923/ficha_completa" rel="v:url" property="v:title" class="active">Ficha Asunto</a></span></div>		</div>
+		
+  <div id="main">
+
+		
+  	<!-- menu lateral internas -->
+  	      <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-superfish-4" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-4" class="menu sf-menu sf-main-menu sf-vertical sf-style-white sf-total-items-6 sf-parent-items-2 sf-single-items-4"><li id="menu-1724-4" class="sf-item-1 sf-depth-4 sf-no-children"><a href="/documentosyleyes/busqueda" title="" class="sf-depth-4">Búsqueda de Documentos y Leyes</a></li><li id="menu-1728-4" class="sf-item-2 sf-depth-4 sf-no-children"><a href="/documentosyleyes/constitucion" title="" class="sf-depth-4">Constitución de la República</a></li><li id="menu-1734-4" class="sf-item-3 sf-depth-4 sf-no-children"><a href="/documentosyleyes/leyes" title="" class="sf-depth-4">Leyes</a></li><li id="menu-1733-4" class="sf-item-4 sf-depth-4 sf-no-children"><a href="/documentosyleyes/codigos" title="" class="sf-depth-4">Códigos</a></li><li id="menu-1890-4" class="sf-item-5 sf-depth-4 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/documentosyleyes/documentos" title="" class="sf-depth-4 menuparent">Documentos</a><ul><li id="menu-1892-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/diarios-de-sesion" title="" class="sf-depth-5">Diarios de sesiones</a></li><li id="menu-1891-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/repartidos" title="" class="sf-depth-5">Repartidos</a></li><li id="menu-1894-4" class="sf-item-3 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/documentos-comisiones" title="" class="sf-depth-5">Documentos de comisiones (Distribuidos)</a></li><li id="menu-1893-4" class="sf-item-4 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/versiones-taquigraficas" title="" class="sf-depth-5">Versiones taquigráficas</a></li><li id="menu-1895-4" class="sf-item-5 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/textos-aprobados" title="" class="sf-depth-5">Textos aprobados</a></li><li id="menu-1735-4" class="sf-item-6 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos-internacionales" title="" class="sf-depth-5">Documentos internacionales</a></li><li id="menu-1732-4" class="sf-item-7 sf-depth-5 sf-no-children"><a href="/documentosyleyes/otros" title="" class="sf-depth-5">Otros documentos</a></li></ul></li><li id="menu-1729-4" class="sf-item-6 sf-depth-4 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/documentosyleyes/discursos" title="" class="sf-depth-4 menuparent">Discursos</a><ul><li id="menu-1730-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos/presidentes-rou" class="sf-depth-5">Discursos Presidentes de la República y Presidentes del Consejo Nacional de Gobierno</a></li><li id="menu-1731-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos-presidentes/representantes" title="" class="sf-depth-5">Discursos Presidentes Cámara de Representantes</a></li></ul></li></ul>  </div>
+  
+</div>
+  </section><!-- region__sidebar -->
+      </aside><!-- /.sidebars -->
+    
+
+    <div id="content" class="column" role="main">
+
+		<div class="content-inner">
+		  		  		  			<h1 class="title" id="page-title">Ficha Asunto</h1>
+		  		  		  		  <h2 class="element-invisible">Solapas principales</h2><ul class="tabs primary"><li><a href="/documentosyleyes/ficha-asunto/133923">Resumen</a></li>
+<li><a href="/documentosyleyes/ficha-asunto/133923/tramite">Trámite Parlamentario</a></li>
+<li class="active"><a href="/documentosyleyes/ficha-asunto/133923/ficha_completa" class="active">Ficha Completa<span class="element-invisible">(solapa activa)</span></a></li>
+</ul>		    <div class="region region-help">
+    <div id="block-system-help" class="block block-system first last odd block-system-help" role="complementary">
+
+    
+  <div class="content">
+    <span class='print-syslink'><span class="print_html"><a href="https://parlamento.gub.uy/print/documentosyleyes/ficha-asunto/133923/ficha_completa" title="Display a printer-friendly version of this page." class="print-page" target="_blank" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://parlamento.gub.uy/sites/all/modules/print/icons/print_icon.png" width="16px" height="16px" alt="Imprimir" title="Imprimir" /></a></span></span>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+		  		  
+<div id="block-system-main" class="block block-system first last odd block-system-main">
+
+    
+  <div class="content">
+    <div class="view view-ficha-asunto view-id-ficha_asunto view-display-id-page_1 sombra view-dom-id-d884b6ec9cbf9bd3e4da5be770a5a695">
+      
+    
+  
+
+
+          <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-Ast-Codigo">    <strong class="views-label views-label-Ast-Codigo">Asunto: </strong>    133923  </div>  
+  <div>        <div class="tipo-acto">RESOLUCION  - Creación comisión Preinvestigadora/Investigadora 
+</div>  </div>  
+  <div class="views-field views-field-Orgn-Nombre">    <strong class="views-label views-label-Orgn-Nombre">Origen: </strong>    Cámara Representantes  - 
+Abdala, Pablo; Amado, Fernando; Aristimuño, Saúl; Asti, Alfredo; Barreiro, Gabriela; Battistoni, Julio; Bottino, Cecilia; Caggiani, Daniel; Cayetano, Sonia; Chiazzaro, Roberto; Civila, Gonzalo; De León, Walter; De los Santos, Oscar; Fratti, Luis Alfredo; Galán Pérez, Lilián Raquel; Gallo Cantera, Luis Enrique; Gandini, Jorge; Goñi Reyes, Rodrigo; González, Pablo; Groba Arriondo, Oscar; Lafluf, Omar; Larzábal, Nelson; Libschitz, Margarita; Mahía, José Carlos; Malán, Enzo; Mendiondo, Constante; Meroni, Jorge; Mier, Sergio; Montaner Formoso, Susana; Mutti Fornaroli, María Manuela; Núñez, Gerardo; Pasquet Iribarne, Ope; Peña Fernández, Daniel; Pereyra, Susana; Pérez Brito, Darío; Placeres, Daniel; Pozzi, Jorge; Puig, Luis; Rapela, Valentina; Reutor, Carlos; Ríos, Silvio; Rodríguez, Edgardo; Rodríguez Gálvez, Carlos; Rodríguez, Gloria; Ruiz, Juan Federico; Sabini, Sebastián; Sánchez, Alejandro; Sanseverino, Berta; Santalla, Mercedes; Silvera, Washington; Umpiérrez, Javier; Varela Nestier, Carlos; Verri, Walter; Viel, Stella   </div>  
+  <div class="views-field views-field-Ast-Titulo">    <strong class="views-label views-label-Ast-Titulo">Título: </strong>    <span class="field-content">COMISION VINCULACION EMPRESAS CON FINANCIACION CAMPAÑAS ELECTORALES Y PARTIDOS POLITICOS (INVESTIGADORA). CREACION.</span>  </div>  
+  <div class="views-field views-field-Entradas">    <span class="views-label views-label-Entradas">Entradas: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Entrada</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">15-03-2017</td><td></td><td>0</td><td>COMISION VINCULACION EMPRESAS CON FINANCIACION CAMPAÑAS ELECTORALES Y PARTIDOS POLITICOS (INVESTIGADORA). CREACION.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sanciones">    <span class="views-label views-label-Sanciones">Sanciones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td>Se aprueba Resolución.</td> </tr>
+ <tr class="even"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td>Se aprueba Resolución.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Cms">    <span class="views-label views-label-Cms">Comisiones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Comision</th><th>Cuerpo</th><th>Carpeta/Año</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a></td><td>CRR</td><td>1834/2017</td> </tr>
+ <tr class="even"><td><a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a></td><td>CRR</td><td>1834/2017</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sesiones">    <span class="views-label views-label-Sesiones">Sesiones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Sesión</th><th>Diario Sesión</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">28-03-2017</td><td>CRR</td><td>Extraordinaria. Sesión:6</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4089</a></td> </tr>
+ <tr class="even"><td class="mifecha">16-05-2017</td><td>CRR</td><td>Ordinaria. Sesión:16</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5769/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4099</a></td> </tr>
+ <tr class="odd"><td class="mifecha">05-06-2018</td><td>CRR</td><td>Ordinaria. Sesión:20</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5914/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4166</a></td> </tr>
+ <tr class="even"><td class="mifecha">04-12-2018</td><td>CRR</td><td>Ordinaria. Sesión:61</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/6004/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4207</a></td> </tr>
+ <tr class="odd"><td class="mifecha">27-12-2018</td><td>CRR</td><td>Extraordinaria. Sesión:2</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.4214</a></td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Repartidos">    <span class="views-label views-label-Repartidos">Repartidos: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Cuerpo</th><th>Carpeta/Año</th><th>Repartido</th><th>Texto</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td>652/0&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/0/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora</td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td>652/1&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/1/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una comisión investigadora. Informes</td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td>652/2&nbsp;&nbsp;<a  class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/2/pdf?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>PDF</a></td><td>COMISIÓN INVESTIGADORA SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015 INCLUSIVE, Y SU VINCULACIÓN CON LAS SIGUIENTES EMPRESAS, SUS DIRECTORES O ACCIONISTAS: FRIPUR S.A., CAMVIREY S.A., AIRE FRESCO S.A., MINITAR S.A. Y CUTCSA Y OTRAS QUE EXPRESAMENTE DETERMINE Y SOBRE LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN A LOS DIFERENTES PARTIDOS POLÍTICOS. Informes.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-ACAC">    <span class="views-label views-label-ACAC">Carpetas y Asuntos Asociados: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Cuerpo</th><th>Carpeta/Año</th><th>Asunto</th><th> Cuerpo</th><th> Carpeta/Año</th><th>Título</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/139703>139703</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/139703>MONTE CARLO TV S.A.</a></td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/139924>139924</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/139924>COMPAÑÍA URUGUAYA DE TRANSPORTES COLECTIVOS S.A. (CUTCSA).</a></td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141039>141039</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141039>PROCESAMIENTO DE FRANCISCO SANABRIA. NOTA PRESENTADA POR EL SEÑOR REPRESENTANTE ALFREDO ASTI.</a></td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141278>141278</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141278>TEMA 1 - MINITAR S.A.</a></td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141294>141294</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141294>TEMA 2 - CAMVIREY S.A.</a></td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141295>141295</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141295>TEMA 3 - FRIPUR S.A.</a></td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141296>141296</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141296>TEMA 4 - CUTCSA</a></td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141297>141297</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141297>TEMA 5 - AIRE FRESCO S.A.</a></td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141299>141299</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141299>TEMA 6 - PUBLICIDAD</a></td> </tr>
+ <tr class="even"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141301>141301</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141301>TEMA 7 - TENFIELD S.A.</a></td> </tr>
+ <tr class="odd"><td>CRR</td><td>1834/2017</td><td><a href=/documentosyleyes/ficha-asunto/141302>141302</a></td><td></td><td></td><td><a href=/documentosyleyes/ficha-asunto/141302>TEMA 8 - IGLESIA</a></td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Tmt">    <span class="views-label views-label-Tmt">Trámite Parlamentario: </span>    <span class="field-content tramite"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">15-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Creación de Comisión Preinvestigadora.</b>  <a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a> Creación dispuesta por Resolución de Presidencia Nº 354, de 15 de marzo de 2017.  </td> </tr>
+ <tr class="even"><td class="mifecha">15-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Integración.</b>   : Gallo Cantera, Luis Enrique; Caggiani Gómez, Daniel; Verri Piriz, Walter Robinson  </td> </tr>
+ <tr class="odd"><td class="mifecha">15-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Recepción por parte de Div.Comisiones.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">15-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first last">Rep.652/0 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/0/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">15-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Div.Comisiones envía a la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">16-03-2017</td><td>CRR</td><td></td><td><b>Comisión aconseja creación de Investigadora.</b>  <a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a> Nro. de Acta: 1. </br> Informantes: -Informe en mayoría escrito.. Informante: Caggiani, Daniel. Firmante: Gallo Cantera, Luis Enrique -Informe en minoría escrito.. Informante: Verri, Walter Texto del proyecto de resolución aprobado por dos votos en tres: 	"Créase una Comisión Investigadora en el marco del artículo 7º de la Ley N° 16.698, de 25 de abril de 1995, cuyos cometidos serán analizar a todas las empresas y/o personas que hayan aportado a las campañas de los partidos políticos, a partir de la apertura democrática, ampliando y profundizando el campo de trabajo de la misma, posibilitándole citar a las empresas y/o personas que hayan estado vinculadas al financiamiento y campañas electorales de partidos políticos, como a diferentes especialistas en el tema del financiamiento y campañas electorales de partidos políticos que dicha Comisión entienda, a los efectos de también legislar en la materia. La Comisión estará integrada por once miembros y su plazo será de ciento ochenta días, con opción a ciento ochenta días de prórroga".  </td> </tr>
+ <tr class="odd"><td class="mifecha">17-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Div.Comisiones recibe de la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">17-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first last">Rep.652/1 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/1/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una comisión investigadora. Informes</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">17-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Div.Comisiones eleva.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Se da cuenta en sala informe de comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/5?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:5 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/1136>COMISIÓN PREINVESTIGADORA:PRESUNTAS VINCULACIONES DE DETERMINADAS EMPRESAS CON LA FINANCIACIÓN DE CAMPAÑAS ELECTORALES Y CON DIRIGENTES, SECTORES Y PARTIDOS POLÍTICOS. Creación de una Comisión Investigadora.</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Antecedentes.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/33?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:33 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="even"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Discusión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/34?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:34 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/3959>Amarilla, Gerardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/165?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:165 Pag. fin:166</a></li>
+<li><a href=/camarasycomisiones/legisladores/11810>Arrieta, Elisabeth</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/143?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:143 Pag. fin:145</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/128?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:128 Pag. fin:129</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/161?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:161 Pag. fin:164</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/166?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:166 Pag. fin:166</a></li>
+<li><a href=/camarasycomisiones/legisladores/8879>Bianchi, Graciela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/155?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:155 Pag. fin:155</a></li>
+<li><a href=/camarasycomisiones/legisladores/8879>Bianchi, Graciela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/158?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:158 Pag. fin:161</a></li>
+<li><a href=/camarasycomisiones/legisladores/8879>Bianchi, Graciela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/164?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:164 Pag. fin:166</a></li>
+<li><a href=/camarasycomisiones/legisladores/9942>Bottino, Cecilia</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/172?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:172 Pag. fin:173</a></li>
+<li><a href=/camarasycomisiones/legisladores/9916>Caggiani, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/34?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:34 Pag. fin:45</a></li>
+<li><a href=/camarasycomisiones/legisladores/9916>Caggiani, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/122?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:122 Pag. fin:123</a></li>
+<li><a href=/camarasycomisiones/legisladores/9916>Caggiani, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/125?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:125 Pag. fin:125</a></li>
+<li><a href=/camarasycomisiones/legisladores/6143>Casaretto, Federico</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/137?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:137 Pag. fin:138</a></li>
+<li><a href=/camarasycomisiones/legisladores/3407>De León, Walter</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/142?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:142 Pag. fin:143</a></li>
+<li><a href=/camarasycomisiones/legisladores/659>De los Santos, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/170?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:170 Pag. fin:172</a></li>
+<li><a href=/camarasycomisiones/legisladores/566>Delsa, Paulino</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/165?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:165 Pag. fin:165</a></li>
+<li><a href=/camarasycomisiones/legisladores/5150>Gallo Cantera, Luis Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/108?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:108 Pag. fin:112</a></li>
+<li><a href=/camarasycomisiones/legisladores/5150>Gallo Cantera, Luis Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/124?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:124 Pag. fin:124</a></li>
+<li><a href=/camarasycomisiones/legisladores/5150>Gallo Cantera, Luis Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/151?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:151 Pag. fin:151</a></li>
+<li><a href=/camarasycomisiones/legisladores/260>Gandini, Jorge</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/125?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:125 Pag. fin:128</a></li>
+<li><a href=/camarasycomisiones/legisladores/10078>González, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/121?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:121 Pag. fin:122</a></li>
+<li><a href=/camarasycomisiones/legisladores/10078>González, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/166?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:166 Pag. fin:168</a></li>
+<li><a href=/camarasycomisiones/legisladores/7740>Lafluf, Omar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/150?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:150 Pag. fin:151</a></li>
+<li><a href=/camarasycomisiones/legisladores/7740>Lafluf, Omar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/157?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:157 Pag. fin:157</a></li>
+<li><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/115?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:115 Pag. fin:121</a></li>
+<li><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/124?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:124 Pag. fin:125</a></li>
+<li><a href=/camarasycomisiones/legisladores/5165>Peña Fernández, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/141?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:141 Pag. fin:142</a></li>
+<li><a href=/camarasycomisiones/legisladores/2924>Pérez Brito, Darío</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/148?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:148 Pag. fin:149</a></li>
+<li><a href=/camarasycomisiones/legisladores/5572>Placeres, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/171?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:171 Pag. fin:172</a></li>
+<li><a href=/camarasycomisiones/legisladores/2912>Posada, Iván</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/130?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:130 Pag. fin:131</a></li>
+<li><a href=/camarasycomisiones/legisladores/7759>Rodríguez, Edgardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/172?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:172 Pag. fin:173</a></li>
+<li><a href=/camarasycomisiones/legisladores/5252>Rubio, Eduardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/131?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:131 Pag. fin:133</a></li>
+<li><a href=/camarasycomisiones/legisladores/9907>Sánchez, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/152?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:152 Pag. fin:156</a></li>
+<li><a href=/camarasycomisiones/legisladores/9907>Sánchez, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/157?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:157 Pag. fin:158</a></li>
+<li><a href=/camarasycomisiones/legisladores/405>Trobo, Jaime Mario</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/156?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:156 Pag. fin:157</a></li>
+<li><a href=/camarasycomisiones/legisladores/11808>Valdomir, Sebastián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/135?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:135 Pag. fin:137</a></li>
+<li><a href=/camarasycomisiones/legisladores/11808>Valdomir, Sebastián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/138?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:138 Pag. fin:138</a></li>
+<li><a href=/camarasycomisiones/legisladores/9973>Verri, Walter</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:45 Pag. fin:49</a></li>
+<li><a href=/camarasycomisiones/legisladores/9973>Verri, Walter</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/123?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:123 Pag. fin:123</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/196>Viera Duarte, Tabaré</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/168?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:168 Pag. fin:170</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Se aprueba Resolución.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/174?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:174 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="even"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Fundamento de voto.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:177 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/178?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:178 Pag. fin:178</a></li>
+<li><a href=/camarasycomisiones/legisladores/9916>Caggiani, Daniel</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:177</a></li>
+<li><a href=/camarasycomisiones/legisladores/6734>Fratti, Luis Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:177</a></li>
+<li><a href=/camarasycomisiones/legisladores/5150>Gallo Cantera, Luis Enrique</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:177</a></li>
+<li><a href=/camarasycomisiones/legisladores/260>Gandini, Jorge</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:178</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/177?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:177 Pag. fin:177</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">28-03-2017</td><td>CRR</td><td>1834/2017</td><td><b>Creación de Comisión Investigadora.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5741/EXT/175?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:175 Diario:4089</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">16-05-2017</td><td>CRR</td><td>1834/2017</td><td><b>Integración.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5769/EXT/105?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:105 Diario:4099</a>  &nbsp; &nbsp; &nbsp; &nbsp;  : Viera Duarte, Tabaré; Sosa Acosta, Heriberto; De los Santos Píriz, Oscar Joe; Rubio Vico, Eduardo José; Asti Carli, Alfredo Angel; Umpiérrez Cabrera, Alejo Alejandro; Groba Arriondo, Oscar Abdón; Bianchi Poli, Graciela Elena; Sánchez Pereira, Alejandro Darío; Meroni Ferreira, Jorge Alvaro; Facello Germano, Guillermo Ruben; Eguiluz Laxague, María Cecilia; González Rodríguez, Pablo Alejandro; Barreiro Alvarez, Gabriela Susana; Arrieta Lucchetti, Elisabeth  </td> </tr>
+ <tr class="odd"><td class="mifecha">05-06-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 2. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1032/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1032</a> En virtud a lo resuelto en la última reunión, el señor Representante Peña realiza una exposición explicando los motivos de su denuncia. Se produce un extenso intercambio entre los miembros de la Comisión.
+Se acuerda que el abordaje de la investigación se realice por empresas, comenzando por la empresa FRIPUR.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">12-06-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 3. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1069/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1069</a> Abierto el acto el señor Presidente invita a pasar a Sala a la delegación del BPS. El Diputado Peña formula una serie de preguntas a las que se suman otros planteos de los miembros de la Comisión. Los invitados proceden a responder las consultas, al tiempo que, el señor Galli expresa que las preguntas realizadas por el Diputado Peña están alcanzadas por el secreto tributario. Luego de un intercambio entre los miembros de la Comisión y los invitados, se les agradece la presencia a éstos últimos y se retiran. 
+A continuación se recibe al doctor Daniel Gilardoni quien responde a las preguntas realizadas por los Diputados y luego de un extenso intercambio, se le agradece por su concurrencia y se retira. 
+Finalmente los integrantes de la Comisión debaten acerca del curso de la investigación y se acuerda solicitar información al Sindicato Único de Trabajadores del Mar y Afines, al Banco Central del Uruguay y al Banco de la República Oriental del Uruguay y al doctor Salle.  </td> </tr>
+ <tr class="odd"><td class="mifecha">26-06-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 4. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1071/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1071</a> Asiste el señor Subsecretario del Ministerio de Defensa Nacional, Daniel Montiel, en su condición de ex Director Nacional de Recursos Acuáticos, quien responde a las consultas efectuadas por los señores legisladores en cuanto a las actuaciones de esa Dirección con respecto a la empresa FRIPUR.  </td> </tr>
+ <tr class="even"><td class="mifecha">26-06-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 4. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1071/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1071</a> La Comisión recibe al señor Wilson Márquez, ex trabajador de la empresa FRIPUR, quien respondió las diversas consultas efectuadas por los señores diputados sobre el tema en investigación.  </td> </tr>
+ <tr class="odd"><td class="mifecha">03-07-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 5. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1080/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1080</a> Abierto el acto el señor Presidente invita a pasar a Sala a la delegación del BROU y realiza una breve introducción al asunto motivo de la convocatoria. El denunciante recuerda la importancia de la información solicitada oportunamente al BROU y formula una serie de preguntas. El economista Polgar procede a responder las consultas planteadas por el denunciante y en el pedido de información cursada mediante oficio, además hace entrega de información relacionada con la situación de la deuda de Fripur. Posteriormente los invitados continúan evacuando las consultas de los Diputados y una vez finalizado el intercambio, se les agradece la presencia de los invitados y se retiran. -------------
+La Comisión recibe a la doctora Gendra quien responde a las preguntas realizadas por el denunciante y posteriormente las formuladas por conjunto de los Legisladores, a continuación se le agradece su presencia y se retira
+  </td> </tr>
+ <tr class="even"><td class="mifecha">10-07-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 6. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1115/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1115</a> Abierto el acto el señor Presidente invita a pasar a Sala a al licenciado Campal quien procede a responder detalladamente a las preguntas realizadas por el denunciante y posteriormente a las formuladas por el resto de los Legisladores, además hace entrega un informe. Finalizado el intercambio, se le agradece por su presencia y se retira.  </td> </tr>
+ <tr class="odd"><td class="mifecha">07-08-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 7. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1134/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1134</a> Asiste el señor Presidente de UTE, ingeniero Gonzalo Casaravilla, acompañado del señor Marcelo Barzelli, asesor. El ingeniero Casaravilla responde a las consultas efectuadas por los señores legisladores en cuanto a las actuaciones de UTE con respecto a la empresa FRIPUR.  </td> </tr>
+ <tr class="even"><td class="mifecha">14-08-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 8. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1168/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1168</a> La Comisión recibe al doctor Servetti quien responde a las preguntas realizadas por el conjunto de los Legisladores, a continuación se le agradece su presencia y se retira.  </td> </tr>
+ <tr class="odd"><td class="mifecha">21-08-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 9. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1169/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1169</a> La Comisión recibe a la escribana Susana Hernández y a los señores Representante Germán Cardoso y Óscar de los Santos. Los invitados responden a las consutas planteadas por el denunciante y los miembros de la Comisión.  </td> </tr>
+ <tr class="even"><td class="mifecha">28-08-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 10. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1170/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1170</a> Se recibe al doctor Mario Bergara, Presidente del Banco Central del Uruguay, acompañado por el doctor Jorge Gamarra, Vicepresidente; economista Washington Ribeiro, Director; contador Néstor López, gerente de la Unidad de Información y Análisis Financiero y al doctor Daniel Artecona, gerente de Asesoría Jurídica.  </td> </tr>
+ <tr class="odd"><td class="mifecha">28-08-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 10. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1170/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1170</a> Asiste el señor Presidente del Banco Central del Uruguay, doctor Mario Bergara, acompañado del Vicepresidente, doctor Jorge Gamarra, el Director economista Washington Ribeiro y los Gerentes contador Nèstor Lòpez y doctor Daniel Artecona.  </td> </tr>
+ <tr class="even"><td class="mifecha">04-09-2017</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 11. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1186/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1186</a> Se recibe a la señora Terronoire quien responde a las preguntas planteadas por el denunciante y los miembros de la Comisión.  </td> </tr>
+ <tr class="odd"><td class="mifecha">11-09-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 12. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1195/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1195</a> Se recibe a la señora Directora Secretaria de la Asociación Uruguaya de Agencias de Publicidad, licenciada Patricia Lussich, quien responde a las preguntas planteadas por el denunciante y los miembros de la Comisión.
+Se retira la señora licenciada Patricia Lussich, e ingresa a Sala el señor ex Gerente de Relaciones Institucionales y Comunidad de ANCAP, Pablo Bernengo, quien responde a las preguntas planteadas por el señor denunciante y los miembros de la Comisión.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">02-10-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 13. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1222/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1222</a> Se distribuyen asuntos entrados que figuran en la versión taquigráfica del día de la fecha.
+Se acuerda Orden del Día para el lunes 9 de octubre de 2017.
+Doctor Darío Pérez - Hora 13:00
+Ingeniero Agrónomo Enrique Antía, Intendente de Maldonado- Hora 14.30.
+
+- Se acuerda el envío de varios Oficios.  </td> </tr>
+ <tr class="odd"><td class="mifecha">09-10-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 14. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1246/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1246</a> El señor Presidente da la bienvenida a las autoridades del Tribunal de Cuentas.
+El motivo de la convocatoria se refiere a MINITAR S.A. empresa publicitaria La Diez que contratara la Administración Nacional de Combustibles, Alcohol y Pórtland, sobre la que dicho Tribunal realizó una serie de observaciones.
+Se intercambian opiniones y se formulan preguntas por parte de los señores Legisladores.
+Integra la delegación el señor Ministro, ingeniero Miguel Aumento.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">23-10-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 15. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1283/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1283</a> El señor Presidente da la bienvenida al señor Representante Daniel Placeres. El motivo de la convocatoria se refiere a la empresa AIRE FRESCO S.A.
+Se formulan preguntas por parte de los señores Legisladores y se intercambian opiniones.
+Se retira el señor Representante Placeres e ingresa a Sala la señora contadora Laura Adaime Jefe de Contabilidad de la Administración Nacional de Combustibles, Alcohol y Pórtland (ANCAP), en referencia a la empresa MINITAR S.A.
+El señor Representante denunciante Adrián Peña formula una serie de preguntas que son respondidas por la señora contadora, se intercambian diferentes opiniones.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">30-10-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 16. </br> El señor Vicepresidente da la bienvenida a la señora Jefe de Comunicaciones Corporativas, Susana Pérez, de la Administración Nacional de Combustibles, Alcohol y Pórtland, en referencia a la empresa MINITAR S.A.
+El señor Representante Adrián Peña formula una serie de preguntas que son respondidas por la invitada.
+Se intercambian diferentes opiniones entre los señores Miembros de la Comisión.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">06-11-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 17. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1307/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1307</a> El señor Presidente da la bienvenida al señor ex Presidente de la Administración Nacional de Combustibles, Alcohol y Pórtland (ANCAP), José Coya, en referencia a la empresa MINITAR S.A.
+El señor Representante Adrián Peña formula una serie de preguntas que son respondidas por el invitado.
+Se intercambian opiniones entre el invitado y los señores Miembros de la Comisión.
+Se retira de Sala el señor ex Presidente de ANCAP, José Coya.
+Se pasa a cuarto intermedio.
+Finalizado el mismo y siendo la hora 14:30 el señor Presidente da la bienvenida al señor Senador Leonardo De León, en calidad de ex Presidente de ALUR S.A., y en referencia a la empresa MINITAR S.A.
+El señor Representante denunciante realiza una serie de preguntas que son respondidas por el señor Senador.
+Se intercambian opiniones y se formulan preguntas por otros señores Legisladores que son respondidas por el invitado.
+El señor Senador Leonardo De León remitirá documentación vía correo electrónico.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+  </td> </tr>
+ <tr class="odd"><td class="mifecha">13-11-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 18. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1328/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1328</a> Abierto el acto, el señor Presidente da la bienvenida al señor Alberto Fernández, en referencia a la empresa FRIPUR S.A.
+El señor Representante Adrián Peña formula una serie de preguntas que son respondidas por el invitado.
+Posteriormente, el señor Fernández responde a las preguntas realizadas por el resto de los señores Legisladores.
+Finalizado el intercambio, se le agradece por su presencia y se retira de Sala el señor Alberto Fernández.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">20-11-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 19. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1353/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1353</a> Abierto el acto, el señor Presidente da la bienvenida al señor Intendente de Maldonado, ingeniero agrónomo Enrique Antía, quien concurre en referencia a la empresa CAMVIREY S.A. (Cambio Nelson).
+El señor Representante Alfredo Asti formula cuatro preguntas que el señor Intendente no responde porque no cuenta con la información.
+El señor Representante Óscar De Los Santos, formula 4 preguntas al señor Intendente, quien responde parte de las mismas.
+Se acuerda enviar Oficio con las preguntas al señor Intendente e invitarlo nuevamente a la Comsión para que responda a las mismas. Se vota 10 en 10: Afirmativa.
+
+La señora Representante Graciela Bianchi, propone nuevamente la comparecencia del señor Alberto Fernández. Se vota 5 en 10: Empate. Se vota nuevamente 5 en 10: Empate. Se vota por tercera vez 5 en 10: Empate. Proclama la negativa de acuerdo al articulo 81 del Reglamento.
+La señora Representante Graciela Bianchi, propone enviar las preguntas por escrito al señor Alberto Fernández. Se vota 9 en 10. Afirmativa.
+
+El denunciante propone ampliar las empresas a investigar, aportando documentación  y los señores Representantes  estudiarán la misma y se resolverá en la próxima reunión.
+
+Se acuerda enviar Oficio a la Cátedra de Derecho Constitucional, solicitando respuesta, a la controversia generada de si el señor legislador Óscar de los Santos, puede o no ser miembro de la  Comisión Investigadora.  
+
+Se resuelve ampliar la lista de invitados, por Camvirey S. A.  a solicitud del señor Representante Alfredo Asti y aprobado por la asesora a los señores Alexis Candiani, Pablo Lamaison, Antonio Zulamien y Hugo Fernández Faingold. 
+Se votó 10/10.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-11-2017</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 20. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1361/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1361</a> Abierto el acto, el señor Presidente da la bienvenida al señor Raúl Sendic, quien concurre en referencia a la empresa MINITAR S.A. (La Diez).
+El señor Representante Adrián Peña formula una serie de preguntas, que son respondidas por el invitado, a las que se suman otras de los miembros de la Comisión.
+Luego de un intercambio entre los miembros de la Comisión y el invitado, se le agradece la presencia y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">19-02-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 21. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1409/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1409</a> Agenda continuación: 
+
+FRIPUR la señora Representante Graciela Bianchi presentará un listado con preguntas al señor Alberto Fernández.
+
+AIRE FRESCO: Con respecto al ex Canciller Luis Almagro, se acuerda enviar cuestionario oportunamente.
+Se especifica que del Ministerio de Relaciones Exteriores se citará al señor Ministro Rodolfo Nin Novoa, al Embajador de Uruguay en Venezuela -de ese período-, Dirección General para Asuntos Económicos Internacionales, a la Dirección General para Asuntos de Integración y MERCOSUR y a la Dirección General de Comercio del Ministerio de Economía y Finanzas.
+
+Por cultivadores de arroz, SAMAN, Paso Dragón y Asociación de Cultivadores de Arroz (ACA) (gremio).
+
+Por la industria láctea: CONAPROLE y Pili
+
+Por avícolas: Tres Arroyos .
+PUBLICIDAD el señor Representante Alfredo Asti, enviará listado de las personas a citar.
+
+IGLESIA: se citará al pastor Jorge Márquez "Misión Vida para las Naciones ".
+
+ONG Hogares Beraca se citará a los responsables de la misma.
+
+TENFIELD S.A. el señor denunciante enviará el listado.
+
+En referencia a las preguntas al señor Intendente Antía se enviarán las palabras del señor Representante Oscar de los Santos y de la versión taquigráfica del día de la fecha.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">20-02-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 22. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1411/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1411</a> El señor Presidente da la bienvenida al señor Representante Darío Pérez, quien concurre en referencia a la empresa CAMVIREY S.A. (Cambio Nelson).
+El señor Representante Tabaré Viera formula una serie de preguntas, que son respondidas por el invitado, a las que se suman otras de los miembros de la Comisión.
+Luego de un intercambio entre los miembros de la Comisión y el invitado, se le agradece la presencia y se retira de Sala.
+
+A continuación se intercambian opiniones respecto a futuras invitaciones que realizará la Comisión.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">26-02-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 23. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1412/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1412</a> El señor Presidente da la bienvenida al señor Edil de la Junta Departamental de Maldonado, Andrés De León, quien concurre en referencia a la empresa CAMVIREY S.A. (Cambio Nelson).
+La señora Representante Elisabeth Arrieta formula una serie de preguntas que son respondidas por el señor Edil, a las que se suman otras de los demás integrantes de la Comisión y del denunciante.
+Se le agradece la presencia al invitado  y se retira de Sala.
+Se pasa a votar Presidente ad hoc.
+La señora Representante Graciela Bianchi propone al señor Representante Pablo González.
+Se vota 9 en 10. AFIRMATIVA.
+Ocupa la Presidencia el señor Representante Pablo González.
+Se intercambian opiniones respecto a un planteamiento realizado por el señor Representante Óscar De los Santos, se resolverá en la próxima reunión de la Comisión.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-02-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 24. </br> Abierto el acto se pasa a votar Presidente ad hoc.
+La señora Representante Graciela Bianchi y el señor Representante Jorge Meroni proponen al señor Representante Alfredo Asti.
+Se vota: 7 en 8. AFIRMATIVA.
+Ocupa la Presidencia el señor Representante Alfredo Asti.
+El señor Presidente da la bienvenida al señor Director de Tránsito y Transporte de la Intendencia de Montevideo, Máximo Oleaurre, quien concurre en referencia a la empresa CUTCSA.
+El señor denunciante Adrián Peña formula una serie de preguntas que son respondidas por el señor Director, a las que se suman otras de los demás integrantes de la Comisión.
+Se le agradece la presencia al invitado y se retira de Sala.
+Ingresa a Sala el señor Daniel Rodríguez.
+La señora Representante Elisabeth Arrieta formula una serie de preguntas que son respondidas por el invitado.
+Se le agradece la comparecencia al señor Rodríguez y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">05-03-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 25. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1418/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1418</a> Abierto el acto se pasa a votar Presidente ad hoc.
+El señor Representante Jorge Meroni, propone al señor Representante Óscar Groba.
+Se vota: 7 en 8. AFIRMATIVA.
+Ocupa la Presidencia el señor Representante Óscar Groba.
+El señor Presidente da la bienvenida al Licenciado Hugo Fernández Faingold, en referencia a la empresa CAMVIREY S.A. (Cambio Nelson).
+El señor Representante Alfredo Asti formula una serie de preguntas que son respondidas por el invitado, a las que se suman otras de los demás integrantes de la Comisión.
+Se le agradece la presencia al invitado y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">12-03-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 26. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1437/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1437</a> Abierto el acto se pasa a votar Presidente ad hoc.
+El señor Representante Jorge Meroni, propone al señor Representante Alfredo Asti.
+Se vota: 9 en 10: AFIRMATIVA.
+Ocupa la Presidencia el señor Representante Alfredo Asti.
+El señor Presidente da la bienvenida al señor Director Nacional de Transporte, Felipe Martín, en referencia a la empresa CUTCSA.
+El señor Representante Adrián Peña, formula una serie de preguntas que son respondidas por el invitado, a las mismas se suman otras de los demás Miembros de la Comisión.
+Se le agradece la presencia al invitado y se retira de Sala.
+Asume la Presidente el señor Representante Alejandro Sánchez.
+Seguidamente, el señor Presidente invita a pasar a Sala al señor Rafael Pascale, ex secretario de Raincoop, en referencia a la empresa CUTCSA.
+El señor Representante denunciante realiza una serie de preguntas que son respondidas por el invitado.
+Se le agradece la presencia al invitado y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">19-03-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 27. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1460/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1460</a> Abierto el acto se pasa a votar Presidente ad hoc.
+El señor Representante Jorge Meroni, propone al señor Representante Óscar Groba.
+Se vota 8 en 8. AFIRMATIVA.
+Ocupa la Presidencia el señor Representante Óscar Groba.
+El señor Presidente da la bienvenida a los señores Gerente General, Mag. Fernando Barcia y doctor Fernando Rodríguez, asesor letrado, en referencia a la empresa CUTCSA.
+El señor Representante Guillermo Facello, formula una serie de preguntas que son respondidas por el señor Barcia, a las mismas se suman otras de los demás Miembros de la Comisión.
+Se les agradece la presencia a los invitados y se retiran de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">02-04-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 28. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1490/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1490</a> Abierto el acto, el señor Presidente da la bienvenida al señor Ministro de Transporte y Obras Públicas, Víctor Rossi, en referencia a la empresa CUTCSA.
+El señor Representante denunciante Adrián Peña, formula una serie de preguntas que son respondidas por el señor Ministro, a las mismas se suman otras de los demás Miembros de la Comisión.
+Se le agradece la presencia al señor Ministro y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">09-04-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 29. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1491/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1491</a> Abierto el acto, corresponde votar un Presidente ad hoc.
+El señor Representante Óscar Groba propone al señor Representante Alfredo Asti.
+Se vota 7 en 8: AFIRMATIVA.
+El señor Presidente propone un cuarto intermedio hasta la hora 13:30.
+Se vota 8 en 8: AFIRMATIVA.
+Siendo la hora 13:33 se reanuda la sesión y asume la Presidente el señor Representante Alejo Umpiérrez.
+Se pasa a considerar el único punto del Orden del Día, AGENDA. Reprogramación. Los señores Representantes brindan diferentes puntos de vista acerca de las personas y empresas a citar.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">16-04-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 30. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1513/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1513</a> Abierto el acto, el señor Presidente da la bienvenida a la delegación de la Cámara Uruguaya de Agencias de Medios (CUAM), integrada por el señor Aldo Alfaro, Presidente y señora Paulina Rodríguez, Secretaria, en referencia a la publicidad electoral.
+El señor Representante Alfredo Asti, formula preguntas que son respondidas por el señor Alfaro.
+Se le agradece la presencia a los invitados y se retiran de Sala.
+Se pasa a cuarto intermedio hasta la hora 14:00.
+Se vota: 9 en 9. Afirmativa. UNANIMIDAD.
+Siendo la hora 14:00 se levanta el cuarto intermedio.
+Seguidamente, ingresa a Sala el señor Presidente de la Asociación Uruguaya de Agencias de Publicidad (AUDAP), Claudio Invernizzi, en referencia a la publicidad electoral.
+El señor Representante Asti formula una serie de preguntas que son respondidas por el invitado.
+Se le agradece la presencia y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">30-04-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 31. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1545/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1545</a> Abierto el acto, el señor Presidente da la bienvenida al doctor en Ciencias Políticas Rafael Piñeiro, en referencia a la publicidad electoral.
+El señor Representante Alfredo Asti, formula una serie de preguntas que son respondidas por el invitado, a las que se suman otras de los demás Miembros de la Comisión.
+Se le agradece la presencia al señor Piñeiro y se retira de Sala.
+
+Seguidamente, ingresan a Sala las señoras Licenciadas en Ciencias de la Comunicación, Patricia Madrid y Viviana Ruggiero, en referencia a la empresa Minitar S.A. (Agencia La Diez).
+Las invitadas proceden a responder las preguntas realizadas por el denunciante, una vez finalizado el intercambio, se les agradece la presencia y se retiran de Sala.
+
+El señor Representante Alfredo Asti, solicita se integre a la versión taquigráfica la Tabla II. Gasto en publicidad (en $U) y segundos emitidos por sector y partido. La citada tabla forma parte del Informe 3 "El gasto electoral en publicidad televisiva en Uruguay: cobro diferencial y subdeclaración. Noviembre, 2015 (actualización agosto, 2017).
+
+El señor Representante Pablo González solicita se curse Oficio a la Corte Electoral.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">07-05-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 32. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1554/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1554</a> Abierto el acto, corresponde votar Presidente ad hoc.
+El señor Representante Alfredo Asti propone al señor Representante Óscar Groba.
+Se vota 7 en 8: AFIRMATIVA.
+Seguidamente, ingresa a Sala el señor Presidente de la Unidad Reguladora de Servicios de Comunicaciones (URSEC), ingeniero Gabriel Lombide, en referencia a la publicidad electoral.
+El señor Representante Alfredo Asti, formula una serie de preguntas que son respondidas por el invitado, a las mismas se suman otras de los demás Miembros de la Comisión.
+A solicitud de varios señores Legisladores se solicita información al señor Gabriel Lombide, la misma consta en la versión taquigráfica, se enviará el Oficio correspondiente, oportunamente.
+Se le agradece la presencia al señor Presidente de la URSEC y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">14-05-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 33. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1567/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1567</a> Abierto el acto, el señor Presidente da la bienvenida al señor Roberto Pérez Rodino, jefe de campaña electoral del Partido Independiente.
+El señor Representante Alfredo Asti formula preguntas acerca del financiamiento de las campañas electorales y del Informe realizado por los doctores Rafael Piñeiro, Cecilia Rossel y Santiago Acuña.
+El invitado responde a las mismas.
+Se le agradece la presencia al invitado y se retira de Sala.
+Seguidamente, el señor Presidente le da la bienvenida al doctor Julián Moreno, en representación de Saeta TV Canal 10.
+Su comparecencia había sido solicitada por el señor Representante Asti en referencia a las tarifas publicitarias para las campañas electorales.
+El señor Representante quiere conocer la forma de contratación que tienen los partidos políticos, con el canal -en este caso Canal 10- y si tienen documentación de la facturación.
+El invitado manifiesta que los datos que figuran en el informe no son exactos y que Saeta Canal 10 aplicó un tratamiento igualitario a todos los partidos políticos, en función de una tarifa que conocen las agencias de publicidad y los clientes del citado canal.
+El invitado se retira de Sala y se le agradece su presencia.
+Se pasa a votar un cuarto intermedio hasta la hora 15:00
+Se vota: 14 en 14: Afirmativa. UNANIMIDAD de presentes.
+Siendo la hora 15 y 21 minutos se reanuda la sesión.
+El señor Presidente da la bienvenida al doctor Álvaro Carrau en representación de Sociedad Televisora Larrañaga S.A., Teledoce.
+El señor Representante Alfredo Asti formula preguntas y el invitado manifiesta que quiere analizar las mismas ya que en esta instancia no tiene respuestas a las realizadas por el señor Representante.
+Se le agradece la presencia al invitado y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">28-05-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 34. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1591/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1591</a> Abierto el acto, el señor Presidente da la bievenida al doctor Mario Garmendia, en representación de Montecarlo TV. en referencia a publicidad electoral.
+El señor Representante Alfredo Asti formula preguntas acerca del financiamiento de las camapañas electorales y de los informes realizados por los doctores Rafael Piñeiro, Cecilia Rosell y Santiago Acuña.
+El invitado responde a las mismas.
+Se le agradece la presencia al señor Garmendia y se retira de Sala.
+
+Seguidamente, el señor Presidente le da la bienvenida al señor Gustavo López, responsable de la campaña electoral del Partido Unidad Popular. 
+El invitado expresa que pautó publicidad en la televisión y que las finanzas del Partido se sustentan con el aporte de militantes y obtenida la representación parlamentaria con el dinero que proviene de lo establecido en la legislación electoral.
+Se le agradece la presencia al invitado y se retira de Sala.
+
+Por último, el señor Presidente da la bienvenida al señor Andrés Correa, responsable de la contaduría del Frente Amplio, desde el año 1990.
+El señor Correa expone acerca de la campaña del Frente Amplio explicando que el FA concentra una forma organizativa particular de las campañas nacionales. Desde el punto de vista de los recursos, acuerda previamente un presupuesto de campaña, firma un acuerdo político entre todos sus sectores, concentra mediante poderes a favor de la Presidencia del citado Partido la percepción de todos los recursos y distribuye, tanto a los sectores como a los rubros de campaña, los recursos que maneja. Con respecto a la gestión del gasto, el presupuesto rubrado que se aprueba y con el cual se organiza la gestión económica de la campaña se gestiona desde la Contaduría del Frente Amplio, se contabiliza, se controla en cuanto a ingresos y egresos y no en cuanto a la pertinencia de las contrataciones ni al contenido de las mismas.
+Se le agradece la presencia al señor Andrés Correa y se retira de Sala. 
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">04-06-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 35. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1596/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1596</a> Abierto el acto, el señor Presidente da la bienvenida, al señor Intendente de Montevideo, ingeniero Daniel Martínez y al señor Director de Movilidad Pablo Inthamoussu, en referencia a la Compañía Uruguaya de Transporte Colectivo Sociedad Anónima (CUTCSA).
+El señor Representante denunciante Adrián Peña, formula una serie de preguntas que son respondidas por el señor Intendente y el señor Director de Movilidad, a las mismas se suman otras de los demás Miembros de la Comisión.
+Los invitados quedan en enviar documentación requerida en esta reunión.
+Se les agradece la presencia a los invitados y se retiran de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+  </td> </tr>
+ <tr class="odd"><td class="mifecha">05-06-2018</td><td>CRR</td><td>1834/2017</td><td><b>Por resolución del Cuerpo continúa en Comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5914/EXT/40?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:40 Diario:4166</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> 6 MESES A PARTIR DEL 8 DE JUNIO DE 2018  </td> </tr>
+ <tr class="even"><td class="mifecha">18-06-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 36. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1636/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1636</a> Abierto el acto, el señor Presidente da la bienvenida a la señora Senadora Verónica Alonso.
+El señor Representante Óscar Groba, formula una serie de preguntas que son respondidas por la señora Senadora, a las que se suman otras de los demás Miembros de la Comisión.
+Se le agradece la presencia a la invitada y se retira de Sala.
+Seguidamente, el señor Presidente da la bienvenida al señor Alfredo Lago, Presidente de la Asociación de Cultivadores de Arroz y a la señora Gerente General, economista María Sanguinetti, en referencia a la empresa AIRE FRESCO S.A.
+El señor Representante Jorge Meroni, realiza preguntas que son respondidas por los invitados.
+La señora María Sanguinetti enviará documentación por correo electrónico.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">25-06-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 37. </br> Abierto el acto el señor Presidente le da la bienvenida al señor Martín Nyczka.
+El señor Representante Óscar Groba, formula una serie de preguntas que son respondidas por el invitado, a las que se suman otras de los demás Miembros de la Comisión.
+Se le agradece la presencia al invitado y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+  </td> </tr>
+ <tr class="even"><td class="mifecha">02-07-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 38. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1652/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1652</a> Abierto el acto el señor Presidente le da la bienvenida a la delegación integrada por los señores contador Fernando Blanco, doctor Luis Calabria y doctor José Pedro Pollak, encargados de la campaña electoral del Partido Nacional.
+El señor Representante Alfredo Asti formula una serie de preguntas en referencia a las tarifas de publicidad electoral, como así también a los informes de los licenciados Rafael Piñeiro, Cecilia Rossel y Santiago Acuña.
+Los invitados proceden a responder las preguntas a las que se suman otras de los Miembros de la Comisión.
+Luego de un intercambio entre los Miembros de la Comisión y los invitados, se les agradece la presencia y se retiran de Sala.
+Seguidamente, se recibe al doctor Bernardino Real, en representación de Granja Tres Arroyos S.A.
+El señor Representante Asti realiza una serie de preguntas a las que el invitado responde sumándose otras de los demás Miembros de la Comisión.
+Se le agradece la presencia al doctor Bernardino Real, y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.
+
+  </td> </tr>
+ <tr class="odd"><td class="mifecha">16-07-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 39. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1694/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1694</a> Abierto el acto, el señor Presidente le da la bienvenida al señor Representante Álvaro Dastugue.
+El señor Representante Óscar Groba formula una serie de preguntas a las que se suman otras de los demás Miembros de la Comisión.
+Luego de un intercambio entre los Miembros de la Comisión y el invitado, se le agradece la presencia y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">23-07-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 40. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1710/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1710</a> Abierto el acto, el señor Presidente le da la bienvenida al señor Diego Muñoz, en referencia a la empresa Tenfield S.A.
+El señor Representante Adrián Peña, formula una serie de preguntas a las que se suman otras de los demás Miembros de la Comisión.
+Luego de un intercambio entre los Miembros de la Comisión y el invitado, se le agradece la presencia y se retira de Sala.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">30-07-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 41. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1719/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1719</a> Abierto el acto, corresponde votar Presidente ad hoc.
+Se designa al señor Representante Alfredo Asti.
+Se vota: 7 en 8. Afirmativa.
+El señor Presidente da la bienvenida a la delegación integrada por los señores Marcelo Quinas Peña, Jorge Bianchi, Ruben Reina, Denis Pereira, Ricardo Ramil y señoras Rocío González y María Ramos, en referencia a la Compañía Uruguaya de Transportes Colectivos S.A. (CUTCSA).
+El señor Representante Adrián Peña, formula una serie de preguntas que son respondidas por los invitados a las que se suman otras de los demás Miembros de la Comisión.
+Dado lo avanzado de la hora y teniendo que asistir a otras Comisiones algunos de los Representantes presentes, se designa como Presidente ad-hoc al señor Representante Andrés Carrasco.
+Se vota 7 en 8. Arobado.
+
+De lo actuado se toma versión taquigráfica, sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">06-08-2018</td><td>CRR</td><td>1834/2017</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 42. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1746/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1746</a> - CUTCSA
+- Se recibe la señora Sonia Peña y a los señores Carlos Colla y Diego Garbarino.
+- Los invitados responden un cuestionario presentado por el señor Representante Guillermo Facello, al cual se suman otras interrogantes de los señores Representantes.
+
+- De lo actuado se toma versión taquigráfica, sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">03-09-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 43. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1799/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1799</a> Abierto el acto, corresponde votar Presidente ad hoc.
+Se designa al señor Representante Óscar Groba.
+Se vota: 8 en 9. Afirmativa.
+El señor Presidente le da la bienvenida al señor contador Nelson Hernández, en referencia a la empresa Tenfield S.A.
+El señor Representante Adrián Peña, formula una serie de preguntas que son respondidas por el invitado a las que se suman otras de los demás Miembros de la Comisión.
+Se acuerda convocar al señor Gustavo Silveyra y al señor Subsecretario del Ministerio de Economía y Finanzas, contador Pablo Ferreri.
+Se vota 11 en 11. Afirmativa.
+Se establece reiterar Oficios que aún están pendientes de respuesta.
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">17-09-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 44. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1841/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1841</a> Ver Asunto Nº 141296.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">01-10-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 45. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1856/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1856</a> Ver asunto Nº 141301.  </td> </tr>
+ <tr class="even"><td class="mifecha">08-10-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 46. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1879/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1879</a> Abierto el acto, el señor Presidente da la bienvenida al señor Presidente de la Mutual Uruguaya de Futbolistas Profesionales, Michael Etulain, acompañado del señor escribano Fernando Tovagliari.
+Seguidamente el señor Representante Andrés Carrasco, formula una serie de preguntas que son respondidas por el invitado a las que se suman otras de los demás integrantes de la Comisión.
+
+De lo actuado se toma versión taquigráfida sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">29-10-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 47. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1909/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1909</a> Abierto el acto se da cuenta de los asuntos entrados, de las denegatorias de las invitaciones cursadas y de las respuestas recibidas, a los oficios cursados oportunamente.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="even"><td class="mifecha">05-11-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 48. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1917/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1917</a> Ver asunto Nº 141301.  </td> </tr>
+ <tr class="odd"><td class="mifecha">19-11-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 49. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/representantes/48/1955/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1955</a> Ver asunto Nº 141294.
+
+  </td> </tr>
+ <tr class="even"><td class="mifecha">03-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>En comisión ...</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 50. </br> Abierto el acto, se da cuenta de los asuntos entrados y se intercambian opiniones con respecto a la entrega de los informes.
+Se acuerda pasar a cuarto intermedio hasta el dia miércoles 5 de diciembre, a la hora 15.30, para tomar resolución.
+
+De lo actuado se toma versión taquigráfica sin corregir.  </td> </tr>
+ <tr class="odd"><td class="mifecha">04-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Por resolución del Cuerpo continúa en Comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/6004/EXT/40?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:40 Diario:4207</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Se prorroga plazo para expedirse hasta el 20 de diciembre de 2018.
+65/67 - AFIRMATIVA  </td> </tr>
+ <tr class="even"><td class="mifecha">05-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Comisión adopta resolución.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a> Nro. de Acta: 51. </br> Informantes: -Informe en minoría escrito.. Informante: Groba Arriondo, Oscar. Firmante: Sánchez, Alejandro; Meroni, Jorge; González, Pablo; Barreiro, Gabriela; De los Santos, Oscar; Asti, Alfredo -Informe en minoría escrito.. Informante: Umpiérrez, Alejo. Firmante: Bianchi, Graciela -Informe en minoría escrito.. Informante: Viera Duarte, Tabaré. Firmante: Matiaude, Graciela Habiendo número, está abierta la reunión, en primer término se procede sobre el mecanismo de cierre de la Comisión, determinar si habría imputados, fijar el plazo para presentar los informes y designar a los miembros informantes.
+Se deja constancia de que no existen elementos probatorios concretos con respecto a la existencia de imputados.
+Se pasa a votar si existen imputados.
+Se vota: 13 en 13. Unanimidad de presentes.
+Seguidamente se procede a designar a los miembros informantes.
+El señor Representante Carlos Pérez, manifiesta que Unidad Popular no presentará informe y harán uso de la palabra en Sala.
+El señor Representante Guillermo Facello se suscribirá a alguno de los informes.  </td> </tr>
+ <tr class="odd"><td class="mifecha">20-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Div.Comisiones recibe de la Comisión.</b>  <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a>  </td> </tr>
+ <tr class="even"><td class="mifecha">20-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Se distribuye repartido.</b>  <div class="item-list"><ul id="tramite-wrapper" container_id="class1" 0="class2" class="Fecha miitemRep"><li class="first last">Rep.652/2 &nbsp;<a class=colorbox-load href=/documentosyleyes/documentos/repartido/representantes/48/652/2/pdf/?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow> PDF </a>  &nbsp;COMISIÓN INVESTIGADORA SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015 INCLUSIVE, Y SU VINCULACIÓN CON LAS SIGUIENTES EMPRESAS, SUS DIRECTORES O ACCIONISTAS: FRIPUR S.A., CAMVIREY S.A., AIRE FRESCO S.A., MINITAR S.A. Y CUTCSA Y OTRAS QUE EXPRESAMENTE DETERMINE Y SOBRE LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN A LOS DIFERENTES PARTIDOS POLÍTICOS. Informes.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">20-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Div.Comisiones eleva.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Se da cuenta en sala informe de comisión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/6?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:6 Diario:4214</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href=/camarasycomisiones/representantes/comisiones/1138>INVESTIGADORA: SOBRE EL FINANCIAMIENTO DE LAS CAMPAÑAS ELECTORALES, DESDE EL AÑO 1999 HASTA EL AÑO 2015, INCLUSIVE, Y SU VINCULACIÓN CON DETERMINADAS EMPRESAS Y OTRAS QUE EXPRESAMENTE DESIGNE, DE SUS DIRECTORES Y ACCIONISTAS Y LAS TARIFAS DE PUBLICIDAD DE LOS MEDIOS DE COMUNICACIÓN APLICADAS A LOS DIFERENTES PARTIDOS POLÍTICOS.</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Moción de urgencia.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:45 Diario:4214</a>  &nbsp; &nbsp; &nbsp; &nbsp; Votación: Afirmativo ( 94 en 94)  </td> </tr>
+ <tr class="even"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Discusión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:45 Diario:4214</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/85?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:85 Pag. fin:91</a></li>
+<li><a href=/camarasycomisiones/legisladores/5851>Asti, Alfredo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/92?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:92 Pag. fin:92</a></li>
+<li><a href=/camarasycomisiones/legisladores/11586>Barreiro, Gabriela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/92?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:92 Pag. fin:94</a></li>
+<li><a href=/camarasycomisiones/legisladores/8879>Bianchi, Graciela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/102?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:102 Pag. fin:103</a></li>
+<li><a href=/camarasycomisiones/legisladores/5217>Cardoso, Germán</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/91?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:91 Pag. fin:92</a></li>
+<li><a href=/camarasycomisiones/legisladores/11819>Carrasco Briozzo, Andrés</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/69?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:69 Pag. fin:78</a></li>
+<li><a href=/camarasycomisiones/legisladores/11819>Carrasco Briozzo, Andrés</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/113?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:113 Pag. fin:114</a></li>
+<li><a href=/camarasycomisiones/legisladores/659>De los Santos, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/98?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:98 Pag. fin:102</a></li>
+<li><a href=/camarasycomisiones/legisladores/659>De los Santos, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/104?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:104 Pag. fin:106</a></li>
+<li><a href=/camarasycomisiones/legisladores/10078>González, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/68?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:68 Pag. fin:68</a></li>
+<li><a href=/camarasycomisiones/legisladores/10078>González, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/115?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:115 Pag. fin:116</a></li>
+<li><a href=/camarasycomisiones/legisladores/8185>Groba Arriondo, Oscar</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/46?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:46 Pag. fin:57</a></li>
+<li><a href=/camarasycomisiones/legisladores/9909>Meroni, Jorge</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/94?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:94 Pag. fin:98</a></li>
+<li><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/78?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:78 Pag. fin:84</a></li>
+<li><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/112?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:112 Pag. fin:112</a></li>
+<li><a href=/camarasycomisiones/legisladores/11602>Peña, Adrián</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/114?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:114 Pag. fin:115</a></li>
+<li><a href=/camarasycomisiones/legisladores/9674>Pereyra, Susana</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/45?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:45 Pag. fin:45</a></li>
+<li><a href=/camarasycomisiones/legisladores/2912>Posada, Iván</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/104?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:104 Pag. fin:104</a></li>
+<li><a href=/camarasycomisiones/legisladores/11597>Rodríguez, Conrado</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/114?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:114 Pag. fin:114</a></li>
+<li><a href=/camarasycomisiones/legisladores/5252>Rubio, Eduardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/84?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:84 Pag. fin:84</a></li>
+<li><a href=/camarasycomisiones/legisladores/5252>Rubio, Eduardo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/103?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:103 Pag. fin:104</a></li>
+<li><a href=/camarasycomisiones/legisladores/9907>Sánchez, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/106?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:106 Pag. fin:111</a></li>
+<li><a href=/camarasycomisiones/legisladores/9907>Sánchez, Alejandro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/113?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:113 Pag. fin:113</a></li>
+<li><a href=/camarasycomisiones/legisladores/7981>Umpiérrez, Alejo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/57?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:57 Pag. fin:59</a></li>
+<li><a href=/camarasycomisiones/legisladores/196>Viera Duarte, Tabaré</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/59?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:59 Pag. fin:68</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/196>Viera Duarte, Tabaré</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/116?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:116 Pag. fin:116</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Se aprueba Resolución.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/117?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:117 Diario:4214</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="even"><td class="mifecha">27-12-2018</td><td>CRR</td><td>1834/2017</td><td><b>Fundamento de voto.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/representantes/5997/EXT/117?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:0 Página:117 Diario:4214</a>  &nbsp; &nbsp; &nbsp; &nbsp;  </td> </tr>
+ <tr class="odd"><td class="mifecha">18-03-2019</td><td>CRR</td><td>1834/2017</td><td><b>Recepción por parte de Archivo.</b>  Folios: 322.
+hay material escaneado en el pendrive (tarjeta), él mismo se encuentra en forma física.  </td> </tr>
+</tbody>
+</table>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div>
+<!-- region__no_wrapper -->
+		  
+		<!-- Home slide -->
+		
+		<!-- parlamentarios -->
+		
+		<!-- Otros bloques -->
+		
+		
+			<!--  bloques tres section -->
+
+	<div id="bloquestres" class="clearfix">
+		<div class="block-bloquestres first">
+					</div>
+		<div class="block-bloquestres ">
+					</div>
+			<div class="block-bloquestres last">
+					</div>
+	</div><!-- /.section, /#bloquestres -->
+		
+	<!-- bloquesdos section -->
+
+	<div id="bloquesdos" class="clearfix">
+		<div class="block-bloquesdos first">
+					</div>
+		<div class="block-bloquesdos last">
+					</div>
+	</div>
+<!-- /.section, /#bloquesdos -->
+
+
+		
+		
+		
+		<!-- Sitios links -->
+		
+		</div>
+
+    </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+      
+    </div><!-- /#navigation -->
+
+				<!-- menu lateral internas -->
+		
+
+  </div><!-- /#main -->
+
+</div>
+<!-- /#page -->
+
+<!-- Prefooter section -->
+<div class="fdobco">
+<div id="prefooter-region"> 
+
+    <!--
+	<div class="prefooter-panel">
+		<p>Informacion para: <a href="#">Legisladores</a></p>
+	</div>
+    -->
+
+	<div class="prefooter-line"></div>
+
+	<div id="prefooter" class="clearfix">
+
+		<div class="block-prefooter first">
+							  <div class="region region-prefooter-1">
+    <div id="block-block-22" class="block block-block first last odd c-maras-y-comisiones">
+
+    <h2 class="block__title block-title">Cámaras y Comisiones</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/camarasycomisiones/senadores/">Cámara de Senadores</a></li>
+<li><a href="/camarasycomisiones/representantes">Cámara de Representantes</a></li>
+<li><a href="/camarasycomisiones/asambleageneral">Asamblea General</a></li>
+<li><a href="/camarasycomisiones/comisionpermanente">Comisión Permanente</a></li>
+<li><a href="/camarasycomisiones/comisionadministrativa">Comisión Administrativa</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-2">
+    <div id="block-block-23" class="block block-block first last odd documentos-y-leyes">
+
+    <h2 class="block__title block-title">Documentos y Leyes</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/documentosyleyes/busqueda">Búsqueda de Documentos y Leyes</a></li>
+<li><a href="/documentosyleyes/constitucion">Constitución de la República</a></li>
+<li><a href="/documentosyleyes/leyes">Leyes</a></li>
+<li><a href="/documentosyleyes/codigos">Códigos</a></li>
+<li><a href="/documentosyleyes/documentos">Documentos</a></li>
+<li><a href="/documentosyleyes/discursos">Discursos</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-3">
+    <div id="block-block-24" class="block block-block first last odd sobre-el-parlamento">
+
+    <h2 class="block__title block-title">Sobre el Parlamento</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/sobreelparlamento/legisladores">Conozca a sus Legisladores</a></li>
+<li><a href="/sobreelparlamento/procesolegislativo">Proceso Legislativo</a></li>
+<li><a href="/sobreelparlamento/historia">Historia del Parlamento</a></li>
+<li><a href="/sobreelparlamento/palacio">Palacio Legislativo</a></li>
+<!-- <li><a href="/sobreelparlamento/archivo-fotografico">Archivo Fotográfico</a></li> -->
+<li ><a href="https://fotografias.parlamento.gub.uy" target="_blank">Parlamento en imágenes</a></li>
+<li><a href="https://biblioteca.parlamento.gub.uy"  target="_blank">Biblioteca</a></li>
+<!--<li><a href="/sobreelparlamento/restaurante">Restaurante</a></li>-->
+
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter last">
+							  <div class="region region-prefooter-4">
+    <div id="block-block-25" class="block block-block first last odd noticias-y-eventos">
+
+    <h2 class="block__title block-title">Noticias y Eventos</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/noticiasyeventos/noticias">Noticias</a></li>
+<li><a href="/noticiasyeventos/eventos">Eventos</a></li>
+<li><a href="/noticiasyeventos/atencion_periodista">Acreditaciones de Prensa</a></li>
+<li><a href="/noticiasyeventos/actividad">Actividad del Parlamento</a></li>
+<li><a href="/noticiasyeventos/construyendo-democracia">Construyendo Democracia</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+	</div>
+</div>
+</div>
+<!-- /.section, /prefooter -->
+
+<div id="footer-region">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-6" class="block block-block first odd -none-">
+
+    
+  <div class="content">
+    Copyright © 2016 Parlamento de la República Oriental del Uruguay  </div>
+  
+</div>
+<div id="block-menu-menu-pie-menu" class="block block-menu last even -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/condiciones" title="">Condiciones de uso</a></li>
+<li class="last leaf"><a href="/contactenos" title="">Contáctenos</a></li>
+</ul>  </div>
+  
+</div>
+  </footer><!-- region__footer -->
+</div>
+
+  <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.hg.com.uy/" : "http://piwik.hg.com.uy/");_paq.push(["setSiteId", "11"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip|html"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".parlamento.gub.uy"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+</body>
+</html>

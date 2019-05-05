@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="iem7"  lang="es" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="es" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="es" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="es" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Ficha Asunto | Parlamento</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="cleartype" content="on">-->
+
+  <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_xlDe_nGwDSOU8HKooNsDv_LhCtfnRf8IhGtUAbpLEKg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_Toq90P8fBbDYYEnp-mEmJam56-UZoiDeqF73QHS_DAU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"T11-_VjtffgA1bKhxC7go_1iG0W_PN1oz2zk7IpoKoc","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"misc\/tableheader.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"4","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width","breakpoint":1336},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+      <!--[if lt IE 9]>
+    <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-documentosyleyes page-documentosyleyes-ficha-asunto page-documentosyleyes-ficha-asunto- page-documentosyleyes-ficha-asunto-123986 page-documentosyleyes-ficha-asunto-ficha-completa section-documentosyleyes page-views" >
+
+    	<!-- region top header -->
+	      <div id="topheader"><div class="section">
+          <div class="region region-topheader">
+    <div id="block-menu-menu-top-nav" class="block block-menu first last odd -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/user/login" title="Acceso para administrador y editor">Ingresar</a></li>
+<li class="leaf"><a href="/acceso-para-legisladores" title="Acceso para legisladores">Acceso para Legisladores</a></li>
+<li class="leaf"><a href="/mapadelsitio" title="Mapa del Sitio">Mapa del Sitio</a></li>
+<li class="leaf"><a href="/contactenos" title="Formulario de contacto">Contáctenos</a></li>
+<li class="leaf"><a href="/transparencia" title="Transparencia">Transparencia</a></li>
+<li class="last leaf"><a href="/" title="Home de Parlamento del Uruguay">Inicio</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+          <!-- regi�n buscador -->
+	      <div id="searchform"><div class="section">
+          <div class="region region-searchform">
+    <div id="block-block-47" class="block block-block first last odd block-block-47">
+
+    
+  <div class="content">
+    <form action="/buscar" method="get">
+<p><input class="form-submit buscador" id="edit-submit-busqueda1" name="" type="submit" value="Buscar en el Parlamento" /></p>
+</form>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+      </div></div> <!-- /.section, /#sidebar-first -->
+            
+      </div>
+      
+      
+    
+      
+      
+      
+      </div> <!-- /.section, /#sidebar-first -->
+      
+    
+
+
+
+  <header id="header" role="banner">
+    <div class="header-wrapper">
+          <a href="https://parlamento.gub.uy" title="Parlamento del Uruguay" rel="home" id="logo"><img src="https://parlamento.gub.uy/sites/default/files/LogoPLTrans.png" alt="Logo del Parlamento del Uruguay" /></a>
+    
+     	<!-- region main menu -->
+	    <div class="content-menu">
+		<div class="mainmenu-wrap">
+	      <div id="mainmenu"><div class="section">
+	          <div class="region region-mainmenu">
+    <div id="block-superfish-1" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-blue top-default"><li id="menu-582-1" class="first sf-depth-2 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-1" class="first sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-1" class="middle sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-1" class="last sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-1" class="active-trail middle sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-1" class="middle sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-1" class="last sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+	      </div>
+		</div> </div><!-- /.section, /#sidebar-first -->
+		</div>
+    
+    
+	
+	<!-- region top-celular -->
+      <div class="header__region region region-header">
+    <div id="block-superfish-9" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-9" class="menu sf-menu sf-main-menu sf-vertical sf-style-default sf-total-items-4 sf-parent-items-1 sf-single-items-3 top-celular"><li id="menu-582-9" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/camarasycomisiones" title="" class="sf-depth-2 menuparent">Cámaras y Comisiones</a><ul><li id="menu-1327-9" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/senadores" class="sf-depth-3">Cámara de Senadores</a></li><li id="menu-587-9" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/representantes" class="sf-depth-3">Cámara de Representantes</a></li><li id="menu-1630-9" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/asambleageneral" class="sf-depth-3">Asamblea General</a></li><li id="menu-589-9" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionpermanente" class="sf-depth-3">Comisión Permanente</a></li><li id="menu-590-9" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/camarasycomisiones/comisionadministrativa" class="sf-depth-3">Comisión Administrativa</a></li></ul></li><li id="menu-583-9" class="active-trail middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/documentosyleyes" class="sf-depth-2">Documentos y Leyes</a></li><li id="menu-1616-9" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/sobreelparlamento" class="sf-depth-2">Sobre el Parlamento</a></li><li id="menu-2103-9" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/noticiasyeventos" class="sf-depth-2">Noticias y Eventos</a></li></ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+</div>
+ </header>
+
+
+<div id="page">
+				  <div id="breadcrumb">
+		<h2 class="element-invisible">Se encuentra usted aquí</h2><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="inline odd first" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/" rel="v:url" property="v:title">Inicio</a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes" rel="v:url" property="v:title">Documentos y Leyes</a></span> <span class="delimiter">|</span> <span class="inline odd" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto" rel="v:url" property="v:title"></a></span> <span class="delimiter">|</span> <span class="inline even" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/123986" rel="v:url" property="v:title">Asunto Ficha</a></span> <span class="delimiter">|</span> <span class="inline odd last" typeof="v:Breadcrumb"><a href="https://parlamento.gub.uy/documentosyleyes/ficha-asunto/123986/ficha_completa" rel="v:url" property="v:title" class="active">Ficha Asunto</a></span></div>		</div>
+		
+  <div id="main">
+
+		
+  	<!-- menu lateral internas -->
+  	      <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-superfish-4" class="block block-superfish first last odd -none-">
+
+    
+  <div class="content">
+    <ul id="superfish-4" class="menu sf-menu sf-main-menu sf-vertical sf-style-white sf-total-items-6 sf-parent-items-2 sf-single-items-4"><li id="menu-1724-4" class="sf-item-1 sf-depth-4 sf-no-children"><a href="/documentosyleyes/busqueda" title="" class="sf-depth-4">Búsqueda de Documentos y Leyes</a></li><li id="menu-1728-4" class="sf-item-2 sf-depth-4 sf-no-children"><a href="/documentosyleyes/constitucion" title="" class="sf-depth-4">Constitución de la República</a></li><li id="menu-1734-4" class="sf-item-3 sf-depth-4 sf-no-children"><a href="/documentosyleyes/leyes" title="" class="sf-depth-4">Leyes</a></li><li id="menu-1733-4" class="sf-item-4 sf-depth-4 sf-no-children"><a href="/documentosyleyes/codigos" title="" class="sf-depth-4">Códigos</a></li><li id="menu-1890-4" class="sf-item-5 sf-depth-4 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/documentosyleyes/documentos" title="" class="sf-depth-4 menuparent">Documentos</a><ul><li id="menu-1892-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/diarios-de-sesion" title="" class="sf-depth-5">Diarios de sesiones</a></li><li id="menu-1891-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/repartidos" title="" class="sf-depth-5">Repartidos</a></li><li id="menu-1894-4" class="sf-item-3 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/documentos-comisiones" title="" class="sf-depth-5">Documentos de comisiones (Distribuidos)</a></li><li id="menu-1893-4" class="sf-item-4 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/versiones-taquigraficas" title="" class="sf-depth-5">Versiones taquigráficas</a></li><li id="menu-1895-4" class="sf-item-5 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos/textos-aprobados" title="" class="sf-depth-5">Textos aprobados</a></li><li id="menu-1735-4" class="sf-item-6 sf-depth-5 sf-no-children"><a href="/documentosyleyes/documentos-internacionales" title="" class="sf-depth-5">Documentos internacionales</a></li><li id="menu-1732-4" class="sf-item-7 sf-depth-5 sf-no-children"><a href="/documentosyleyes/otros" title="" class="sf-depth-5">Otros documentos</a></li></ul></li><li id="menu-1729-4" class="sf-item-6 sf-depth-4 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/documentosyleyes/discursos" title="" class="sf-depth-4 menuparent">Discursos</a><ul><li id="menu-1730-4" class="sf-item-1 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos/presidentes-rou" class="sf-depth-5">Discursos Presidentes de la República y Presidentes del Consejo Nacional de Gobierno</a></li><li id="menu-1731-4" class="sf-item-2 sf-depth-5 sf-no-children"><a href="/documentosyleyes/discursos-presidentes/representantes" title="" class="sf-depth-5">Discursos Presidentes Cámara de Representantes</a></li></ul></li></ul>  </div>
+  
+</div>
+  </section><!-- region__sidebar -->
+      </aside><!-- /.sidebars -->
+    
+
+    <div id="content" class="column" role="main">
+
+		<div class="content-inner">
+		  		  		  			<h1 class="title" id="page-title">Ficha Asunto</h1>
+		  		  		  		  <h2 class="element-invisible">Solapas principales</h2><ul class="tabs primary"><li><a href="/documentosyleyes/ficha-asunto/123986">Resumen</a></li>
+<li><a href="/documentosyleyes/ficha-asunto/123986/tramite">Trámite Parlamentario</a></li>
+<li class="active"><a href="/documentosyleyes/ficha-asunto/123986/ficha_completa" class="active">Ficha Completa<span class="element-invisible">(solapa activa)</span></a></li>
+</ul>		    <div class="region region-help">
+    <div id="block-system-help" class="block block-system first last odd block-system-help" role="complementary">
+
+    
+  <div class="content">
+    <span class='print-syslink'><span class="print_html"><a href="https://parlamento.gub.uy/print/documentosyleyes/ficha-asunto/123986/ficha_completa" title="Display a printer-friendly version of this page." class="print-page" target="_blank" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://parlamento.gub.uy/sites/all/modules/print/icons/print_icon.png" width="16px" height="16px" alt="Imprimir" title="Imprimir" /></a></span></span>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+		  		  
+<div id="block-system-main" class="block block-system first last odd block-system-main">
+
+    
+  <div class="content">
+    <div class="view view-ficha-asunto view-id-ficha_asunto view-display-id-page_1 sombra view-dom-id-deb8ba3cb1b2907523b68ee44440f436">
+      
+    
+  
+
+
+          <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-Ast-Codigo">    <strong class="views-label views-label-Ast-Codigo">Asunto: </strong>    123986  </div>  
+  <div>        <div class="tipo-acto">RESOLUCION  - Creación comisión especial 
+</div>  </div>  
+  <div class="views-field views-field-Orgn-Nombre">    <strong class="views-label views-label-Orgn-Nombre">Origen: </strong>    Cámara Senadores  - 
+Agazzi, Ernesto; Delgado, Alvaro; Mieres, Pablo; Montaner, Martha   </div>  
+  <div class="views-field views-field-Ast-Analisis">    <strong class="views-label views-label-Ast-Analisis">Análisis: </strong>    Los señores Senadores Ernesto Agazzi, Alvaro Delgado, Pablo Mieres y Martha Montaner, presentan una moción a fin de designar una Comisión Especial de siete miembros para el estudio de los asuntos relacionados a la Seguridad Pública y Convivencia, que constituya el ámbito especializado en el tema.  </div>  
+  <div class="views-field views-field-Ast-Titulo">    <strong class="views-label views-label-Ast-Titulo">Título: </strong>    <span class="field-content">SEGURIDAD PÚBLICA Y CONVIVENCIA. COMISIÓN ESPECIAL. DESIGNACIÓN.</span>  </div>  
+  <div class="views-field views-field-Entradas">    <span class="views-label views-label-Entradas">Entradas: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Entrada</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">07-04-2015</td><td>CSS</td><td>180/2015</td><td>SEGURIDAD PÚBLICA Y CONVIVENCIA. COMISIÓN ESPECIAL. DESIGNACIÓN.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sanciones">    <span class="views-label views-label-Sanciones">Sanciones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">07-04-2015</td><td>CSS</td><td>180/2015</td><td>Se aprueba Resolución.</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Sesiones">    <span class="views-label views-label-Sesiones">Sesiones: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Sesión</th><th>Diario Sesión</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">07-04-2015</td><td>CSS</td><td>Ordinaria. Sesión:6</td><td><a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/0?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Diario Nro.7</a></td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Distribuidos">    <span class="views-label views-label-Distribuidos">Distribuidos: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Cuerpo</th><th>Carpeta/Año</th><th>Distribuido</th><th>Texto</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>252/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/252/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/252/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 21 de julio de 2015. Concurren: sociólogo Gustavo Leal, Director de Convivencia y Seguridad Pública del Ministerio del Interior y señor Gustavo Leyes, integrante del Programa de Mesas Locales de Convivencia.</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>320/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/320/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/320/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 18 de agosto de 2015. Concurren: Por el Observatorio Nacional Sobre Violencia y Criminalidad: licenciado Javier Donnangelo, Director de la División Estadística y Análisis Estratégico.-</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>397/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/397/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/397/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 6 de octubre de 2015. Concurren: por el Ministerio del Interior: Ministro, don Eduardo Bonomi; Director General de Secretaría, Dr. Charles Carrera; Director del Instituto Nacional de Rehabilitación, Insp. Ppal. ® Luis Mendoza y Director de UNICOM, Proc. Fernando Gil.
+Por el Directorio de ASSE: Presidenta del Directorio, Dra. Susana Muñiz; Gerenta General, Dra. Marlene Sica; Director de Relaciones Institucionales y Cooperación, Sr. José Luis Varela y Adjunto a la Direccion de Relaciones Institucionales y Cooperación, Sr. Daniel González.
+</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>604/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/604/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/604/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 29 de marzo de 2016.</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>662/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/662/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/662/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 26 de abril de 2016. Concurren: por el Ministerio del Interior: señor Ministro, don Eduardo Bonomi; señor Subsecretario, licenciado Jorge Vázquez; Director General de Información e Inteligencia Policial, Comisario Mayor William García y Director General de Secretaría, doctor Charles Carrera
+Por el Ministerio de Defensa Nacional: señor Ministro, don Eleuterio Fernández Huidobro; Director General de Secretaría, profesor Hernán Planchón y Ayudante Naval Capitán de Navío Pablo Marrero
+</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>678/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/678/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/678/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 3 de mayo de 2016. Concurren: por Vecinos de la zona oeste de Montevideo (Punta Espinillo, La Colorada, Pajas Blancas, Santiago Vázquez y Paso de la Arena), señor José Luis Lómez
+
+Por Grupo de vecinos de Montevideo: señoras Lidia De León y Bibiana Barreto y señores Walter Baz y Jesol Grimau
+
+Por Confru (Conferencia de Religiosos del Uruguay): Presidenta, Hna. Daniela Cannavina (Hermanas Capuchinas de la Madre Rubatto); por la Comisión Jupic (Justicia, Paz e Integridad de la Creación): Hna. Sandra Ortiz (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Mariana Serrano (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Daniela Concetti (Religiosas Esclavas del Sagrado Corazón de Jesús) y señor Fray Alvaro García (Franciscanos Conventuales), Junta Directiva de la Confru-Comisión Jupic
+</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>913/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/913/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/913/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 2 de agosto de 2016. Concurren: señor Senador Pablo Mieres (Delegado); señor Director de Área Gestión Legislativa del Senado, César González Maidatschenko; por el Ministerio del Interior: señor Ministro, don Eduardo Bonomi; señor Subsecretario, don Jorge Vázquez; señor Director General de Secretaría, doctor Charles Carrera y señor Director de la Policía Nacional, Crio. Gral. ® Mario Layera. Por la Asociación Uruguaya de Fútbol (AUF): Vicepresidente, señor Rafael Fernández, integrante del Consejo Ejecutivo, economista Ignacio Alonso y Secretaria General Ejecutiva, contadora Andrea Lanfranco. Por el Club Atlético Peñarol: Presidente de la Comisión de Seguridad del Club, doctor Julio Luis Sanguinetti. Por el Club Nacional de Football: Directivo, doctor Pablo Durán y Presidente de la Comisión de Seguridad del Club, señor Wilson Miraballes.-
+
+</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>1744/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1744/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1744/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 6 de marzo de 2018. Concurren: Señor Ministro del Interior, don Eduardo Bonomi; Subdirector de la Policía Nacional, Crio. Gral (R), doctor Hugo De León; Director General de Secretaría, Ing. Federico Laca; Director de Convivencia y Seguridad Ciudadana, Soc. Gustavo Leal; y Proc. Fernando Gil, Director de UNICOM.-
+</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>1894/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1894/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1894/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 22 de mayo de 2018.-</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>1912/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1912/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1912/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 5 de junio de 2018 . Concurren: Ministro del Interior, señor Eduardo Bonomi y Director Nacional de Policía, Comisario General ( R) Mario Layera. Miembros de la Comisión Especial de Seguridad y Convivencia
+de la Cámara de Representantes,
+Señoras Representantes Nacionales Bettiana Díaz, María Cristina Lustemberg y Orquídea Minetti y señores Representantes Nacionales Pablo Abdala, Fernando Amado, Oscar Groba, Pablo Iturralde, José Carlos Mahía, Aníbal Méndez, Gustavo Penadés e Iván Posada.
+Asisten también: Señora Senadora Carol Aviaga, señor Senador Germán Coutinho, señora Representante Nacional Graciela Bianchi y señores Representantes Nacionales José Arocena, Mario Ayala y Armando Castaingdebat.-
+
+
+</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>2098/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2098/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2098/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 12 de setiembre de 2018. Concurren: Señor Ministro del Interior, señor Eduardo Bonomi, a quien acompañan: la Directora Nacional de Migración, Crio. Gral. (PT) Dra. Myriam Coitinho; el Director General de Información e Inteligencia Policial, Crio. Mayor Williams García; el Director General de Lucha contra el Crimen Organizado e INTERPOL, Crio. Mayor Julio Sena; y el Director de la Unidad de Comunicación - UNICOM, Proc. Fernando Gil.-
+</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>1959/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1959/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1959/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 3 de julio de 2018. Concurren: Señora Laurita Regueira y señores Enrique Conde, Leslie Crawford, Diego Del Valle, José Garcia, Leonel Martinez y Marcelo Tamborini.-
+</td> </tr>
+ <tr class="odd"><td>CSS</td><td>180/2015</td><td>2018/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2018/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2018/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 7 de agosto de 2018. Concurren: Señora Nelly Silva, Secretaria de ACU; y señores: Carlos H. Angenscheidt, Presidente de la Asociación Comercial del Uruguay; Antonio Astraldi, Presidente del Centro Comercial de Colón y adyacentes; Carlos Cáceres, Presidente de la Asociación de Comerciantes de Paso Molino y Belvedere; y Raúl Malvar, Presidente del Centro Comercial de Carrasco</td> </tr>
+ <tr class="even"><td>CSS</td><td>180/2015</td><td>2309/0   <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2309/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>CAR</a> <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2309/0/HTM?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>HTML</a></td><td>Versión taquigráfica de la sesión del día 19 de marzo de 2019.-</td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-OtrosAstCpt">    <span class="views-label views-label-OtrosAstCpt">Otros Asuntos en carpeta: </span>    <span class="field-content"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Asunto</th><th>Título</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/126751>126751</a></td><td><a href=/documentosyleyes/ficha-asunto/126751>INSEGURIDAD PÚBLICA. PALABRAS EDIL FRAGA, Gary Roberto. ARTIGAS (JUNTA DEPARTAME</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/127388>127388</a></td><td><a href=/documentosyleyes/ficha-asunto/127388>Solicitud de audiencia de CONFRU (Conferencia de Religiosos del Uruguay) sobre t</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/127605>127605</a></td><td><a href=/documentosyleyes/ficha-asunto/127605>Nota del señor Senador Bordaberry, de fecha 18 de noviembre de 2015, por la que</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/128503>128503</a></td><td><a href=/documentosyleyes/ficha-asunto/128503>Solicitud de audiencia de vecinos de la zona Oeste de Montevideo (Punta Espinill</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/129035>129035</a></td><td><a href=/documentosyleyes/ficha-asunto/129035>Solicitud de audiencia realizada por un grupo de vecinos de Montevideo sobre tem</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/130532>130532</a></td><td><a href=/documentosyleyes/ficha-asunto/130532>SAN JOSÉ, Junta Departamental. COMUNICACIÓN. MOCIÓN APROBADA. Ediles Gastón Camy</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/133137>133137</a></td><td><a href=/documentosyleyes/ficha-asunto/133137>Nota Nº 364/2016 de la Suprema Corte de Justicia de 6 de diciembre de 2016, a la</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/133138>133138</a></td><td><a href=/documentosyleyes/ficha-asunto/133138>Mensaje Nº 29/2016 de la Suprema Corte de Justicia de 4 de octubre de 2016, al q</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/133868>133868</a></td><td><a href=/documentosyleyes/ficha-asunto/133868>ANDRADE, Susana - Representante Nacional. VIOLENCIA DE GÉNERO. TRATAMIENTO DE AU</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/134514>134514</a></td><td><a href=/documentosyleyes/ficha-asunto/134514>ROCHA. JUNTA DEPARTAMENTAL. EDILA NELBA INCETA. TOBILLERAS ELECTRÓNICAS. VIOLENC</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/137717>137717</a></td><td><a href=/documentosyleyes/ficha-asunto/137717>Nota de Secretaría del Senado a la que acompañan las palabras pronunciadas por e</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/139720>139720</a></td><td><a href=/documentosyleyes/ficha-asunto/139720>COORDINADORA NACIONAL DE VECINOS EN ALERTA. AUDIENCIA. SOLICITUD.</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/139721>139721</a></td><td><a href=/documentosyleyes/ficha-asunto/139721>Nota de 15 de mayo de 2018 del señor Senador Guillermo Besozzi por la que solici</a></td> </tr>
+ <tr class="even"><td><a href=/documentosyleyes/ficha-asunto/140587>140587</a></td><td><a href=/documentosyleyes/ficha-asunto/140587>ASOCIACIÓN COMERCIAL DEL URUGUAY. AUDIENCIA. SOLICITUD.</a></td> </tr>
+ <tr class="odd"><td><a href=/documentosyleyes/ficha-asunto/141082>141082</a></td><td><a href=/documentosyleyes/ficha-asunto/141082>RUTA DINERO K. MINISTRO DEL INTERIOR.  CONVOCATORIA A COMISIÓN.</a></td> </tr>
+</tbody>
+</table>
+</span>  </div>  
+  <div class="views-field views-field-Tmt">    <span class="views-label views-label-Tmt">Trámite Parlamentario: </span>    <span class="field-content tramite"><table class="tablaAsunto sticky-enabled">
+ <thead><tr><th>Fecha</th><th>Cuerpo</th><th>Carpeta/Año</th><th>Trámite</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="mifecha">07-04-2015</td><td>CSS</td><td>180/2015</td><td><b>Entrada a Cámara de Senadores.</b>   </td> </tr>
+ <tr class="even"><td class="mifecha">07-04-2015</td><td>CSS</td><td>180/2015</td><td><b>Discusión.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/145?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:534 Página:145 Diario:7</a>  &nbsp; &nbsp; &nbsp; &nbsp; </br>Intervenciones: <div class="item-list"><ul class="Fecha miitemcomisiones"><li class="first"><a href=/camarasycomisiones/legisladores/5146>Agazzi, Ernesto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/145?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:145 Pag. fin:145</a></li>
+<li><a href=/camarasycomisiones/legisladores/5146>Agazzi, Ernesto</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/146?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:146 Pag. fin:146</a></li>
+<li><a href=/camarasycomisiones/legisladores/7354>Botana, Sergio</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/146?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:146 Pag. fin:146</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/145?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:145 Pag. fin:146</a></li>
+<li><a href=/camarasycomisiones/legisladores/3948>Delgado, Alvaro</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/147?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:147 Pag. fin:147</a></li>
+<li><a href=/camarasycomisiones/legisladores/327>Mieres, Pablo</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/147?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:147 Pag. fin:147</a></li>
+<li><a href=/camarasycomisiones/legisladores/9974>Moreira, Constanza</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/146?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:146 Pag. fin:146</a></li>
+<li class="last"><a href=/camarasycomisiones/legisladores/5262>Payssé, Daniela</a> <a class=colorbox-load  href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/146?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow > Pag. ini:146 Pag. fin:147</a></li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">07-04-2015</td><td>CSS</td><td>180/2015</td><td><b>Se aprueba Resolución.</b>  <a class=colorbox-load href=/documentosyleyes/documentos/diario-de-sesion/senadores/5444/EXT/148?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Tomo:534 Página:148 Diario:7</a>  &nbsp; &nbsp; &nbsp; &nbsp; (28 en 28, UNANIMIDAD).-  </td> </tr>
+ <tr class="even"><td class="mifecha">30-06-2015</td><td>CSS</td><td>180/2015</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Nro. de Acta: 2. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/196/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>196</a>  </td> </tr>
+ <tr class="odd"><td class="mifecha">21-07-2015</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 21 de julio de 2015. Concurren: sociólogo Gustavo Leal, Director de Convivencia y Seguridad Pública del Ministerio del Interior y señor Gustavo Leyes, integrante del Programa de Mesas Locales de Convivencia. <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/252/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.252/0</a> Versión taquigráfica de la sesión del día 21 de julio de 2015. Concurren: sociólogo Gustavo Leal, Director de Convivencia y Seguridad Pública del Ministerio del Interior y señor Gustavo Leyes, integrante del Programa de Mesas Locales de Convivencia.</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">18-08-2015</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 18 de agosto de 2015. Concurren: Por el Observatorio Nacional Sobre Violencia y Criminalidad: licenciado Javier Donnangelo, Director de la División Estadística y Análisis Estratégico.- <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/320/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.320/0</a> Versión taquigráfica de la sesión del día 18 de agosto de 2015. Concurren: Por el Observatorio Nacional Sobre Violencia y Criminalidad: licenciado Javier Donnangelo, Director de la División Estadística y Análisis Estratégico.-</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">06-10-2015</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 6 de octubre de 2015. Concurren: por el Ministerio del Interior: Ministro, don Eduardo Bonomi; Director General de Secretaría, Dr. Charles Carrera; Director del Instituto Nacional de Rehabilitación, Insp. Ppal. ® Luis Mendoza y Director de UNICOM, Proc. Fernando Gil.
+Por el Directorio de ASSE: Presidenta del Directorio, Dra. Susana Muñiz; Gerenta General, Dra. Marlene Sica; Director de Relaciones Institucionales y Cooperación, Sr. José Luis Varela y Adjunto a la Direccion de Relaciones Institucionales y Cooperación, Sr. Daniel González.
+ <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/397/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.397/0</a> Versión taquigráfica de la sesión del día 6 de octubre de 2015. Concurren: por el Ministerio del Interior: Ministro, don Eduardo Bonomi; Director General de Secretaría, Dr. Charles Carrera; Director del Instituto Nacional de Rehabilitación, Insp. Ppal. ® Luis Mendoza y Director de UNICOM, Proc. Fernando Gil.
+Por el Directorio de ASSE: Presidenta del Directorio, Dra. Susana Muñiz; Gerenta General, Dra. Marlene Sica; Director de Relaciones Institucionales y Cooperación, Sr. José Luis Varela y Adjunto a la Direccion de Relaciones Institucionales y Cooperación, Sr. Daniel González.
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">29-03-2016</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 29 de marzo de 2016 <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/604/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.604/0</a> Versión taquigráfica de la sesión del día 29 de marzo de 2016.</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">26-04-2016</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 26 de abril de 2016. Concurren: por el Ministerio del Interior: señor Ministro, don Eduardo Bonomi; señor Subsecretario, licenciado Jorge Vázquez; Director General de Información e Inteligencia Policial, Comisario Mayor William García y Director General de Secretaría, doctor Charles Carrera
+Por el Ministerio de Defensa Nacional: señor Ministro, don Eleuterio Fernández Huidobro; Director General de Secretaría, profesor Hernán Planchón y Ayudante Naval Capitán de Navío Pablo Marrero
+ <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/662/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.662/0</a> Versión taquigráfica de la sesión del día 26 de abril de 2016. Concurren: por el Ministerio del Interior: señor Ministro, don Eduardo Bonomi; señor Subsecretario, licenciado Jorge Vázquez; Director General de Información e Inteligencia Policial, Comisario Mayor William García y Director General de Secretaría, doctor Charles Carrera
+Por el Ministerio de Defensa Nacional: señor Ministro, don Eleuterio Fernández Huidobro; Director General de Secretaría, profesor Hernán Planchón y Ayudante Naval Capitán de Navío Pablo Marrero
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">03-05-2016</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Versión taquigráfica de la sesión del día 3 de mayo de 2016. Concurren: por Vecinos de la zona oeste de Montevideo (Punta Espinillo, La Colorada, Pajas Blancas, Santiago Vázquez y Paso de la Arena), señor José Luis Lómez
+
+Por Grupo de vecinos de Montevideo: señoras Lidia De León y Bibiana Barreto y señores Walter Baz y Jesol Grimau
+
+Por Confru (Conferencia de Religiosos del Uruguay): Presidenta, Hna. Daniela Cannavina (Hermanas Capuchinas de la Madre Rubatto); por la Comisión Jupic (Justicia, Paz e Integridad de la Creación): Hna. Sandra Ortiz (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Mariana Serrano (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Daniela Concetti (Religiosas Esclavas del Sagrado Corazón de Jesús) y señor Fray Alvaro García (Franciscanos Conventuales), Junta Directiva de la Confru-Comisión Jupic
+ <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/678/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.678/0</a> Versión taquigráfica de la sesión del día 3 de mayo de 2016. Concurren: por Vecinos de la zona oeste de Montevideo (Punta Espinillo, La Colorada, Pajas Blancas, Santiago Vázquez y Paso de la Arena), señor José Luis Lómez
+
+Por Grupo de vecinos de Montevideo: señoras Lidia De León y Bibiana Barreto y señores Walter Baz y Jesol Grimau
+
+Por Confru (Conferencia de Religiosos del Uruguay): Presidenta, Hna. Daniela Cannavina (Hermanas Capuchinas de la Madre Rubatto); por la Comisión Jupic (Justicia, Paz e Integridad de la Creación): Hna. Sandra Ortiz (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Mariana Serrano (Religiosas Oblatas del Santísimo Redentor-Proyecto CasAbierta), Hna. Daniela Concetti (Religiosas Esclavas del Sagrado Corazón de Jesús) y señor Fray Alvaro García (Franciscanos Conventuales), Junta Directiva de la Confru-Comisión Jupic
+</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">02-08-2016</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/913/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.913/0</a> Versión taquigráfica de la sesión del día 2 de agosto de 2016. Concurren: señor Senador Pablo Mieres (Delegado); señor Director de Área Gestión Legislativa del Senado, César González Maidatschenko; por el Ministerio del Interior: señor Ministro, don Eduardo Bonomi; señor Subsecretario, don Jorge Vázquez; señor Director General de Secretaría, doctor Charles Carrera y señor Director de la Policía Nacional, Crio. Gral. ® Mario Layera. Por la Asociación Uruguaya de Fútbol (AUF): Vicepresidente, señor Rafael Fernández, integrante del Consejo Ejecutivo, economista Ignacio Alonso y Secretaria General Ejecutiva, contadora Andrea Lanfranco. Por el Club Atlético Peñarol: Presidente de la Comisión de Seguridad del Club, doctor Julio Luis Sanguinetti. Por el Club Nacional de Football: Directivo, doctor Pablo Durán y Presidente de la Comisión de Seguridad del Club, señor Wilson Miraballes.-
+
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">06-03-2018</td><td>CSS</td><td>180/2015</td><td><b>Tratamiento en comisión.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> Nro. de Acta: 13. </br> Versión Taquigráfica: <a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1744/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>1744</a> - Se recibe, especialmente invitado, al señor Ministro del Interior, don Eduardo Bonomi y a sus asesores: Crio. Gral (R) doctor Hugo De León, Subdirector de la Policía Nacional; Director General de Secretaría, Ing. Federico Laca; Director de Convivencia y Seguridad Ciudadana, Soc. Gustavo Leal; y Director de Unicom, Proc. Fernando Gil, quienes brindan información relacionada con la posible vinculación de una persona que se habría desempeñado como funcionario de dicha Cartera con las Fuerzas Armadas Revolucionarias de Colombia (FARC). Asimismo brindaron información sobre la última encuesta sobre victimización realizada por el Instituto Nacional de Estadísticas y sobre temas planteados en Sala.  </td> </tr>
+ <tr class="odd"><td class="mifecha">06-03-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1744/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1744/0</a> Versión taquigráfica de la sesión del día 6 de marzo de 2018. Concurren: Señor Ministro del Interior, don Eduardo Bonomi; Subdirector de la Policía Nacional, Crio. Gral (R), doctor Hugo De León; Director General de Secretaría, Ing. Federico Laca; Director de Convivencia y Seguridad Ciudadana, Soc. Gustavo Leal; y Proc. Fernando Gil, Director de UNICOM.-
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">22-05-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1894/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1894/0</a> Versión taquigráfica de la sesión del día 22 de mayo de 2018.-</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">05-06-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1912/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1912/0</a> Versión taquigráfica de la sesión del día 5 de junio de 2018 . Concurren: Ministro del Interior, señor Eduardo Bonomi y Director Nacional de Policía, Comisario General ( R) Mario Layera. Miembros de la Comisión Especial de Seguridad y Convivencia
+de la Cámara de Representantes,
+Señoras Representantes Nacionales Bettiana Díaz, María Cristina Lustemberg y Orquídea Minetti y señores Representantes Nacionales Pablo Abdala, Fernando Amado, Oscar Groba, Pablo Iturralde, José Carlos Mahía, Aníbal Méndez, Gustavo Penadés e Iván Posada.
+Asisten también: Señora Senadora Carol Aviaga, señor Senador Germán Coutinho, señora Representante Nacional Graciela Bianchi y señores Representantes Nacionales José Arocena, Mario Ayala y Armando Castaingdebat.-
+
+
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">12-06-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2098/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.2098/0</a> Versión taquigráfica de la sesión del día 12 de setiembre de 2018. Concurren: Señor Ministro del Interior, señor Eduardo Bonomi, a quien acompañan: la Directora Nacional de Migración, Crio. Gral. (PT) Dra. Myriam Coitinho; el Director General de Información e Inteligencia Policial, Crio. Mayor Williams García; el Director General de Lucha contra el Crimen Organizado e INTERPOL, Crio. Mayor Julio Sena; y el Director de la Unidad de Comunicación - UNICOM, Proc. Fernando Gil.-
+</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">03-07-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/1959/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.1959/0</a> Versión taquigráfica de la sesión del día 3 de julio de 2018. Concurren: Señora Laurita Regueira y señores Enrique Conde, Leslie Crawford, Diego Del Valle, José Garcia, Leonel Martinez y Marcelo Tamborini.-
+</li>
+</ul></div>  </td> </tr>
+ <tr class="even"><td class="mifecha">07-08-2018</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2018/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.2018/0</a> Versión taquigráfica de la sesión del día 7 de agosto de 2018. Concurren: Señora Nelly Silva, Secretaria de ACU; y señores: Carlos H. Angenscheidt, Presidente de la Asociación Comercial del Uruguay; Antonio Astraldi, Presidente del Centro Comercial de Colón y adyacentes; Carlos Cáceres, Presidente de la Asociación de Comerciantes de Paso Molino y Belvedere; y Raúl Malvar, Presidente del Centro Comercial de Carrasco</li>
+</ul></div>  </td> </tr>
+ <tr class="odd"><td class="mifecha">19-03-2019</td><td>CSS</td><td>180/2015</td><td><b>Se ordena distribuido.</b>  <a href=/camarasycomisiones/senadores/comisiones/1087>ESPECIAL DE SEGURIDAD PÚBLICA Y CONVIVENCIA</a> <div class="item-list"><ul class="Fecha miitemVT"><li class="first last"><a class=colorbox-load href=/documentosyleyes/documentos/versiones-taquigraficas/senadores/48/2309/0/CAR?width=800&height=600&hl=en_US1&iframe=true&rel=nofollow>Dist.2309/0</a> Versión taquigráfica de la sesión del día 19 de marzo de 2019.-</li>
+</ul></div>  </td> </tr>
+</tbody>
+</table>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div>
+<!-- region__no_wrapper -->
+		  
+		<!-- Home slide -->
+		
+		<!-- parlamentarios -->
+		
+		<!-- Otros bloques -->
+		
+		
+			<!--  bloques tres section -->
+
+	<div id="bloquestres" class="clearfix">
+		<div class="block-bloquestres first">
+					</div>
+		<div class="block-bloquestres ">
+					</div>
+			<div class="block-bloquestres last">
+					</div>
+	</div><!-- /.section, /#bloquestres -->
+		
+	<!-- bloquesdos section -->
+
+	<div id="bloquesdos" class="clearfix">
+		<div class="block-bloquesdos first">
+					</div>
+		<div class="block-bloquesdos last">
+					</div>
+	</div>
+<!-- /.section, /#bloquesdos -->
+
+
+		
+		
+		
+		<!-- Sitios links -->
+		
+		</div>
+
+    </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+      
+    </div><!-- /#navigation -->
+
+				<!-- menu lateral internas -->
+		
+
+  </div><!-- /#main -->
+
+</div>
+<!-- /#page -->
+
+<!-- Prefooter section -->
+<div class="fdobco">
+<div id="prefooter-region"> 
+
+    <!--
+	<div class="prefooter-panel">
+		<p>Informacion para: <a href="#">Legisladores</a></p>
+	</div>
+    -->
+
+	<div class="prefooter-line"></div>
+
+	<div id="prefooter" class="clearfix">
+
+		<div class="block-prefooter first">
+							  <div class="region region-prefooter-1">
+    <div id="block-block-22" class="block block-block first last odd c-maras-y-comisiones">
+
+    <h2 class="block__title block-title">Cámaras y Comisiones</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/camarasycomisiones/senadores/">Cámara de Senadores</a></li>
+<li><a href="/camarasycomisiones/representantes">Cámara de Representantes</a></li>
+<li><a href="/camarasycomisiones/asambleageneral">Asamblea General</a></li>
+<li><a href="/camarasycomisiones/comisionpermanente">Comisión Permanente</a></li>
+<li><a href="/camarasycomisiones/comisionadministrativa">Comisión Administrativa</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-2">
+    <div id="block-block-23" class="block block-block first last odd documentos-y-leyes">
+
+    <h2 class="block__title block-title">Documentos y Leyes</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/documentosyleyes/busqueda">Búsqueda de Documentos y Leyes</a></li>
+<li><a href="/documentosyleyes/constitucion">Constitución de la República</a></li>
+<li><a href="/documentosyleyes/leyes">Leyes</a></li>
+<li><a href="/documentosyleyes/codigos">Códigos</a></li>
+<li><a href="/documentosyleyes/documentos">Documentos</a></li>
+<li><a href="/documentosyleyes/discursos">Discursos</a></li>
+</ul>  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter">
+							  <div class="region region-prefooter-3">
+    <div id="block-block-24" class="block block-block first last odd sobre-el-parlamento">
+
+    <h2 class="block__title block-title">Sobre el Parlamento</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/sobreelparlamento/legisladores">Conozca a sus Legisladores</a></li>
+<li><a href="/sobreelparlamento/procesolegislativo">Proceso Legislativo</a></li>
+<li><a href="/sobreelparlamento/historia">Historia del Parlamento</a></li>
+<li><a href="/sobreelparlamento/palacio">Palacio Legislativo</a></li>
+<!-- <li><a href="/sobreelparlamento/archivo-fotografico">Archivo Fotográfico</a></li> -->
+<li ><a href="https://fotografias.parlamento.gub.uy" target="_blank">Parlamento en imágenes</a></li>
+<li><a href="https://biblioteca.parlamento.gub.uy"  target="_blank">Biblioteca</a></li>
+<!--<li><a href="/sobreelparlamento/restaurante">Restaurante</a></li>-->
+
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+		<div class="block-prefooter last">
+							  <div class="region region-prefooter-4">
+    <div id="block-block-25" class="block block-block first last odd noticias-y-eventos">
+
+    <h2 class="block__title block-title">Noticias y Eventos</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="/noticiasyeventos/noticias">Noticias</a></li>
+<li><a href="/noticiasyeventos/eventos">Eventos</a></li>
+<li><a href="/noticiasyeventos/atencion_periodista">Acreditaciones de Prensa</a></li>
+<li><a href="/noticiasyeventos/actividad">Actividad del Parlamento</a></li>
+<li><a href="/noticiasyeventos/construyendo-democracia">Construyendo Democracia</a></li>
+</ul>
+  </div>
+  
+</div>
+  </div><!-- /.region -->
+					</div>
+
+	</div>
+</div>
+</div>
+<!-- /.section, /prefooter -->
+
+<div id="footer-region">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-6" class="block block-block first odd -none-">
+
+    
+  <div class="content">
+    Copyright © 2016 Parlamento de la República Oriental del Uruguay  </div>
+  
+</div>
+<div id="block-menu-menu-pie-menu" class="block block-menu last even -none-" role="navigation">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/condiciones" title="">Condiciones de uso</a></li>
+<li class="last leaf"><a href="/contactenos" title="">Contáctenos</a></li>
+</ul>  </div>
+  
+</div>
+  </footer><!-- region__footer -->
+</div>
+
+  <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.hg.com.uy/" : "http://piwik.hg.com.uy/");_paq.push(["setSiteId", "11"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip|html"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["setCookieDomain", ".parlamento.gub.uy"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+</body>
+</html>
