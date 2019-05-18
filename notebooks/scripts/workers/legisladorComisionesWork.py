@@ -11,6 +11,7 @@ class LegisladorComisionesWorker(WorkerScrap):
     def __init__(self, legislatura, date_from, date_to, id_legislador):
         super().__init__(legislatura, date_from, date_to)
         self.id_legislador = id_legislador
+        DBScraping().create_table('comisiones', {'pk id_comision': int, 'nombre': str})
 
     def execute(self):
         print('\tImportando comisiones desde %s' % self.id_legislador)
@@ -21,6 +22,6 @@ class LegisladorComisionesWorker(WorkerScrap):
             link = find(row_html, 'a')
             id_comision = extract_id(link)
             nombre_comision = extract_html_str(row_html.contents[0])
-            DBScraping().insert('comisiones', id_comision, {'id_comision': id_comision, 'nombre': nombre_comision})
+            DBScraping().insert('comisiones', {'id_comision': id_comision, 'nombre': nombre_comision})
             self.tasks.put(LegisladorAsistenciaComisionesWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador, id_comision))
 

@@ -5,6 +5,7 @@ import hashlib
 import requests
 import unidecode
 import collections
+import time
 from requests import get
 
 from exceptions import WebConnectionError
@@ -14,7 +15,7 @@ re_id_legislador = re.compile('.*/(\d+)\??.*')
 re_estado_aprueba = re.compile('.*(sanciona|concedida|aprueba).*', re.RegexFlag.IGNORECASE)
 re_estado_promulga = re.compile('.*promulga.*', re.RegexFlag.IGNORECASE)
 RETRY = 10
-
+CACHE = True
 
 def find(html, tag, debug=False):
     if html:
@@ -91,21 +92,22 @@ def get_html(url):
             digester = hashlib.md5()
             digester.update(url.encode('utf-8'))
             key = digester.hexdigest()
-            if os.path.isfile('../cache/cache_%s.txt' % key):
-                f = open('../cache/cache_%s.txt' % key, 'r')
+            if CACHE and os.path.isfile('%s/../cache/cache_%s.txt' % (os.path.dirname(os.path.abspath(__file__)), key)):
+                f = open('%s/../cache/cache_%s.txt' % (os.path.dirname(os.path.abspath(__file__)), key), 'r')
                 response = f.read()
                 f.close()
                 return response
             else:
                 response = get(url, verify=False)
                 if response.status_code == 200:
-                    f = open('../cache/cache_%s.txt' % key, 'w')
+                    f = open('%s/../cache/cache_%s.txt' % (os.path.dirname(os.path.abspath(__file__)), key), 'w')
                     f.write(response.text)
                     f.close()
                     return response.text
                 else:
-                    print("Retry: %s..." % url)
+                    print("Retry: (%s/%s) %s ..." % (RETRY-retry, RETRY, url))
                     retry = retry - 1
+                    time.sleep((RETRY - retry) / 2)
         except Exception as e:
             raise WebConnectionError()
 

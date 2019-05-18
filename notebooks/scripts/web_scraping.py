@@ -26,7 +26,7 @@ legislaturas = {
 
 def create_directory(legislatura):
     try:
-        os.mkdir('../data/%s' % legislatura)
+        os.mkdir('%s/../data/%s' % (os.path.dirname(os.path.abspath(__file__)), legislatura))
     except OSError:
         pass
 
@@ -64,3 +64,4 @@ if __name__ == '__main__':
         w.join()
 
     dbScraping.export_to_csv(legislatura)
+    dbScraping.db_export_to_sqlite()

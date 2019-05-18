@@ -25,7 +25,7 @@ class LegisladorWorker(WorkerScrap):
     def execute(self):
         print('\tImportando perfil de %s' % self.id_legislador)
 
-        legislador = DBScraping().find_by_id('legisladores', self.id_legislador)
+        legislador = DBScraping().find('legisladores', {'id_legislador': self.id_legislador})
 
         file = get_html('https://parlamento.gub.uy/camarasycomisiones/legisladores/%s' % self.id_legislador)
         h = BeautifulSoup(file, 'lxml')
@@ -39,7 +39,7 @@ class LegisladorWorker(WorkerScrap):
                     actuo_en_legislatura = True
         if not actuo_en_legislatura:
             print('Legislador %s(%s) no actuó en la legislatura seleccionada.' % (legislador['nombre'], legislador['id_legislador']))
-            DBScraping().delete_by_id('legisladores', self.id_legislador)
+            DBScraping().delete('legisladores', {'id_legislador': self.id_legislador})
             return
 
         # Lee email
@@ -60,7 +60,7 @@ class LegisladorWorker(WorkerScrap):
                 if representante_re.match(desc):
                     legislador['cuerpo'] = 'REPRESENTANTE'
 
-        DBScraping().update_by_id('legisladores', self.id_legislador, legislador)
+        DBScraping().update('legisladores', legislador)
 
         self.tasks.put(SenadoresAsistenciaPlenarioWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))
         self.tasks.put(RepresentantesAsistenciaPlenarioWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador))

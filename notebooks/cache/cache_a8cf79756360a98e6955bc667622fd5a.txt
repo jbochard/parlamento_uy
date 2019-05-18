@@ -8,8 +8,8 @@
 
 <head>
   <meta charset="utf-8" />
-<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://parlamento.gub.uy/sites/default/files/ico.png" type="image/png" />
   <title>Asistencia a Sesiones de Cámara | Parlamento</title>
 
       <meta name="MobileOptimized" content="width">
@@ -21,11 +21,11 @@
 <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_o5m5YfhNvCAmTYElqKpCQG6h1HjE4crK0Lriiytig8I.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_VcNi8SgXxTklH0Tw5GyReOkcxhBBRHVO7t6B7287z5Q.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_xlDe_nGwDSOU8HKooNsDv_LhCtfnRf8IhGtUAbpLEKg.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_t5PL5TII53oX2xDC31GjwbrXG_hY3rRkPNraHafznr0.css" media="all" />
-  <script src="https://parlamento.gub.uy/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<link type="text/css" rel="stylesheet" href="https://parlamento.gub.uy/sites/default/files/css/css_6ll4COsRnqnPB3QxXtVjwTZZGEeuJe_uJoQpxJBaBvA.css" media="all" />
+  <script src="https://parlamento.gub.uy/sites/default/files/js/js_dYOGV15VEcvR5zyP3UKzyEH3a6wcYkaWkQCEZ8Wpd8c.js"></script>
 <script src="https://parlamento.gub.uy/sites/default/files/js/js_gMUpr8bicUijVl2vnk4MGr4t_8FAgbVxHvVHQmaMd_k.js"></script>
-<script src="https://parlamento.gub.uy/sites/default/files/js/js_iXTYVllN6JqPfkf-UqWvpbACY8OKG2hl9K39kVscX50.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"PpJyMypKlslNgoFZKYnVc7NAMwvVAproW9hivbpDFG8","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":"0"}}},"datePopup":{"edit-fecha-min-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-30:+0","fromTo":false,"defaultDate":"0y"}},"edit-fecha-max-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-30:+1","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/camarasycomisiones\/senadores\/plenario\/asistencia-a-sesiones":true},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"2","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width","breakpoint":1336},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
+<script src="https://parlamento.gub.uy/sites/default/files/js/js_9VedlMk_5UbrWaJgFKm1YZ0n2MiLyzMaFzxKyH2h-QM.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"parlamentozen","theme_token":"EWKDhicgR_NT7swi2TR6xWGQ05CNyuDBhqagoVUgmCY","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"public:\/\/languages\/es_Lo19ECSsEexHkSac79ZN2tMuCtLka8n7Zkrbr6qwyEU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/style\/blue.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/parlamentozen\/system.menus.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/parlamento.style.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/normalize.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/wireframes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/page-backgrounds.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/tabs.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/pages.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/blocks.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/navigation.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/views-styles.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/nodes.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/comments.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/forms.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/fields.css":1,"sites\/all\/themes\/parlamentozen\/parlamentozen-internals\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":"0"}}},"datePopup":{"edit-fecha-min-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-30:+0","fromTo":false,"defaultDate":"0y"}},"edit-fecha-max-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"dd-mm-yy","yearRange":"-30:+1","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/camarasycomisiones\/senadores\/plenario\/asistencia-a-sesiones":true},"matomo":{"trackMailto":1,"trackColorbox":1},"superfish":[{"id":"1","sf":{"pathClass":"active-trail active","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":true,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"9","sf":{"delay":"0","animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}},{"id":"2","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"touchscreen":{"mode":"window_width","breakpoint":1336},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}],"better_exposed_filters":{"bef_dateformat":"dd\/mm\/yy"}});</script>
       <!--[if lt IE 9]>
     <script src="parlamento.gub.uy/sites/all/themes/parlamentozen/js/html5-respond.js"></script>
     <![endif]-->
@@ -163,7 +163,7 @@
 
     
   <div class="content">
-    <div class="view view-asistenca-a-sesiones-de-plenario view-id-asistenca_a_sesiones_de_plenario view-display-id-page sombra view-dom-id-569a0a8d0e64b85f1b8b336264df3496">
+    <div class="view view-asistenca-a-sesiones-de-plenario view-id-asistenca_a_sesiones_de_plenario view-display-id-page sombra view-dom-id-8525422b1f48c937a6c6ff62a2aa7aa0">
       
     
       <div class="view-filters">
@@ -179,7 +179,7 @@
  <div id="edit-fecha-min"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-min-date">
   <label for="edit-fecha-min-datepicker-popup-0">Fecha </label>
  <input type="text" id="edit-fecha-min-datepicker-popup-0" name="Fecha[min][date]" value="15-02-2015" size="30" maxlength="30" class="form-text" />
-<div class="description"> Ej. 17-04-2019</div>
+<div class="description"> Ej. 15-06-2019</div>
 </div>
 </div>
 </div>
@@ -188,7 +188,7 @@
  <div id="edit-fecha-max"  class="date-padding"><div class="form-item form-type-textfield form-item-Fecha-max-date">
   <label for="edit-fecha-max-datepicker-popup-0">Fecha </label>
  <input type="text" id="edit-fecha-max-datepicker-popup-0" name="Fecha[max][date]" value="14-02-2020" size="30" maxlength="30" class="form-text" />
-<div class="description"> Ej. 17-04-2019</div>
+<div class="description"> Ej. 15-06-2019</div>
 </div>
 </div>
 </div>
@@ -313,21 +313,21 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9891">Alonso, Verónica</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            155          </td>
+            157          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            134          </td>
+            135          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
-            87%          </td>
+            86%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
             21          </td>
                   <td class="views-field views-field-PorcFaltasCAviso views-align-left derecha-td nowrap" >
-            13%          </td>
+            14%          </td>
                   <td class="views-field views-field-CntFaltasSAviso views-align-left center-td" >
-            0          </td>
+            1          </td>
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            73          </td>
+            74          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -337,15 +337,15 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/11535">Álvarez López, María Dolores</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            7          </td>
+            8          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            6          </td>
+            7          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
-            86%          </td>
+            88%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
             1          </td>
                   <td class="views-field views-field-PorcFaltasCAviso views-align-left derecha-td nowrap" >
-            14%          </td>
+            12%          </td>
                   <td class="views-field views-field-CntFaltasSAviso views-align-left center-td" >
             0          </td>
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
@@ -361,9 +361,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/1044">Amorín, José</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            194          </td>
+            197          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            191          </td>
+            194          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             99%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -457,9 +457,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9913">Aristimuño, Saúl</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            38          </td>
+            41          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            37          </td>
+            40          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             98%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -505,9 +505,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10282">Asiaín, Carmen</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            52          </td>
+            55          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            50          </td>
+            53          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             97%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -567,7 +567,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            51          </td>
+            54          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -577,9 +577,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9900">Ayala, Patricia</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            214          </td>
+            217          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            214          </td>
+            217          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -601,9 +601,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/759">Baráibar, Carlos</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            33          </td>
+            36          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            33          </td>
+            36          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -673,9 +673,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10003">Besozzi, Guillermo</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            182          </td>
+            184          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            165          </td>
+            167          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             91%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -687,7 +687,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            25          </td>
+            26          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -745,9 +745,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/922">Bordaberry Herrán, Juan Pedro</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            197          </td>
+            200          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            196          </td>
+            199          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -793,9 +793,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/6900">Camy Antognazza, Carlos Daniel</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            188          </td>
+            191          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            184          </td>
+            187          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             98%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -865,9 +865,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/598">Cardoso, José Carlos</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            119          </td>
+            122          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            112          </td>
+            115          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             95%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -913,9 +913,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10209">Carrera Leal, Charles</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            86          </td>
+            89          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            86          </td>
+            89          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -961,9 +961,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/3157">Castillo, Juan</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            62          </td>
+            65          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            62          </td>
+            65          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1009,9 +1009,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9969">Coutinho Rodríguez, Germán</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            168          </td>
+            171          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            158          </td>
+            161          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             95%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1033,15 +1033,15 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/5304">Da Silva, Sebastián</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            23          </td>
+            24          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            20          </td>
+            21          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
-            87%          </td>
+            88%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
             3          </td>
                   <td class="views-field views-field-PorcFaltasCAviso views-align-left derecha-td nowrap" >
-            13%          </td>
+            12%          </td>
                   <td class="views-field views-field-CntFaltasSAviso views-align-left center-td" >
             0          </td>
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
@@ -1071,7 +1071,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            48          </td>
+            51          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1081,9 +1081,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/3948">Delgado, Alvaro</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            185          </td>
+            187          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            181          </td>
+            183          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             98%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1095,7 +1095,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            43          </td>
+            44          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1105,9 +1105,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10161">Draper Praderio, Alejandro</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            13          </td>
+            14          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            13          </td>
+            14          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1297,9 +1297,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/7891">Gallicchio Queirolo, Antonio</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            54          </td>
+            57          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            53          </td>
+            56          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             99%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1321,9 +1321,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/260">Gandini, Jorge</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            22          </td>
+            24          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            21          </td>
+            23          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             96%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1369,9 +1369,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/2965">García, Javier</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            201          </td>
+            203          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            200          </td>
+            202          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1383,7 +1383,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            27          </td>
+            28          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1393,9 +1393,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10001">Garin De Nardo, Daniel</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            129          </td>
+            132          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            128          </td>
+            131          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1441,9 +1441,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/197">Heber, Luis Alberto</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            197          </td>
+            200          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            185          </td>
+            188          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             94%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1513,9 +1513,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/2873">Iturralde Viñas, Pablo</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            27          </td>
+            28          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            23          </td>
+            24          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             86%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1537,9 +1537,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/5167">Lacalle Pou, Luis Alberto</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            153          </td>
+            154          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            145          </td>
+            146          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             95%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1551,7 +1551,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            75          </td>
+            77          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1647,7 +1647,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            47          </td>
+            50          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1681,9 +1681,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/10008">Lazo, Sandra</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            37          </td>
+            40          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            37          </td>
+            40          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1705,9 +1705,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9982">López Villalba, Daniel</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            51          </td>
+            52          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            48          </td>
+            49          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             95%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1777,9 +1777,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/408">Martínez Huelmo, Rubén</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            211          </td>
+            214          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            211          </td>
+            214          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1825,15 +1825,15 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9897">Matiaude, Graciela</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            33          </td>
+            36          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            29          </td>
+            32          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
-            88%          </td>
+            89%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
             2          </td>
                   <td class="views-field views-field-PorcFaltasCAviso views-align-left derecha-td nowrap" >
-            6%          </td>
+            5%          </td>
                   <td class="views-field views-field-CntFaltasSAviso views-align-left center-td" >
             2          </td>
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
@@ -1887,7 +1887,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            38          </td>
+            41          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -1897,9 +1897,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/327">Mieres, Pablo</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            212          </td>
+            215          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            210          </td>
+            213          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -1969,9 +1969,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9974">Moreira, Constanza</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            174          </td>
+            177          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            174          </td>
+            177          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2089,9 +2089,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/11523">Otheguy Vega, Marcos Javier</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            216          </td>
+            219          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            216          </td>
+            219          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2113,9 +2113,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/9038">Pardiñas, Yeru</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            81          </td>
+            82          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            81          </td>
+            82          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2137,9 +2137,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/7769">Passada, Ivonne</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            196          </td>
+            199          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            196          </td>
+            199          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2497,9 +2497,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/7766">Saravia, Jorge</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            152          </td>
+            154          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            151          </td>
+            153          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2617,9 +2617,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/5246">Topolansky, Lucía</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            186          </td>
+            189          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            185          </td>
+            188          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2641,9 +2641,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/898">Tourné, Daisy</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            161          </td>
+            163          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            161          </td>
+            163          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2655,7 +2655,7 @@
                   <td class="views-field views-field-PorFaltasSAviso views-align-left derecha-td nowrap" >
             0%          </td>
                   <td class="views-field views-field-CntNoCitadoLicencia views-align-center center-td" >
-            45          </td>
+            46          </td>
                   <td class="views-field views-field-CntPasajesPres views-align-center center-td" >
             0          </td>
                   <td class="views-field views-field-nothing" >
@@ -2665,9 +2665,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/11755">Vassallo, Miguel</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            6          </td>
+            9          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            6          </td>
+            9          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >
@@ -2737,9 +2737,9 @@
                   <td class="views-field views-field-Psn-NombresDeFirma views-align-left nowrap" >
             <a href="/camarasycomisiones/legisladores/3238">Xavier, Mónica</a>          </td>
                   <td class="views-field views-field-CntCitaciones views-align-left center-td" >
-            194          </td>
+            197          </td>
                   <td class="views-field views-field-CntAsistencias views-align-left center-td" >
-            194          </td>
+            197          </td>
                   <td class="views-field views-field-PorcAsistencias views-align-left derecha-td nowrap" >
             100%          </td>
                   <td class="views-field views-field-CntFaltasCAviso views-align-left center-td" >

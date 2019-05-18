@@ -1,3 +1,4 @@
+import datetime
 from bs4 import BeautifulSoup
 
 from db_scraping import DBScraping
@@ -10,6 +11,7 @@ class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
     def __init__(self, legislatura, date_from, date_to, id_legislador):
         super().__init__(legislatura, date_from, date_to)
         self.id_legislador = id_legislador
+        DBScraping().create_table('asistencia_plenario', {'pk auto id': int, 'id_legislador': int, 'fecha': datetime, 'citaciones': int, 'asistencias': int, 'faltas_con_aviso': int, 'faltas_sin_aviso': int, 'licencia': int, 'pasaje_presidencia': int})
 
     def execute(self):
         print('\tImportando detalle de asistencia a plenario (%s) senadores.' % (self.id_legislador))
@@ -25,7 +27,7 @@ class SenadoresAsistenciaPlenarioWorker(WorkerScrap):
                 faltas_sin_aviso = extract_html_int(row_asist.contents[4])
                 licencia = extract_html_int(row_asist.contents[5])
                 pasaje_presidencia = extract_html_int(row_asist.contents[6])
-                DBScraping().insert('asistencia_plenario', '%s_%s' % (self.id_legislador, fecha), {'id_legislador': self.id_legislador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'pasaje_presidencia': pasaje_presidencia})
+                DBScraping().insert('asistencia_plenario', {'id_legislador': self.id_legislador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'pasaje_presidencia': pasaje_presidencia})
         else:
             print('\t\tTabla de asistencia a plenario no existe para %s' % self.id_legislador)
 

@@ -3,7 +3,7 @@
 .idea
 .ipynb_checkpoints
 **/__pycache__
-cache/**
+**/cache/**
 .bloop
 .metals
 target

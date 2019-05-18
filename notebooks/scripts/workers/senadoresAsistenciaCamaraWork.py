@@ -10,6 +10,7 @@ class SenadoresAsistenciaCamaraWorker(WorkerScrap):
 
     def __init__(self, legislatura, date_from, date_to):
         super().__init__(legislatura, date_from, date_to)
+        DBScraping().create_table('legisladores', {'pk id_legislador': int, 'nombre': str, 'cuerpo': str, 'email': str, 'lema': str})
 
     def execute(self):
         print('Importando senadores desde asistencias...')
@@ -21,7 +22,7 @@ class SenadoresAsistenciaCamaraWorker(WorkerScrap):
             if link_html:
                 id = extract_id(link_html)
                 nombre = normalize_html_name(link_html)
-                if not DBScraping().exists('legisladores', id):
-                    DBScraping().insert('legisladores', id, {'id_legislador': id, 'nombre': nombre})
+                if not DBScraping().exists('legisladores', {'id_legislador': id}):
+                    DBScraping().insert('legisladores', {'id_legislador': id, 'nombre': nombre})
                     self.tasks.put(LegisladorWorker(self.legislatura, self.date_from, self.date_to, id))
 

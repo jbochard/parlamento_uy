@@ -1,4 +1,5 @@
 from queue import Queue
+from db_scraping import DBScraping
 
 from workers.legisladorActuacionParlamentariaWork import LegisladorActuacionParlamentariaWorker
 from workers.legisladorAsistenciaComisionesWork import LegisladorAsistenciaComisionesWorker
@@ -24,13 +25,18 @@ def test_senadores_ActuacionParlamentaria(id_legislador, pag):
     tmp.execute()
     print(tmp.tasks)
 
-
 def test_senadores_proyectos(id_proyecto):
     tmp = ProyectoWorker(legislatura, date_from, date_to, id_proyecto)
     tmp.tasks = Queue()
     tmp.execute()
     print(tmp.tasks)
 
+def test_database():
+    DBScraping().create_table('legisladores', { 'pk id_legislador': int, 'cuerpo': str, 'email': str, 'lema': str, 'nombre': str})
+    DBScraping().insert('legisladores', { 'id_legislador': 1, 'cuerpo': 'CSS', 'lema': 'FRENTE AMPLIO', 'nombre': 'Bochard, Juan'})
+    
+    DBScraping().db_create_structure()
+    DBScraping().db_export_to_sqlite()
 
 if __name__ == '__main__':
-    test_senadores_ActuacionParlamentaria(5131, 0)
+    test_database()
