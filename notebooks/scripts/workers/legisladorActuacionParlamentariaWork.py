@@ -8,7 +8,7 @@ from utils import get_html, find, find_all, extract_html_date, find_class, \
 from workers.workerScrap import WorkerScrap
 
 
-class LegisladorActuacionParlamentariaWorker(WorkerScrap):
+class LegisladorActuacionParlamentariaWork(WorkerScrap):
 
     informa_re = re.compile('Informante.*')
     interviene_re = re.compile('Interviene.*')
@@ -19,8 +19,8 @@ class LegisladorActuacionParlamentariaWorker(WorkerScrap):
         super().__init__(legislatura, date_from, date_to)
         self.id_legislador = id_legislador
         self.pagina = pagina
-        DBScraping().create_table('actuacion_parlamentaria', {'pk auto id': int, 'id_legislador': int, 'tipo': str, 'fecha': datetime, 'detalle': str})
-        DBScraping().create_table('convocatoria', {'pk auto id': int, 'id_legislador': int, 'fecha_ini': datetime, 'camara': str, 'lema': str, 'departamento': str, 'sublema': str, 'fecha_fin': datetime, 'titular': str, 'duracion_segundos': int})
+        DBScraping().create_table('actuacion_parlamentaria', {'pk auto id': int, 'id_legislador ref legisladores.id_legislador': int, 'id_legislatura': int, 'tipo': str, 'fecha': datetime, 'detalle': str})
+        DBScraping().create_table('convocatoria', {'pk auto id': int, 'id_legislador ref legisladores.id_legislador': int, 'id_legislatura': int, 'fecha_ini': datetime, 'camara': str, 'lema': str, 'departamento': str, 'sublema': str, 'fecha_fin': datetime, 'titular': str})
  
     def execute(self):
         print('\tImportando detalle actuacion parlamentaria (%s), página: %s' % (self.id_legislador, self.pagina))
@@ -32,11 +32,13 @@ class LegisladorActuacionParlamentariaWorker(WorkerScrap):
                 fecha = extract_html_date(row_asist.contents[1])
                 detalle = extract_html_str(row_asist.contents[3])
                 tipo = self.build_type(detalle)
-                DBScraping().insert('actuacion_parlamentaria', {'id_legislador': self.id_legislador, 'tipo': tipo, 'fecha': fecha, 'detalle': detalle})
                 if tipo == 'CONVOCATORIA':
-                    convocatoria = self.parse_convocatoria(self.id_legislador, fecha, detalle)
+                    convocatoria = self.parse_convocatoria(self.legislatura, self.id_legislador, fecha, detalle)
                     DBScraping().insert('convocatoria', convocatoria)
-            self.tasks.put(LegisladorActuacionParlamentariaWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador, (self.pagina + 1)))
+                elif tipo is not None:
+                    DBScraping().insert('actuacion_parlamentaria', {'id_legislador': self.id_legislador, 'id_legislatura': self.legislatura, 'tipo': tipo, 'fecha': fecha, 'detalle': detalle})
+
+            self.tasks.put(LegisladorActuacionParlamentariaWork(self.legislatura, self.date_from, self.date_to, self.id_legislador, (self.pagina + 1)))
         else:
             print('\t\tTabla de actuación parlamentaria (página %s) no existe para %s' % (self.pagina, self.id_legislador))
 
@@ -47,18 +49,17 @@ class LegisladorActuacionParlamentariaWorker(WorkerScrap):
             return 'INTERVIENE'
         if self.expone_re.match(detalle):
             return 'EXPONE'
-        if self.pedido_informe_re.match(detalle):
-            return 'PEDIDO_DE_INFORME'
         if self.es_convocatoria(detalle):
             return 'CONVOCATORIA'
-        return ''
+        return None
 
     def es_convocatoria(self, detalle):
         return parse_list(detalle, 'Convocad.\s+a\s+la\s+(\w+\s+\w+\s+\w+)\s+por\s+el.*') is not None
 
-    def parse_convocatoria(self, id_legislador, fecha_ini, detalle):
+    def parse_convocatoria(self, id_legislatura, id_legislador, fecha_ini, detalle):
         response = {
             'id_legislador': id_legislador,
+            'id_legislatura': id_legislatura,
             'fecha_ini': fecha_ini
         }
         camara = parse_list(detalle, 'Convocad.\s+a\s+la\s+(\w+\s+\w+\s+\w+)\s+por\s+el.*')
@@ -69,8 +70,6 @@ class LegisladorActuacionParlamentariaWorker(WorkerScrap):
             response['sublema'] = parse_list(detalle, '.*sublema\s+(.*)\s+hasta\s+el.*')
             response['fecha_fin'] = try_parsing_date(parse_list(detalle, '.*hasta\s+el\s+(\d\d/\d\d/\d\d\d\d\s+\d\d:\d\d).*'))
             response['titular'] = parse_list(detalle, '.*Titular:\s+(.*)\s+tomo.*')
-            if response['fecha_fin']:
-                response['duracion_segundos'] = int((response['fecha_fin'] - response['fecha_ini']).seconds)
             return response
         return None
 

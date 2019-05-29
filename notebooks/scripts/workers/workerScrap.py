@@ -9,6 +9,8 @@ class WorkerScrap:
         self.legislatura = legislatura
         self.date_from = date_from
         self.date_to = date_to
+        self.debug = False
+        self.__log('Create instance')
 
     def __call__(self, *args, **kwargs):
         try:
@@ -18,3 +20,7 @@ class WorkerScrap:
 
     def execute(self):
         pass
+
+    def __log(self, msg):
+        if self.debug:
+            print('%s - %s' % (self, msg))

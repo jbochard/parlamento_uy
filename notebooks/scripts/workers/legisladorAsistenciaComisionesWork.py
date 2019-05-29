@@ -6,13 +6,13 @@ from utils import get_html, find_all, extract_html_date, extract_html_int, find_
 from workers.workerScrap import WorkerScrap
 
 
-class LegisladorAsistenciaComisionesWorker(WorkerScrap):
+class LegisladorAsistenciaComisionesWork(WorkerScrap):
 
     def __init__(self, legislatura, date_from, date_to, id_legislador, id_comision):
         super().__init__(legislatura, date_from, date_to)
         self.id_legislador = id_legislador
         self.id_comision = id_comision
-        DBScraping().create_table('asistencia_comisiones', {'pk auto id': int, 'id_comision': int, 'id_legislador': int, 'fecha': datetime, 'citaciones': int, 'asistencias': int, 'faltas_con_aviso': int, 'faltas_sin_aviso': int, 'licencia': int, 'otras_comisiones': int})
+        DBScraping().create_table('asistencia_comisiones', {'pk auto id': int, 'id_comision': int, 'id_legislador ref legisladores.id_legislador': int, 'id_legislatura': legislatura, 'fecha': datetime, 'citaciones': int, 'asistencias': int, 'faltas_con_aviso': int, 'faltas_sin_aviso': int, 'licencia': int, 'otras_comisiones': int})
 
     def execute(self):
         print('\tImportando detalle de asistencia a comisiones (%s, %s)' % (self.id_legislador, self.id_comision))
@@ -28,6 +28,6 @@ class LegisladorAsistenciaComisionesWorker(WorkerScrap):
                 faltas_sin_aviso = extract_html_int(row_asist.contents[4])
                 licencia = extract_html_int(row_asist.contents[5])
                 otras_comisiones = extract_html_int(row_asist.contents[6])
-                DBScraping().insert('asistencia_comisiones', {'id_comision': self.id_comision, 'id_legislador': self.id_legislador, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'otras_comisiones': otras_comisiones})
+                DBScraping().insert('asistencia_comisiones', {'id_comision': self.id_comision, 'id_legislador': self.id_legislador, 'id_legislatura': self.legislatura, 'fecha': fecha, 'citaciones': citaciones, 'asistencias': asistencias, 'faltas_con_aviso': faltas_con_aviso, 'faltas_sin_aviso': faltas_sin_aviso, 'licencia': licencia, 'otras_comisiones': otras_comisiones})
         else:
             print('\t\tTabla de asistencia a comisiones no existe para comision %s, %s' % (self.id_comision, self.id_legislador))

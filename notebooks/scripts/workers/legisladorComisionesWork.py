@@ -2,11 +2,11 @@ from bs4 import BeautifulSoup
 
 from db_scraping import DBScraping
 from utils import get_html, find, extract_id, find_class, find_all, extract_html_str
-from workers.legisladorAsistenciaComisionesWork import LegisladorAsistenciaComisionesWorker
+from workers.legisladorAsistenciaComisionesWork import LegisladorAsistenciaComisionesWork
 from workers.workerScrap import WorkerScrap
 
 
-class LegisladorComisionesWorker(WorkerScrap):
+class LegisladorComisionesWork(WorkerScrap):
 
     def __init__(self, legislatura, date_from, date_to, id_legislador):
         super().__init__(legislatura, date_from, date_to)
@@ -23,5 +23,5 @@ class LegisladorComisionesWorker(WorkerScrap):
             id_comision = extract_id(link)
             nombre_comision = extract_html_str(row_html.contents[0])
             DBScraping().insert('comisiones', {'id_comision': id_comision, 'nombre': nombre_comision})
-            self.tasks.put(LegisladorAsistenciaComisionesWorker(self.legislatura, self.date_from, self.date_to, self.id_legislador, id_comision))
+            self.tasks.put(LegisladorAsistenciaComisionesWork(self.legislatura, self.date_from, self.date_to, self.id_legislador, id_comision))
 
